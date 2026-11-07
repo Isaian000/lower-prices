@@ -64,7 +64,13 @@ export interface ProductGroup {
   offers: Offer[];
 }
 
-export type StoreStatusCode = "ok" | "timeout" | "error";
+/**
+ * - `ok`: respondió (o vino de caché).
+ * - `timeout`: no respondió a tiempo.
+ * - `error`: respondió con error.
+ * - `paused`: falló varias veces seguidas y se dejó de consultar unos minutos.
+ */
+export type StoreStatusCode = "ok" | "timeout" | "error" | "paused";
 
 export interface StoreStatus {
   id: string;
@@ -83,6 +89,21 @@ export interface SearchResponse {
   stores: StoreStatus[];
   /** null = no hay más resultados. */
   nextCursor: string | null;
+}
+
+/** Respuesta de GET /api/stores */
+export interface StoresResponse {
+  stores: Store[];
+}
+
+/** Cuerpo de las respuestas de error de la API. */
+export interface ApiErrorResponse {
+  error:
+    "invalid_request" | "invalid_cursor" | "all_stores_failed" | "not_found" | "internal_error";
+  /** Detalle de validación, solo en `invalid_request`. */
+  details?: string[];
+  /** Estado de cada tienda, solo en `all_stores_failed`. */
+  stores?: StoreStatus[];
 }
 
 /** Respuesta de GET /api/health */

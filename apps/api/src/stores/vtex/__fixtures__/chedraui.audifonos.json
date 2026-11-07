@@ -1,0 +1,592 @@
+{
+  "store": "chedraui",
+  "query": "audifonos",
+  "status": 206,
+  "resources": "0-9/278",
+  "recordedAt": "2026-11-07T17:29:11.267Z",
+  "body": [
+    {
+      "productId": "6001673",
+      "productName": "Audífonos de Diadema Behringer HPM1000",
+      "brand": "Behringer",
+      "link": "https://www.chedraui.com.mx/audifonos-de-diadema-behringer-hpm1000-6001673/p",
+      "items": [
+        {
+          "itemId": "6001673",
+          "ean": "689076748971",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/46201653/689076748971_00.jpg?v=638788516834330000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/46201654/689076748971_01.jpg?v=638788516835430000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/46201655/689076748971_02.jpg?v=638788516836370000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "sonoritmo773",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 399,
+                "ListPrice": 399,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 399,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 399,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "6032207",
+      "productName": "Audifonos Realme Buds T200 Verde",
+      "brand": "Realme",
+      "link": "https://www.chedraui.com.mx/audifonos-realme-buds-t200-verde-6032207/p",
+      "items": [
+        {
+          "itemId": "6032207",
+          "ean": "6941764462298",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/71362469/telmov1446941764462298_00.jpg?v=639168906592700000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/71362470/telmov1446941764462298_01.jpg?v=639168906594100000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/71362471/telmov1446941764462298_02.jpg?v=639168906595330000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "telmov144",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 899,
+                "ListPrice": 1000,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 899,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 899,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3903246",
+      "productName": "Audífonos JBL T730BT Blanco",
+      "brand": "JBL",
+      "link": "https://www.chedraui.com.mx/audifonos-jbl-t730bt-blanco-3903246/p",
+      "items": [
+        {
+          "itemId": "3903246",
+          "ean": "0050036416986",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798377/50036416986_00.jpg?v=639289243595670000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798378/50036416986_01.jpg?v=639289243596430000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798379/50036416986_02.jpg?v=639289243597200000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798380/50036416986_03.jpg?v=639289243598000000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798381/50036416986_04.jpg?v=639289243598770000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 971.25,
+                "ListPrice": 1295,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 971.25,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 971.25,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "6032208",
+      "productName": "Audifonos Realme Buds T200 Blanco",
+      "brand": "Realme",
+      "link": "https://www.chedraui.com.mx/audifonos-realme-buds-t200-blanco-6032208/p",
+      "items": [
+        {
+          "itemId": "6032208",
+          "ean": "6941764462274",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/71362475/telmov1446941764462274_00.jpg?v=639168906609430000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/71362476/telmov1446941764462274_01.jpg?v=639168906610700000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/71362477/telmov1446941764462274_02.jpg?v=639168906611630000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "telmov144",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 899,
+                "ListPrice": 1000,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 899,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 899,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3905102",
+      "productName": "Audifonos Soundcore P41i Negro",
+      "brand": "Soundcore",
+      "link": "https://www.chedraui.com.mx/audifonos-soundcore-p41i-negro-3905102/p",
+      "items": [
+        {
+          "itemId": "3905102",
+          "ean": "194644276409",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798923/194644276409_00.jpg?v=639289244807370000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798924/194644276409_01.jpg?v=639289244808300000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798925/194644276409_02.jpg?v=639289244809170000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798926/194644276409_03.jpg?v=639289244809800000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798927/194644276409_04.jpg?v=639289244810730000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798928/194644276409_05.jpg?v=639289244811500000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1421.25,
+                "ListPrice": 1895,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1421.25,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1421.25,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 473.75,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1421.25,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 236.87,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1421.25,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 109.32,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1421.25,
+                    "NumberOfInstallments": 13,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3885864",
+      "productName": "Audífonos de Diadema Kaiser KHC-1002BL",
+      "brand": "Kaiser",
+      "link": "https://www.chedraui.com.mx/audifonos-de-diadema-kaiser-khc-1002bl-3885864/p",
+      "items": [
+        {
+          "itemId": "3885864",
+          "ean": "750608664495",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79348240/7506086644952_00.jpg?v=639283205746700000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79348241/7506086644952_01.jpg?v=639283205747600000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79348242/7506086644952_02.jpg?v=639283205748370000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79348243/7506086644952_03.jpg?v=639283205749070000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "mitzukaiser129",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 555,
+                "ListPrice": 722,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 555,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 555,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 555,
+                "ListPrice": 555,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": [
+                  {
+                    "Value": 555,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 555,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3910357",
+      "productName": "Audífonos Bluetooth Toy Story Verde",
+      "brand": "Xtech",
+      "link": "https://www.chedraui.com.mx/audifonos-bluetooth-toy-story-verde-3910357/p",
+      "items": [
+        {
+          "itemId": "3910357",
+          "ean": "79830223364",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79284278/798302233645_00.jpg?v=639282903574300000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79284280/798302233645_01.jpg?v=639282903575230000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79284282/798302233645_02.jpg?v=639282903575870000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79284284/798302233645_03.jpg?v=639282903576630000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 595,
+                "ListPrice": 595,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 595,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 595,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3904259",
+      "productName": "Audifonos Soundcore AeroClip Negro",
+      "brand": "Soundcore",
+      "link": "https://www.chedraui.com.mx/audifonos-soundcore-aeroclip-negro-3904259/p",
+      "items": [
+        {
+          "itemId": "3904259",
+          "ean": "194644224820",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798929/194644224820_00.jpg?v=639289244825600000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798931/194644224820_01.jpg?v=639289244826400000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798933/194644224820_02.jpg?v=639289244827170000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798934/194644224820_03.jpg?v=639289244827970000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798936/194644224820_04.jpg?v=639289244829200000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 2246.25,
+                "ListPrice": 2995,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 2246.25,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 2246.25,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 748.75,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 2246.25,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 374.37,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 2246.25,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 249.58,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 2246.25,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 172.78,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 2246.25,
+                    "NumberOfInstallments": 13,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3903244",
+      "productName": "Audífonos JBL T530BT Blanco",
+      "brand": "JBL",
+      "link": "https://www.chedraui.com.mx/audifonos-jbl-t530bt-blanco-3903244/p",
+      "items": [
+        {
+          "itemId": "3903244",
+          "ean": "50036416931",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798393/50036416931_00.jpg?v=639289243636200000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798394/50036416931_01.jpg?v=639289243637000000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798395/50036416931_02.jpg?v=639289243637800000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798396/50036416931_03.jpg?v=639289243638570000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798397/50036416931_04.jpg?v=639289243639330000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798398/50036416931_05.jpg?v=639289243640130000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 821.25,
+                "ListPrice": 1095,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 821.25,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 821.25,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3903243",
+      "productName": "Audífonos JBL T530BT Azul",
+      "brand": "JBL",
+      "link": "https://www.chedraui.com.mx/audifonos-jbl-t530bt-azul-3903243/p",
+      "items": [
+        {
+          "itemId": "3903243",
+          "ean": "5003641694",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798407/50036416948_00.jpg?v=639289243661770000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798408/50036416948_01.jpg?v=639289243662530000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798409/50036416948_02.jpg?v=639289243663330000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798410/50036416948_03.jpg?v=639289243664100000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79798411/50036416948_04.jpg?v=639289243664900000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 821.25,
+                "ListPrice": 1095,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 821.25,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 821.25,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

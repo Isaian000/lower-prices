@@ -148,12 +148,16 @@ Con categorías tan variadas no es viable mantener un catálogo propio de todo. 
 - **Adaptadores de tienda:** uno por tienda. Todos implementan la misma interfaz:
   ```ts
   interface StoreAdapter {
-    id: string; // "mercadolibre", "amazon", ...
-    name: string;
-    search(
-      query: string,
-      opts: { signal: AbortSignal; offset: number; limit: number },
-    ): Promise<{ offers: Offer[]; hasMore: boolean }>;
+    store: Store; // { id: "elektra", name: "Elektra" }
+    search(params: {
+      query: string;
+      offset: number;
+      limit: number;
+      sort: SearchSort;
+      minPrice?: number;
+      maxPrice?: number;
+      signal?: AbortSignal; // se aborta al vencer el timeout de la tienda
+    }): Promise<{ offers: Offer[]; total: number }>;
   }
   ```
 - **Normalizador:** convierte la respuesta de cada tienda en el modelo común `Offer`.
@@ -163,6 +167,13 @@ Con categorías tan variadas no es viable mantener un catálogo propio de todo. 
   3. **Similitud del título** normalizado por encima de un umbral: confianza media.
 
   Además, saca del grupo las ofertas con un precio muy alejado del resto (probables accesorios) y junta los duplicados dentro de una misma tienda (p. ej. varios vendedores con la misma publicación de catálogo en Mercado Libre), mostrando el más barato. Cada grupo indica con qué nivel se agrupó (`matchedBy`).
+
+  Reglas aplicadas (ajustadas con datos reales):
+  - El GTIN se normaliza a 14 dígitos y se descarta si su dígito de control es inválido (algunas tiendas publican EAN truncados).
+  - El modelo solo cuenta si tiene al menos un número (descarta textos como "Mando a distancia universal") y las marcas genéricas ("GENERICA") se ignoran.
+  - En los niveles 2 y 3 no se juntan dos publicaciones de la misma tienda ni dos ofertas con GTIN distinto (p. ej. el mismo audífono en otro color).
+  - Similitud de títulos: coeficiente de Dice sobre palabras normalizadas, umbral 0.8, con marca igual si ambas la tienen.
+  - Precio atípico: menos del 40 % de la mediana del grupo (no aplica a grupos por GTIN).
 
 - **Caché:** guarda los resultados por consulta normalizada y tienda, con caducidad configurable. Reduce latencia y carga sobre las tiendas. En memoria en desarrollo, Redis externo (p. ej. Upstash) en hosting serverless.
 
@@ -265,10 +276,14 @@ lower-prices/
 │   │       ├── app.ts             # crea la app Express (sin listen, portable a Vercel)
 │   │       ├── server.ts          # arranque local / VPS
 │   │       ├── config/env.ts      # variables de entorno validadas con zod
-│   │       ├── routes/            # endpoints (/api/health, luego /api/search)
-│   │       ├── lib/               # logger; luego caché y http
-│   │       ├── services/          # (fase 3) SearchService, agrupador
-│   │       └── adapters/          # (fase 3) un adaptador por tienda/plataforma
+│   │       ├── routes/            # endpoints (/api/health, /api/search, /api/stores)
+│   │       ├── search/            # servicio de búsqueda, agrupador y cursor
+│   │       ├── stores/            # contrato StoreAdapter, registro de tiendas y adaptadores
+│   │       │   └── vtex/          # adaptador VTEX genérico + fixtures grabados
+│   │       ├── cache/             # caché en memoria o Upstash Redis
+│   │       ├── lib/               # logger, normalización de producto y enlaces de salida
+│   │       └── test/              # tiendas mock para las pruebas
+│   │   └── scripts/               # grabación de fixtures
 │   └── web/                       # Frontend React con SSR (React Router v8 + Express)
 │       ├── server.js              # servidor Express (Vite en dev, build en producción)
 │       ├── server/app.ts          # handler de React Router
@@ -295,28 +310,70 @@ pnpm install        # instala las dependencias de todo el monorepo
 pnpm dev            # levanta la API (:4000) y la web (:3000) a la vez
 ```
 
-| Comando                             | Qué hace                                             |
-| ----------------------------------- | ---------------------------------------------------- |
-| `pnpm dev`                          | API y web en modo desarrollo, con recarga automática |
-| `pnpm dev:api` / `pnpm dev:web`     | Solo una de las dos                                  |
-| `pnpm build`                        | Compila la API y la web                              |
-| `pnpm start:api` / `pnpm start:web` | Arranca el build de producción                       |
-| `pnpm test`                         | Pruebas (Vitest)                                     |
-| `pnpm typecheck`                    | Verificación de tipos                                |
-| `pnpm lint` / `pnpm lint:fix`       | ESLint (incluye reglas de accesibilidad)             |
-| `pnpm format` / `pnpm format:check` | Prettier                                             |
+| Comando                                           | Qué hace                                                |
+| ------------------------------------------------- | ------------------------------------------------------- |
+| `pnpm dev`                                        | API y web en modo desarrollo, con recarga automática    |
+| `pnpm dev:api` / `pnpm dev:web`                   | Solo una de las dos                                     |
+| `pnpm build`                                      | Compila la API y la web                                 |
+| `pnpm start:api` / `pnpm start:web`               | Arranca el build de producción                          |
+| `pnpm test`                                       | Pruebas (Vitest)                                        |
+| `pnpm typecheck`                                  | Verificación de tipos                                   |
+| `pnpm lint` / `pnpm lint:fix`                     | ESLint (incluye reglas de accesibilidad)                |
+| `pnpm format` / `pnpm format:check`               | Prettier                                                |
+| `pnpm --filter @lower-prices/api fixtures:record` | Vuelve a grabar los fixtures VTEX con respuestas reales |
 
 ### Variables de entorno
 
 Todas son opcionales en desarrollo. Se pueden poner en un archivo `.env` dentro de cada app (no se versiona).
 
-| App | Variable    | Por defecto             | Descripción                                       |
-| --- | ----------- | ----------------------- | ------------------------------------------------- |
-| api | `PORT`      | `4000`                  | Puerto de la API                                  |
-| api | `NODE_ENV`  | `development`           | `development` \| `production` \| `test`           |
-| api | `LOG_LEVEL` | `info`                  | Nivel de logs de `pino` (`silent` para apagarlos) |
-| web | `PORT`      | `3000`                  | Puerto de la web                                  |
-| web | `API_URL`   | `http://localhost:4000` | URL de la API (solo se usa en el servidor)        |
+| App | Variable                                              | Por defecto             | Descripción                                                                                    |
+| --- | ----------------------------------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------- |
+| api | `PORT`                                                | `4000`                  | Puerto de la API                                                                               |
+| api | `NODE_ENV`                                            | `development`           | `development` \| `production` \| `test`                                                        |
+| api | `LOG_LEVEL`                                           | `info`                  | Nivel de logs de `pino` (`silent` para apagarlos)                                              |
+| api | `STORE_TIMEOUT_MS`                                    | `2500`                  | Tiempo máximo de espera por tienda                                                             |
+| api | `STORE_PAGE_SIZE`                                     | `10`                    | Resultados por tienda en cada bloque de "cargar más"                                           |
+| api | `CACHE_TTL_SECONDS`                                   | `600`                   | Vida de la caché de resultados por tienda                                                      |
+| api | `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` | —                       | Si ambas están definidas se usa Upstash Redis; si no, caché en memoria                         |
+| api | `KV_REST_API_URL` / `KV_REST_API_TOKEN`               | —                       | Alternativa a las dos anteriores: son los nombres que crea la integración de Upstash en Vercel |
+| api | `STORE_FAILURE_THRESHOLD`                             | `3`                     | Fallas seguidas de una tienda antes de pausarla                                                |
+| api | `STORE_PAUSE_SECONDS`                                 | `60`                    | Duración de la pausa de una tienda que falla                                                   |
+| api | `CORS_ORIGINS`                                        | `http://localhost:3000` | Orígenes que pueden llamar a la API desde el navegador, separados por coma                     |
+| web | `PORT`                                                | `3000`                  | Puerto de la web                                                                               |
+| web | `API_URL`                                             | `http://localhost:4000` | URL de la API (solo se usa en el servidor)                                                     |
+
+### Endpoints de la API
+
+| Endpoint                                                       | Descripción                                                                                                         |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `GET /api/health`                                              | Estado de la API                                                                                                    |
+| `GET /api/openapi.json`                                        | Documentación OpenAPI 3.1 de la API                                                                                 |
+| `GET /api/stores`                                              | Tiendas disponibles                                                                                                 |
+| `GET /api/search?q=&cursor=&sort=&stores=&minPrice=&maxPrice=` | Búsqueda agrupada. `sort`: `relevance` (por defecto), `price_asc` o `price_desc`. `stores`: ids separados por coma. |
+
+Respuestas de `/api/search`:
+
+- `200` con `SearchResponse`, aunque alguna tienda falle (su estado viene en `stores`). Si todas respondieron, se cachea 5 minutos en el CDN (`s-maxage=300`); si fue parcial, `no-store`.
+- `400` `invalid_request` (con `details`) o `invalid_cursor`.
+- `500` `all_stores_failed`, solo si ninguna tienda respondió.
+
+Las tiendas que fallan no pasan al cursor de "cargar más", para no reintentar una tienda caída en cada bloque.
+
+**Protecciones:**
+
+- **Pausa por tienda:** si una tienda falla 3 veces seguidas, se deja de consultar 60 segundos y aparece con estado `paused`. Mientras tanto se siguen usando sus resultados en caché.
+- **Búsquedas simultáneas:** si llegan dos búsquedas iguales al mismo tiempo, se consulta a cada tienda una sola vez.
+- **Enlaces de salida:** todos pasan por `buildOutboundUrl()` (`apps/api/src/lib/outbound.ts`). Solo se aceptan enlaces `https` al dominio de la tienda, y ahí se agregará la etiqueta de afiliado de cada tienda.
+- **Seguridad:** cabeceras con `helmet` (CSP `default-src 'none'`, HSTS, `nosniff`) y CORS solo para `CORS_ORIGINS`, solo `GET`.
+- **Contrato:** las pruebas validan que las respuestas reales cumplan `openapi.json`.
+
+### Despliegue de la API en Vercel
+
+1. Subir el repositorio a GitHub.
+2. En Vercel: **Add New → Project**, importar el repositorio y poner **Root Directory** = `apps/api`. Vercel detecta Express solo (`src/app.ts` exporta la app por defecto); no hace falta `vercel.json`.
+3. En **Storage → Upstash (Redis)**, crear una base gratuita y conectarla al proyecto. Eso crea `KV_REST_API_URL` y `KV_REST_API_TOKEN`, que la API ya reconoce.
+4. Cuando exista la web, agregar su dominio en `CORS_ORIGINS`.
+5. Desplegar y probar `/api/health` y `/api/search?q=tv`. Hay que confirmar que las tiendas VTEX no bloqueen las IP de Vercel: si aparecen en `error`, revisar los logs del proyecto.
 
 ### Convenciones
 
@@ -347,7 +404,8 @@ Todas son opcionales en desarrollo. Se pueden poner en un archivo `.env` dentro 
 - **Sin límite de peticiones:** en la etapa personal la API no limita peticiones. El riesgo es que el uso abusivo agote las cuotas de las APIs de las tiendas o los límites del hosting gratuito. La caché lo reduce, pero hay que reevaluarlo antes de un lanzamiento público.
 - **Hosting serverless:** en Vercel no hay memoria persistente entre peticiones, así que la caché debe ser externa (Redis).
 - **APIs públicas VTEX:** no son APIs ofrecidas a terceros por contrato. La tienda puede bloquearlas o cambiarlas, y antes de monetizar hay que revisar los términos de uso de cada tienda o pasar a sus programas de afiliados. Se usan con caché, pocas peticiones y respetando `robots.txt` (hoy no bloquea `/api/`).
-- **Meses sin intereses:** la API pública VTEX no informa los MSI promocionales (solo pago de contado). En estas tiendas `installments` irá vacío hasta encontrar otra fuente.
+- **Meses sin intereses:** la API pública VTEX sí informa los planes por tarjeta (`Installments`). Solo cuentan como MSI los que tienen tasa 0 y no superan el precio de contado; OfficeMax, por ejemplo, ofrece meses con intereses, que no se muestran. Las promociones exclusivas de un banco pueden no aparecer.
+- **Peculiaridades de VTEX:** el firewall rechaza con 400 las búsquedas con `+`, comillas, paréntesis, `<` o `>`. El adaptador codifica el espacio como `%20` y limpia esos caracteres.
 
 ---
 
@@ -367,7 +425,7 @@ El trabajo de esta fase se registra en un documento local de planeación (`docs/
 
 **Salida:** requisitos, stack y arquitectura aprobados.
 
-### Fase 2 — Estructura del proyecto _(actual)_
+### Fase 2 — Estructura del proyecto ✅ _(cerrada el 2026-11-07)_
 
 - Inicializar el monorepo con pnpm workspaces (`apps/api`, `apps/web`, `packages/shared`).
 - Configurar TypeScript, ESLint, Prettier y Vitest.
@@ -378,15 +436,27 @@ El trabajo de esta fase se registra en un documento local de planeación (`docs/
 
 **Estado:** monorepo creado. La API responde `/api/health`, la web renderiza en el servidor en español y muestra si la API está conectada. Tipos, lint, pruebas y build pasan.
 
-### Fase 3 — Desarrollo
+### Fase 3 — Desarrollo _(actual)_
 
 Esta fase arranca **con datos reales** de las tiendas VTEX (Elektra, Chedraui, OfficeMax y Martí), sin necesidad de registrarse en ninguna. Las **tiendas mock** se usan solo en las pruebas automatizadas: devuelven respuestas grabadas (fixtures) y simulan lentitud o errores para probar la resiliencia.
 
-1. Implementar el adaptador VTEX genérico y configurar las 4 tiendas.
-2. Crear las tiendas mock y los fixtures para las pruebas.
-3. Implementar `/api/search` con consulta en paralelo, timeouts por tienda y respuesta parcial.
-4. Añadir caché (en memoria en desarrollo, Upstash Redis en Vercel).
-5. Implementar el agrupador por niveles (GTIN, luego marca + modelo, luego título).
-6. Construir el frontend en React: buscador, resultados agrupados, meses sin intereses y "cargar más".
-7. Desplegar en Vercel.
+1. ✅ Implementar el adaptador VTEX genérico y configurar las 4 tiendas.
+2. ✅ Crear las tiendas mock y los fixtures para las pruebas.
+3. ✅ Implementar `/api/search` con consulta en paralelo, timeouts por tienda y respuesta parcial.
+4. ✅ Añadir caché (en memoria en desarrollo, Upstash Redis en Vercel).
+5. ✅ Implementar el agrupador por niveles (GTIN, luego marca + modelo, luego título).
+
+**Orden:** primero se termina el backend y se deja funcional; el frontend va al final, cuando la API esté completa, y se construye con skills de diseño.
+
+**Backend**
+
+6. ✅ Mejoras del backend: enlace de salida, búsquedas simultáneas, pausa por tienda, seguridad y OpenAPI.
+7. Desplegar la API en Vercel (con Upstash Redis). Preparado; falta crear las cuentas.
 8. Sumar Mercado Libre, Amazon (Creators API) y tiendas con afiliados conforme se obtenga acceso.
+
+**Frontend (al final)**
+
+9. Construir el frontend en React con skills de diseño: buscador, resultados agrupados, meses sin intereses y "cargar más".
+10. Desplegar la web en Vercel.
+
+**Estado:** la búsqueda del backend funciona (pasos 1 a 5). `/api/search` consulta las 4 tiendas reales en unos 300 ms, agrupa por GTIN entre tiendas (p. ej. la misma pantalla TCL 65Q5K en Elektra y Chedraui), muestra MSI y pagina con "cargar más". Ya tiene pausa por tienda, seguridad, enlaces de salida validados y documentación OpenAPI (78 pruebas). Siguiente: desplegar la API en Vercel.

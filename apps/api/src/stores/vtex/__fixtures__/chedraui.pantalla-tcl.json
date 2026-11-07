@@ -1,0 +1,957 @@
+{
+  "store": "chedraui",
+  "query": "pantalla tcl",
+  "status": 206,
+  "resources": "0-9/14",
+  "recordedAt": "2026-11-07T17:29:11.418Z",
+  "body": [
+    {
+      "productId": "6034611",
+      "productName": "Pantalla TCL 43 Pulgadas 43Q6K",
+      "brand": "TCL",
+      "link": "https://www.chedraui.com.mx/pantalla-tcl-43-pulgadas-43q6k-6034611/p",
+      "items": [
+        {
+          "itemId": "6034611",
+          "ean": "840464045151",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/78918428/_MARKETDRAUI740840464045151_00.jpg?v=639277049341530000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/78918429/MARKETDRAUI740840464045151_02.jpg?v=639277049342630000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/78918430/_MARKETDRAUI740840464045151_01.jpg?v=639277049343570000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "marketdraui740",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 4719,
+                "ListPrice": 7079,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 4719,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 4719,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3794613",
+      "productName": "Pantalla TCL 75 Pulgadas ROKU TV 75S453",
+      "brand": "TCL",
+      "link": "https://www.chedraui.com.mx/pantalla-tcl-75-pulgadas-roku-tv-75s453-3794613/p",
+      "Modelo": ["S453"],
+      "items": [
+        {
+          "itemId": "3794613",
+          "ean": "840464041214",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80295505/840464041214_00.jpg?v=639295777563670000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80295506/840464041214_01.jpg?v=639295777564600000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80295507/840464041214_02.jpg?v=639295777565700000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80295508/840464041214_03.jpg?v=639295777567270000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80295509/840464041214_04.jpg?v=639295777568200000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80295510/840464041214_05.jpg?v=639295777569000000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 9990,
+                "ListPrice": 11995,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 9990,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 9990,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 3330,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 9990,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1665,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 9990,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1110,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 9990,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 832.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 9990,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 768.46,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 9990,
+                    "NumberOfInstallments": 13,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 666,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 9990,
+                    "NumberOfInstallments": 15,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 555,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 9990,
+                    "NumberOfInstallments": 18,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "6034517",
+      "productName": "Pantalla TCL 2K QLED Android 43Q3K",
+      "brand": "TCL",
+      "link": "https://www.chedraui.com.mx/pantalla-tcl-2k-qled-android-43q3k-6034517/p",
+      "items": [
+        {
+          "itemId": "6034517",
+          "ean": "840464046196",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/78918360/MARKETDRAUI740840464046196_00.jpg?v=639277049124200000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/78918361/MARKETDRAUI740840464046196_01.jpg?v=639277049125430000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/78918362/MARKETDRAUI740840464046196_02.jpg?v=639277049126530000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "marketdraui740",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 4819,
+                "ListPrice": 7229,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 4819,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 4819,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3750675",
+      "productName": "Pantalla TCL 55 Pulgadas Smart TV 4K UHD Roku TV 55S453",
+      "brand": "TCL",
+      "link": "https://www.chedraui.com.mx/pantalla-tcl-55-pulgadas-smart-tv-4k-uhd-roku-tv-55s453-3750675/p",
+      "Modelo": ["55S453"],
+      "items": [
+        {
+          "itemId": "3750675",
+          "ean": "84046404132",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79758073/840464041320_00.jpg?v=639289181644670000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79758075/840464041320_02.jpg?v=639289181645600000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79758077/840464041320_03.jpg?v=639289181646400000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 5990,
+                "ListPrice": 10195,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 5990,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5990,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1996.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5990,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 998.33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5990,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 665.55,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5990,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 499.16,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5990,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 460.76,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5990,
+                    "NumberOfInstallments": 13,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 399.33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5990,
+                    "NumberOfInstallments": 15,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 332.77,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5990,
+                    "NumberOfInstallments": 18,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3839672",
+      "productName": "Pantalla TCL 75 Pulgadas 4K HDR Google TV 75S451G Negro",
+      "brand": "TCL",
+      "link": "https://www.chedraui.com.mx/pantalla-tcl-75-pulgadas-4k-hdr-google-tv-75s451g-negro-3839672/p",
+      "Modelo": ["75S451G"],
+      "items": [
+        {
+          "itemId": "3839672",
+          "ean": "84046404473",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80295549/840464044734_00.jpg?v=639295777639430000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80295550/840464044734_00.jpg?v=639295777640230000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80295551/840464044734_03.jpg?v=639295777641000000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80295552/840464044734_01.jpg?v=639295777641930000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80295553/840464044734_02.jpg?v=639295777655170000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 8990,
+                "ListPrice": 14095,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 8990,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8990,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2996.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8990,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1498.33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8990,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 998.88,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8990,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 749.16,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8990,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 691.53,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8990,
+                    "NumberOfInstallments": 13,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 599.33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8990,
+                    "NumberOfInstallments": 15,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 499.44,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8990,
+                    "NumberOfInstallments": 18,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3851197",
+      "productName": "Pantalla 50 Pulgadas TCL QLED 4K HDR Google TV Mod 50Q5K",
+      "brand": "TCL",
+      "link": "https://www.chedraui.com.mx/pantalla-50-pulgadas-tcl-qled-4k-hdr-google-tv-mod-50q5k-3851197/p",
+      "Modelo": ["50Q5K"],
+      "items": [
+        {
+          "itemId": "3851197",
+          "ean": "846042073134",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79787773/846042073134_00.jpg?v=639289220389800000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79787774/846042073134_00.jpg?v=639289220391030000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79787775/846042073134_04.jpg?v=639289220392000000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79787776/846042073134_03.jpg?v=639289220392930000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79787777/846042073134_05.jpg?v=639289220393870000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79787778/846042073134_01.jpg?v=639289220394630000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79787779/846042073134_06.jpg?v=639289220395430000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79787780/846042073134_07.jpg?v=639289220397770000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79787781/846042073134_11.jpg?v=639289220398530000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 5490,
+                "ListPrice": 6995,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 5490,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5490,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1830,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5490,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 915,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5490,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 610,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5490,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 457.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5490,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 422.3,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5490,
+                    "NumberOfInstallments": 13,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 366,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5490,
+                    "NumberOfInstallments": 15,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 305,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 5490,
+                    "NumberOfInstallments": 18,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3851199",
+      "productName": "Pantalla 65 Pulgadas TCL QLED 4K HDR Google TV Mod 65Q5K",
+      "brand": "TCL",
+      "link": "https://www.chedraui.com.mx/pantalla-65-pulgadas-tcl-qled-4k-hdr-google-tv-mod-65q5k-3851199/p",
+      "Modelo": ["65Q5K"],
+      "items": [
+        {
+          "itemId": "3851199",
+          "ean": "0846042073158",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80353749/846042073158_00.jpg?v=639296145798170000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80353750/846042073158_00.jpg?v=639296145799270000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80353751/846042073158_04.jpg?v=639296145800200000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80353752/846042073158_03.jpg?v=639296145801000000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80353753/846042073158_05.jpg?v=639296145801930000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80353754/846042073158_02.jpg?v=639296145802870000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80353755/846042073158_01.jpg?v=639296145803600000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80353756/846042073158_06.jpg?v=639296145804330000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80353757/846042073158_11.jpg?v=639296145805830000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "marketdraui740",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 12209,
+                "ListPrice": 18319,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 12209,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 12209,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 6990,
+                "ListPrice": 11095,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": [
+                  {
+                    "Value": 6990,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6990,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2330,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6990,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1165,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6990,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 776.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6990,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 582.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6990,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 537.69,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6990,
+                    "NumberOfInstallments": 13,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 466,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6990,
+                    "NumberOfInstallments": 15,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 388.33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6990,
+                    "NumberOfInstallments": 18,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3882373",
+      "productName": "Pantalla 32 Pulgadas TCL Android TV HD 32Q2K",
+      "brand": "TCL",
+      "link": "https://www.chedraui.com.mx/pantalla-32-pulgadas-tcl-android-tv-hd-32q2k-3882373/p",
+      "Modelo": ["32Q2K"],
+      "items": [
+        {
+          "itemId": "3882373",
+          "ean": "84046404616",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79928836/840464046165_00.jpg?v=639290211904800000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79928837/840464046165_01.jpg?v=639290211905730000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79928838/840464046165_02.jpg?v=639290211906670000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79928839/840464046165_03.jpg?v=639290211907300000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79928840/840464046165_04.jpg?v=639290211908100000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "marketdraui740",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 3129,
+                "ListPrice": 4389,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 3129,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3129,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 3335,
+                "ListPrice": 3335,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": [
+                  {
+                    "Value": 3335,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3335,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1111.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3335,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 555.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3335,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 370.55,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3335,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 256.53,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3335,
+                    "NumberOfInstallments": 13,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3839671",
+      "productName": "Pantalla TCL 65 Pulgadas 4K HDR Google TV 65S451G Negro",
+      "brand": "TCL",
+      "link": "https://www.chedraui.com.mx/pantalla-tcl-65-pulgadas-4k-hdr-google-tv-65s451g-negro-3839671/p",
+      "Modelo": ["65S451G"],
+      "items": [
+        {
+          "itemId": "3839671",
+          "ean": "84046404472",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80349653/840464044727_00.jpg?v=639296137969570000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80349654/840464044727_11.jpg?v=639296137970800000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80349655/840464044727_02.jpg?v=639296137971630000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80349656/840464044727_03.jpg?v=639296137972570000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/80349657/840464044727_01.jpg?v=639296137974300000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 8495,
+                "ListPrice": 8995,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": [
+                  {
+                    "Value": 8495,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8495,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2831.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8495,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1415.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8495,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 943.88,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8495,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 707.91,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8495,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 653.46,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8495,
+                    "NumberOfInstallments": 13,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 566.33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8495,
+                    "NumberOfInstallments": 15,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 471.94,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8495,
+                    "NumberOfInstallments": 18,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3845968",
+      "productName": "Pantalla TCL 98 Pulgadas QLED 4K HDR Google TV 98Q651G",
+      "brand": "TCL",
+      "link": "https://www.chedraui.com.mx/pantalla-tcl-98-pulgadas-qled-4k-hdr-google-tv-98q651g-3845968/p",
+      "Modelo": ["Q651G"],
+      "items": [
+        {
+          "itemId": "3845968",
+          "ean": "0840464044741",
+          "images": [
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79920278/840464044741_00.jpg?v=639290192735200000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79920279/840464044741_01.jpg?v=639290192736200000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79920281/840464044741_02.jpg?v=639290192737100000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79920283/840464044741_03.jpg?v=639290192737870000"
+            },
+            {
+              "imageUrl": "https://chedrauimx.vteximg.com.br/arquivos/ids/79920285/840464044741_11.jpg?v=639290192738600000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 32970.06,
+                "ListPrice": 32970.06,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": [
+                  {
+                    "Value": 32970.06,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 32970.06,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 10990.02,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 32970.06,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 5495.01,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 32970.06,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 3663.34,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 32970.06,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2747.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 32970.06,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2536.15,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 32970.06,
+                    "NumberOfInstallments": 13,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2198,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 32970.06,
+                    "NumberOfInstallments": 15,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1831.67,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 32970.06,
+                    "NumberOfInstallments": 18,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

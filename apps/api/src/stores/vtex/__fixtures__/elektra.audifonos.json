@@ -1,0 +1,669 @@
+{
+  "store": "elektra",
+  "query": "audifonos",
+  "status": 206,
+  "resources": "0-9/1907",
+  "recordedAt": "2026-11-07T17:29:10.275Z",
+  "body": [
+    {
+      "productId": "1301896665",
+      "productName": "Zern Audifonos Inalambricos,Audífonos Inalámbricos, audífonos Bluetoot",
+      "brand": "GENERICA",
+      "link": "https://www.elektra.mx/zern-audifonos-inalambricosaudifonos-inalambricos-audifonos-bluetoot-1301896665/p",
+      "Modelo": ["J96"],
+      "items": [
+        {
+          "itemId": "1301896665",
+          "ean": "0761086526869",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34126026/51nBAJsqQkL.jpeg.jpg?v=639269554441670000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34126025/61Kgf2qpYjL.jpeg.jpg?v=639269554437370000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "711160",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 3263,
+                "ListPrice": 3589,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 3263,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3263,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1301896313",
+      "productName": "Skullcandy Smokin’ Buds Audífonos Inalámbricos, Audífonos Bluetooth, A",
+      "brand": "SKULLCANDY",
+      "link": "https://www.elektra.mx/skullcandy-smokin-buds-audifonos-inalambricos-audifonos-bluetooth-a-1301896313/p",
+      "Modelo": ["XYZ-123"],
+      "items": [
+        {
+          "itemId": "1301896313",
+          "ean": "0810145320020",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34125801/51PbZ5K2RJL.jpeg.jpg?v=639269552517900000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34125800/71m1A0o6TJL.jpeg.jpg?v=639269552516200000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "711160",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1137,
+                "ListPrice": 1251,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1137,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1137,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300719470",
+      "productName": "Audífonos Suaves MXDSB-006 DonussBas Audífonos Ergonómicos",
+      "brand": "VENTDEPOT",
+      "link": "https://www.elektra.mx/audifonos-suaves-mxdsb-006-donussbas-audifonos-ergonomicos-1300719470/p",
+      "Modelo": ["MXDSB-006"],
+      "items": [
+        {
+          "itemId": "1300719470",
+          "ean": "7506580575769",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34083984/DiademaErgonmicaMXDSB006jpeg.jpg?v=639269375974400000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34083978/Audifonos-Ergonomicos-ADI-DSB.jpg?v=639269375959830000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34083979/Diadema-en-Variedad-de-Diseño-ADI-DSB.jpg?v=639269375963270000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34083980/DiademaGamerProfesionalADIDSBjpeg.jpg?v=639269375966400000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34083981/AudfonosSuavesADIDSBjpeg.jpg?v=639269375970000000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34083982/DiademaenVariedadADIDSBjpeg.jpg?v=639269375971100000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34083983/DiademadeAltaGamaADIDSBjpeg.jpg?v=639269375972370000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "710126",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 533,
+                "ListPrice": 533,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 533,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 533,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300719369",
+      "productName": "Audífonos Autoajustables MXMXL-006 CallPro Audífonos de Diadema Sencillos",
+      "brand": "VENTDEPOT",
+      "link": "https://www.elektra.mx/audifonos-autoajustables-mxmxl-006-callpro-audifonos-de-diadema-sencillos-1300719369/p",
+      "Modelo": ["MXMXL-006"],
+      "items": [
+        {
+          "itemId": "1300719369",
+          "ean": "7506580556102",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34083223/AuricularGamerprofesionalMXMXL006jpeg.jpg?v=639269372396100000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34083217/Audifonos-con-Microfono-ADI-MXL.jpg?v=639269372386330000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34083218/Audifonos-de-Diadema-Sencillos-ADI-MXL.jpg?v=639269372387600000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34083219/AudfonosAutoajustablesADIMXLjpeg.jpg?v=639269372390570000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34083220/AuricularaBuenPrecioADIMXLjpeg.jpg?v=639269372392370000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34083221/AuricularCmodoADIMXLjpeg.jpg?v=639269372393300000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34083222/AuricularconOrejerasPequeasADIMXLjpeg.jpg?v=639269372394230000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "710126",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1972,
+                "ListPrice": 1972,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1972,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1972,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1301896104",
+      "productName": "PHOCAR Audífonos Inalámbricos Morados, Audífonos Bluetooth con Sonido",
+      "brand": "GENERICA",
+      "link": "https://www.elektra.mx/phocar-audifonos-inalambricos-morados-audifonos-bluetooth-con-sonido-1301896104/p",
+      "Modelo": ["YX06/S200"],
+      "items": [
+        {
+          "itemId": "1301896104",
+          "ean": "6973993210456",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34125767/71k5UyJ0TQL.jpeg.jpg?v=639269552205600000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34125766/71LXqQvbc7L.jpeg.jpg?v=639269552202500000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "711160",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 3334,
+                "ListPrice": 3667,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 3334,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3334,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300719353",
+      "productName": "Audífonos Negros MXMXL-009 CallPro Audífonos de Diadema Sencillos",
+      "brand": "VENTDEPOT",
+      "link": "https://www.elektra.mx/audifonos-negros-mxmxl-009-callpro-audifonos-de-diadema-sencillos-1300719353/p",
+      "Modelo": ["MXMXL-009"],
+      "items": [
+        {
+          "itemId": "1300719353",
+          "ean": "7506580556133",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34082904/AuricularGamerprofesionalMXMXL001jpeg.jpg?v=639269371124630000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34082898/Audifonos-con-Microfono-ADI-MXL.jpg?v=639269371114270000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34082899/Audifonos-de-Diadema-Sencillos-ADI-MXL.jpg?v=639269371115900000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34082900/AudfonosAutoajustablesADIMXLjpeg.jpg?v=639269371118870000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34082901/AuricularaBuenPrecioADIMXLjpeg.jpg?v=639269371120270000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34082902/AuricularCmodoADIMXLjpeg.jpg?v=639269371121500000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34082903/AuricularconOrejerasPequeasADIMXLjpeg.jpg?v=639269371122770000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "710126",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 4863,
+                "ListPrice": 4863,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 4863,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 4863,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300978478",
+      "productName": "Audifonos Gamer Dmx15",
+      "brand": "GENERICA",
+      "link": "https://www.elektra.mx/audifonos-gamer-dmx15-1300978478/p",
+      "Modelo": ["Dmx15"],
+      "items": [
+        {
+          "itemId": "1300978478",
+          "ean": "7503034403432",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/32988362/7503055425130-D1.jpg?v=639259786974600000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/32988356/7503055425130-D4.jpg?v=639259786964330000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/32988357/7503055425130-D5.jpg?v=639259786965600000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/32988358/7503055425130-D6.jpg?v=639259786968100000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/32988359/7503055425130-D7.jpg?v=639259786969330000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/32988360/7503055425130-D2.jpg?v=639259786971070000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/32988361/7503055425130-D3.jpg?v=639259786973030000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "712012",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 598,
+                "ListPrice": 598,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 598,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 598,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300126422",
+      "productName": "Amplificador audífonos HM-4",
+      "brand": "MACKIE",
+      "link": "https://www.elektra.mx/amplificador-audifonos-hm-4-1300126422/p",
+      "Modelo": ["HM-4"],
+      "items": [
+        {
+          "itemId": "1300126422",
+          "ean": "663961054057",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34076926/image1472e371b12f436998bc59470ebfddcajpeg.jpg?v=639269316638700000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "708364",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1215,
+                "ListPrice": 1983,
+                "AvailableQuantity": 1,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1215,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1215,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 405,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1215,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 202.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1215,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 303.75,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1215,
+                    "NumberOfInstallments": 4,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300724723",
+      "productName": "Audifonos estudio K702",
+      "brand": "AKG",
+      "link": "https://www.elektra.mx/audifonos-estudio-k702-1300724723/p",
+      "Modelo": ["K702"],
+      "items": [
+        {
+          "itemId": "1300724723",
+          "ean": "768430818663",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/13930816/image-1626ae31ca414988b17902b3cb28ea24.jpg?v=638856906602900000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/13930814/image-aaaca38c88084d82a75305686a22a19e.jpg?v=638856906597330000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/13930815/image-a055e18f4193480d85029fc76d4d8471.jpg?v=638856906601200000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "708364",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 6785,
+                "ListPrice": 7983,
+                "AvailableQuantity": 1,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 6785,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6785,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2261.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6785,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1130.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6785,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 753.88,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6785,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 565.41,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6785,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1696.25,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6785,
+                    "NumberOfInstallments": 4,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 969.28,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6785,
+                    "NumberOfInstallments": 7,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 848.12,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6785,
+                    "NumberOfInstallments": 8,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300931344",
+      "productName": "Audífonos Motorola Sp106",
+      "brand": "MOTOROLA",
+      "link": "https://www.elektra.mx/audifonos-motorola-sp106-1300931344/p",
+      "Modelo": ["SP106"],
+      "items": [
+        {
+          "itemId": "1300931344",
+          "ean": "810036773300",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/32987295/SP106B1jpeg.jpg?v=639259781082500000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/32987294/SP106B2jpeg.jpg?v=639259781081030000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "711869",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 299,
+                "ListPrice": 299,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 299,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 299,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

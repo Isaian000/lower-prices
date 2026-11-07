@@ -1,0 +1,496 @@
+{
+  "store": "marti",
+  "query": "audifonos",
+  "status": 206,
+  "resources": "0-9/22",
+  "recordedAt": "2026-11-07T17:29:12.195Z",
+  "body": [
+    {
+      "productId": "1128000364",
+      "productName": "Set Reebok Multideporte Reloj y Audifonos Unisex RBK-BDST-K",
+      "brand": "Reebok",
+      "link": "https://www.marti.mx/audifonos-reebok-accesorios-1128000364/p",
+      "items": [
+        {
+          "itemId": "573268",
+          "ean": "3114100127103",
+          "images": [
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2487703/1128000364-5.webp?v=639274295900000000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2487704/1128000364-2.webp?v=639274295900470000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2487705/1128000364-1.webp?v=639274295900470000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2487706/1128000364-3.webp?v=639274295900470000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2487707/1128000364-4.webp?v=639274295900630000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 899.28,
+                "ListPrice": 1249,
+                "AvailableQuantity": 9,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 899.28,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 899.28,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1128000310",
+      "productName": "Set Reebok Multideporte Reloj y Audifonos Mujer RBK-BDST-P",
+      "brand": "Reebok",
+      "link": "https://www.marti.mx/audifonos-reebok-accesorios-1128000310/p",
+      "items": [
+        {
+          "itemId": "573139",
+          "ean": "3114100127134",
+          "images": [
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485462/1128000310-1.webp?v=639271741556530000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485463/1128000310-2.webp?v=639271741556530000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485464/1128000310-3.webp?v=639271741556830000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485465/1128000310-4.webp?v=639271741557130000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 899.28,
+                "ListPrice": 1249,
+                "AvailableQuantity": 14,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 899.28,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 899.28,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1128000367",
+      "productName": "Audífonos Reebok Multideporte Motion Unisex RBK-EMTN-GN",
+      "brand": "Reebok",
+      "link": "https://www.marti.mx/audifonos-reebok-accesorios-1128000367/p",
+      "items": [
+        {
+          "itemId": "573272",
+          "ean": "7503056007144",
+          "images": [
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485497/1128000367-1.webp?v=639271744520970000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485498/1128000367-2.webp?v=639271744523000000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485499/1128000367-3.webp?v=639271744524400000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485500/1128000367-4.webp?v=639271744526600000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485501/1128000367-5.webp?v=639271744531330000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485502/1128000367-6.webp?v=639271744534430000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 632.88,
+                "ListPrice": 879,
+                "AvailableQuantity": 14,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 632.88,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 632.88,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1128000366",
+      "productName": "Audífonos Reebok Multideporte Nebula Unisex RBK-HPN-B",
+      "brand": "Reebok",
+      "link": "https://www.marti.mx/audifonos-reebok-accesorios-1128000366/p",
+      "items": [
+        {
+          "itemId": "573271",
+          "ean": "7503055065916",
+          "images": [
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2494380/1128000366-1.webp?v=639275961130270000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2494381/1128000366-2.webp?v=639275961161000000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2494382/1128000366-3.webp?v=639275961172270000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 632.88,
+                "ListPrice": 879,
+                "AvailableQuantity": 14,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 632.88,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 632.88,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1128000309",
+      "productName": "Audífonos Reebok Multideporte In-Ear Unisex RBK-TWT-B",
+      "brand": "Reebok",
+      "link": "https://www.marti.mx/audifonos-reebok-accesorios-1128000309/p",
+      "items": [
+        {
+          "itemId": "573138",
+          "ean": "3114100125734",
+          "images": [
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485458/1128000309-1.webp?v=639271741164530000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485459/1128000309-2.webp?v=639271741164530000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485460/1128000309-3.webp?v=639271741164530000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485461/1128000309-4.webp?v=639271741164700000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 632.88,
+                "ListPrice": 879,
+                "AvailableQuantity": 15,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 632.88,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 632.88,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1128000330",
+      "productName": "Set Reebok Multideporte Reloj y Audifonos Unisex RBK-BNRN-B",
+      "brand": "Reebok",
+      "link": "https://www.marti.mx/audifonos-reebok-accesorios-1128000330/p",
+      "items": [
+        {
+          "itemId": "573197",
+          "ean": "3114100130523",
+          "images": [
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485466/1128000330-3.webp?v=639271741942630000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485467/1128000330-1.webp?v=639271741942630000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485468/1128000330-2.webp?v=639271741942800000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 899.28,
+                "ListPrice": 1249,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 899.28,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 899.28,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1128000335",
+      "productName": "Audífonos Reebok Multideporte Earclip Pod Unisex RBK-TWP1-B",
+      "brand": "Reebok",
+      "link": "https://www.marti.mx/audifonos-reebok-accesorios-1128000335/p",
+      "items": [
+        {
+          "itemId": "573204",
+          "ean": "3114100129107",
+          "images": [
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485477/1128000335-1.webp?v=639271742935170000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485478/1128000335-2.webp?v=639271742935330000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485479/1128000335-3.webp?v=639271742935330000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485480/1128000335-4.webp?v=639271742935500000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 503.28,
+                "ListPrice": 699,
+                "AvailableQuantity": 1,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 503.28,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 503.28,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1128000352",
+      "productName": "Audífonos Reebok Multideporte Nebula Unisex RBK-HPN-K",
+      "brand": "Reebok",
+      "link": "https://www.marti.mx/audifonos-reebok-accesorios-1128000352/p",
+      "items": [
+        {
+          "itemId": "573243",
+          "ean": "3114100125918",
+          "images": [
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485481/1128000352-1.webp?v=639271743248270000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485482/1128000352-2.webp?v=639271743248270000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485483/1128000352-3.webp?v=639271743248430000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485484/1128000352-4.webp?v=639271743248430000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485485/1128000352-5.webp?v=639271743248570000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485486/1128000352-6.webp?v=639271743248570000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 575.28,
+                "ListPrice": 799,
+                "AvailableQuantity": 14,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 575.28,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 575.28,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1128000229",
+      "productName": "Audífonos Reebok Multideporte In-Ear Unisex RBK-TWT-W",
+      "brand": "Reebok",
+      "link": "https://www.marti.mx/audifonos-reebok-accesorios-1128000229/p",
+      "items": [
+        {
+          "itemId": "572686",
+          "ean": "3114100125741",
+          "images": [
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485447/1128000229-1.webp?v=639271740084630000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485448/1128000229-2.webp?v=639271740084930000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/2485449/1128000229-3.webp?v=639271740085100000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 575.28,
+                "ListPrice": 799,
+                "AvailableQuantity": 15,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 575.28,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 575.28,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1127902172",
+      "productName": "Audífonos Zeta Correr Aud5 Negro",
+      "brand": "Zeta",
+      "link": "https://www.marti.mx/audifonos-zeta-correr-aud5-negro-1127902172/p",
+      "items": [
+        {
+          "itemId": "235958",
+          "ean": "7503026614976",
+          "images": [
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/1196145/1127902172-1.png?v=638277112822900000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/1196146/1127902172-2.png?v=639173314241700000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/1196147/1127902172-3.png?v=639173314241700000"
+            },
+            {
+              "imageUrl": "https://martimx.vteximg.com.br/arquivos/ids/1196148/1127902172-4.png?v=639173314241870000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "30797",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 699,
+                "ListPrice": 699,
+                "AvailableQuantity": 6,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 699,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 699,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

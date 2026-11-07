@@ -6,5 +6,5 @@ export default defineConfig({
   platform: "node",
   outDir: "dist",
   // Los paquetes internos exportan TypeScript sin compilar, así que se incluyen en el bundle.
-  noExternal: [/^@lower-prices\//],
+  deps: { alwaysBundle: [/^@lower-prices\//] },
 });

@@ -1,0 +1,636 @@
+{
+  "store": "officemax",
+  "query": "audifonos",
+  "status": 206,
+  "resources": "0-9/20",
+  "recordedAt": "2026-11-07T17:29:11.712Z",
+  "body": [
+    {
+      "productId": "501198801",
+      "productName": "Audífonos con Micrófono | Trust Como | Negro",
+      "brand": "Trust",
+      "link": "https://www.officemax.com.mx/audifonos-con-microfono-trust-como-negro-8713439216585/p",
+      "Modelo": ["21658"],
+      "items": [
+        {
+          "itemId": "501198801",
+          "ean": "8713439216585",
+          "images": [
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1370074/501198801_1.jpg?v=638204828434370000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1370075/501198801_2.jpg?v=638204828427970000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1370076/501198801_3.jpg?v=638204828436230000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 399,
+                "ListPrice": 399,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 399,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 399,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "501386121",
+      "productName": "Audífonos Alámbricos Estéreo | MOBO | Uso Diario",
+      "brand": "Mobo",
+      "link": "https://www.officemax.com.mx/audifonos-alambricos-mobo-sonido-estereo-uso-diario/p",
+      "Modelo": ["AUDALCLICKNEGROYV"],
+      "items": [
+        {
+          "itemId": "501386121",
+          "ean": "842799565175",
+          "images": [
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1468665/audifonos-alambricos-mobo-sonido-estereo-uso-diario-842799565175.webp?v=639099000015030000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1468666/audifonos-alambricos-mobo-sonido-estereo-uso-diario-842799565175.webp?v=639099000019830000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1468667/audifonos-alambricos-mobo-sonido-estereo-uso-diario-842799565175.webp?v=639099000023900000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 129,
+                "ListPrice": 129,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 129,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 129,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "501315041",
+      "productName": "Audífonos Inalámbricos Bluetooth | STF Aurum | Negros",
+      "brand": "STF",
+      "link": "https://www.officemax.com.mx/audifonos-inalambricos-stf-aurum-bluetooth-negro-7503035216451/p",
+      "Modelo": ["ST-H16444"],
+      "items": [
+        {
+          "itemId": "501315041",
+          "ean": "7503035216451",
+          "images": [
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1447229/501194558_01.jpg?v=638786964010300000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1447230/501194558_02.jpg?v=638786964016370000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1447231/501194558_03.jpg?v=638786964020430000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1447232/501194558_04.jpg?v=638786964024270000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 399,
+                "ListPrice": 399,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 399,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 399,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "501299201",
+      "productName": "Audífonos Inalámbricos Bluetooth | Nextep Buds | Negros",
+      "brand": "Nextep",
+      "link": "https://www.officemax.com.mx/audifonos-inalambricos-nextep-buds-bluetooth-negros-7501811275302/p",
+      "Modelo": ["NE-428N"],
+      "items": [
+        {
+          "itemId": "501299201",
+          "ean": "7501811275302",
+          "images": [
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1439799/7501811275302-1.jpg?v=638702326809500000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1439800/7501811275302-2.jpg?v=638702326811370000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1439802/7501811275302-3.jpg?v=638702326816670000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 295,
+                "ListPrice": 295,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 295,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 295,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "501299191",
+      "productName": "Audífonos Inalámbricos Bluetooth | Nextep Buds | Blancos",
+      "brand": "Nextep",
+      "link": "https://www.officemax.com.mx/audifonos-inalambricos-nextep-buds-bluetooth-blancos-7501811275418/p",
+      "Modelo": ["NE-428B"],
+      "items": [
+        {
+          "itemId": "501299191",
+          "ean": "7501811275418",
+          "images": [
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1439801/7501811275418-1.jpg?v=638702326815270000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1439803/7501811275418-3.jpg?v=638702326818700000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1439804/7501811275418-2.jpg?v=638702326819170000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 295,
+                "ListPrice": 295,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 295,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 295,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "501420651",
+      "productName": "Audífonos Inalámbricos Freestyle | MONDO | Bluetooth 5.3 | Rosa",
+      "brand": "MONDO",
+      "link": "https://www.officemax.com.mx/audifonos-mondo-freestyle-bluetooth-rosas/p",
+      "Modelo": ["Freestyle Rosas"],
+      "items": [
+        {
+          "itemId": "501420651",
+          "ean": "7350080714469",
+          "images": [
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483761/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-rosa-7350080714469.webp?v=639226056024430000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483762/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-rosa-7350080714469.webp?v=639226056029430000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483763/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-rosa-7350080714469.webp?v=639226056033370000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483764/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-rosa-7350080714469.webp?v=639226056037270000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483765/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-rosa-7350080714469.webp?v=639226056041830000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483766/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-rosa-7350080714469.webp?v=639226056046070000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483767/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-rosa-7350080714469.webp?v=639226056050470000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483768/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-rosa-7350080714469.webp?v=639226056054030000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1699,
+                "ListPrice": 1699,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1699,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1699,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 623,
+                    "InterestRate": 3.33,
+                    "TotalValuePlusInterestRate": 1869,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 312,
+                    "InterestRate": 1.66,
+                    "TotalValuePlusInterestRate": 1872,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 208,
+                    "InterestRate": 1.11,
+                    "TotalValuePlusInterestRate": 1872,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 156,
+                    "InterestRate": 0.83,
+                    "TotalValuePlusInterestRate": 1872,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "501420631",
+      "productName": "Audífonos Inalámbricos Freestyle | MONDO | Bluetooth 5.3 | Transparente",
+      "brand": "MONDO",
+      "link": "https://www.officemax.com.mx/audifonos-mondo-freestyle-bluetooth-transparentes/p",
+      "Modelo": ["Freestyle Transparentes"],
+      "items": [
+        {
+          "itemId": "501420631",
+          "ean": "7350080714551",
+          "images": [
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483709/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-transparente-7350080714551.webp?v=639226047184130000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483710/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-transparente-7350080714551.webp?v=639226047188200000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483711/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-transparente-7350080714551.webp?v=639226047192000000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483712/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-transparente-7350080714551.webp?v=639226047196230000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483713/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-transparente-7350080714551.webp?v=639226047200270000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483714/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-transparente-7350080714551.webp?v=639226047204600000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483715/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-transparente-7350080714551.webp?v=639226047209300000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1699,
+                "ListPrice": 1699,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1699,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1699,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 623,
+                    "InterestRate": 3.33,
+                    "TotalValuePlusInterestRate": 1869,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 312,
+                    "InterestRate": 1.66,
+                    "TotalValuePlusInterestRate": 1872,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 208,
+                    "InterestRate": 1.11,
+                    "TotalValuePlusInterestRate": 1872,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 156,
+                    "InterestRate": 0.83,
+                    "TotalValuePlusInterestRate": 1872,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "501420641",
+      "productName": "Audífonos Inalámbricos Freestyle | MONDO | Bluetooth 5.3 | Greige",
+      "brand": "MONDO",
+      "link": "https://www.officemax.com.mx/audifonos-mondo-freestyle-bluetooth-greige/p",
+      "Modelo": ["Freestyle Greige"],
+      "items": [
+        {
+          "itemId": "501420641",
+          "ean": "7350080714568",
+          "images": [
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483716/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-greige-7350080714568.webp?v=639226050019770000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483717/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-greige-7350080714568.webp?v=639226050026370000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483718/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-greige-7350080714568.webp?v=639226050030070000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483719/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-greige-7350080714568.webp?v=639226050035170000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483720/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-greige-7350080714568.webp?v=639226050040470000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483721/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-greige-7350080714568.webp?v=639226050043900000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483722/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-greige-7350080714568.webp?v=639226050048130000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483723/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-greige-7350080714568.webp?v=639226050052130000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483724/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-greige-7350080714568.webp?v=639226050056400000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483725/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-greige-7350080714568.webp?v=639226050061470000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1699,
+                "ListPrice": 1699,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1699,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1699,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 623,
+                    "InterestRate": 3.33,
+                    "TotalValuePlusInterestRate": 1869,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 312,
+                    "InterestRate": 1.66,
+                    "TotalValuePlusInterestRate": 1872,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 208,
+                    "InterestRate": 1.11,
+                    "TotalValuePlusInterestRate": 1872,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 156,
+                    "InterestRate": 0.83,
+                    "TotalValuePlusInterestRate": 1872,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "501420621",
+      "productName": "Audífonos Inalámbricos Freestyle | MONDO | Bluetooth 5.3 | Negro",
+      "brand": "MONDO",
+      "link": "https://www.officemax.com.mx/audifonos-mondo-freestyle-bluetooth-negros/p",
+      "Modelo": ["Freestyle Negros"],
+      "items": [
+        {
+          "itemId": "501420621",
+          "ean": "7350080714544",
+          "images": [
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483701/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-negro-7350080714544.webp?v=639226047142000000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483702/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-negro-7350080714544.webp?v=639226047146870000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483703/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-negro-7350080714544.webp?v=639226047150300000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483704/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-negro-7350080714544.webp?v=639226047154030000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483705/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-negro-7350080714544.webp?v=639226047158430000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483706/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-negro-7350080714544.webp?v=639226047161570000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483707/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-negro-7350080714544.webp?v=639226047165930000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1483708/audifonos-inalambricos-freestyle-mondo-bluetooth-5-3-negro-7350080714544.webp?v=639226047169370000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1699,
+                "ListPrice": 1699,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1699,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1699,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 623,
+                    "InterestRate": 3.33,
+                    "TotalValuePlusInterestRate": 1869,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 312,
+                    "InterestRate": 1.66,
+                    "TotalValuePlusInterestRate": 1872,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 208,
+                    "InterestRate": 1.11,
+                    "TotalValuePlusInterestRate": 1872,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 156,
+                    "InterestRate": 0.83,
+                    "TotalValuePlusInterestRate": 1872,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "501160781",
+      "productName": "Audífonos On-Ear Alámbricos | Trust Primo | Negros",
+      "brand": "Trust",
+      "link": "https://www.officemax.com.mx/audifos-trust-alam-negro-8713439216653/p",
+      "items": [
+        {
+          "itemId": "501160781",
+          "ean": "8713439216653",
+          "images": [
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1361164/116078_1.jpg?v=638158911720100000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1361165/116078_2.jpg?v=638158911726570000"
+            },
+            {
+              "imageUrl": "https://officemax.vteximg.com.br/arquivos/ids/1361166/116078_3.jpg?v=638158911732700000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 179,
+                "ListPrice": 179,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 179,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 179,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

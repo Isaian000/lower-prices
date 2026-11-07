@@ -1,0 +1,615 @@
+{
+  "store": "elektra",
+  "query": "pantalla tcl",
+  "status": 206,
+  "resources": "0-9/54",
+  "recordedAt": "2026-11-07T17:29:10.843Z",
+  "body": [
+    {
+      "productId": "1300656720",
+      "productName": "Control Para Pantalla TCL Roku Tv Mas Pilas",
+      "brand": "UNIVERSAL",
+      "link": "https://www.elektra.mx/control-para-pantalla-tcl-roku-tv-mas-pilas-1300656720/p",
+      "Modelo": ["Mando a distancia universal"],
+      "items": [
+        {
+          "itemId": "1300656720",
+          "ean": "726597162739",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34031010/image5dfc557a68d349a0aefdfd3ecfe74b86jpeg.jpg?v=639268546397330000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "709302",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 359,
+                "ListPrice": 659,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 359,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 359,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 119.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 359,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300656230",
+      "productName": "Control compatible con pantalla tcl roku tv",
+      "brand": "GENERICA",
+      "link": "https://www.elektra.mx/control-compatible-con-pantalla-tcl-roku-tv-1300656230/p",
+      "Modelo": ["Universal compatible"],
+      "items": [
+        {
+          "itemId": "1300656230",
+          "ean": "726597162623",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36188616/c5b28c71-81ca-453c-8bd2-4b3c416c4288.jpeg.jpg?v=639295426262230000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36188614/0718f8ac-733b-4e68-8de4-535356aa811f.jpeg.jpg?v=639295426259070000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36188615/032f7f57-d648-40ec-b177-24c645c3b7ef.jpeg.jpg?v=639295426260800000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "710163",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 423,
+                "ListPrice": 423,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 423,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 423,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 141,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 423,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300658793",
+      "productName": "Control Para Pantalla TCL Roku Tv Mas Funda",
+      "brand": "UNIVERSAL",
+      "link": "https://www.elektra.mx/control-para-pantalla-tcl-roku-tv-mas-funda-1300658793/p",
+      "Modelo": ["Mando a distancia universal"],
+      "items": [
+        {
+          "itemId": "1300658793",
+          "ean": "726597162845",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34032884/image252943b299df4f6fad798f522c3b4f59jpeg.jpg?v=639268566790700000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "709302",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 459,
+                "ListPrice": 759,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 459,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 459,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 153,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 459,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300656444",
+      "productName": "Control Compatible Con Pantalla TCL Roku Tv",
+      "brand": "UNIVERSAL",
+      "link": "https://www.elektra.mx/control-compatible-con-pantalla-tcl-roku-tv-1300656444/p",
+      "Modelo": ["Mando a distancia universal"],
+      "items": [
+        {
+          "itemId": "1300656444",
+          "ean": "726597162623",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34030339/image0c719d5d2fa8410894a54bd7c0f17418jpeg.jpg?v=639268540116230000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "709302",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 359,
+                "ListPrice": 659,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 359,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 359,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 119.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 359,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300656950",
+      "productName": "Control compatible con pantalla tcl roku tv",
+      "brand": "GENERICA",
+      "link": "https://www.elektra.mx/control-compatible-con-pantalla-tcl-roku-tv-1300656950/p",
+      "Modelo": ["Universal compatible"],
+      "items": [
+        {
+          "itemId": "1300656950",
+          "ean": "726597162166",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36226045/616c53e6-5a4a-411d-9572-b4f68ba20114.jpeg.jpg?v=639295638124630000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36226043/1a8a9dc6-369b-4c58-a7aa-78487a5a8d48.jpeg.jpg?v=639295638120330000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36226044/9b859fff-ff30-43bd-9b71-6da94edb9b52.jpeg.jpg?v=639295638122600000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "710163",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 748,
+                "ListPrice": 748,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 748,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 748,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 249.33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 748,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300660917",
+      "productName": "Control compatible con pantalla tcl roku tv mas funda",
+      "brand": "GENERICA",
+      "link": "https://www.elektra.mx/control-compatible-con-pantalla-tcl-roku-tv-mas-funda-1300660917/p",
+      "Modelo": ["Universal compatible"],
+      "items": [
+        {
+          "itemId": "1300660917",
+          "ean": "726597162845",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36257895/60e81b13-9a9a-4f07-a60f-e8db098eed6f.jpeg.jpg?v=639296072032000000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36257893/0718f8ac-733b-4e68-8de4-535356aa811f.jpeg.jpg?v=639296072028270000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36257894/717d3749-25ce-4eb7-b011-a14892038ef8.jpeg.jpg?v=639296072030300000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "710163",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 639,
+                "ListPrice": 639,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 639,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 639,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 213,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 639,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300656861",
+      "productName": "Control compatible con pantalla tcl roku tv mas funda",
+      "brand": "GENERICA",
+      "link": "https://www.elektra.mx/control-compatible-con-pantalla-tcl-roku-tv-mas-funda-1300656861/p",
+      "Modelo": ["Universal compatible"],
+      "items": [
+        {
+          "itemId": "1300656861",
+          "ean": "726597162401",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36188745/7fa039c6-0cee-4f0e-9a72-afbcfab7c0b3.jpeg.jpg?v=639295426925770000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36188743/032f7f57-d648-40ec-b177-24c645c3b7ef.jpeg.jpg?v=639295426922500000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36188744/9add195d-7538-4ed0-a736-e094e86c0e19.jpeg.jpg?v=639295426924200000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "710163",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 639,
+                "ListPrice": 639,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 639,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 639,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 213,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 639,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300657966",
+      "productName": "Control compatible con pantalla tcl roku tv mas pilas",
+      "brand": "GENERICA",
+      "link": "https://www.elektra.mx/control-compatible-con-pantalla-tcl-roku-tv-mas-pilas-1300657966/p",
+      "Modelo": ["Universal compatible"],
+      "items": [
+        {
+          "itemId": "1300657966",
+          "ean": "726597162739",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36224470/c5b28c71-81ca-453c-8bd2-4b3c416c4288.jpeg.jpg?v=639295600564930000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36224468/0718f8ac-733b-4e68-8de4-535356aa811f.jpeg.jpg?v=639295600562170000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36224469/032f7f57-d648-40ec-b177-24c645c3b7ef.jpeg.jpg?v=639295600563600000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "710163",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 423,
+                "ListPrice": 423,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 423,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 423,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 141,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 423,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300657130",
+      "productName": "Control Compatible Con Pantalla TCL Roku Tv Mas Pilas",
+      "brand": "UNIVERSAL",
+      "link": "https://www.elektra.mx/control-compatible-con-pantalla-tcl-roku-tv-mas-pilas-1300657130/p",
+      "Modelo": ["Mando a distancia universal"],
+      "items": [
+        {
+          "itemId": "1300657130",
+          "ean": "726597162289",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/34031713/imageb25e275885eb42158bdffbd9be29ff62jpeg.jpg?v=639268552791870000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "709302",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 359,
+                "ListPrice": 659,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 359,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 359,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 119.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 359,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1300656044",
+      "productName": "Control compatible con pantalla tcl roku tv mas pilas",
+      "brand": "GENERICA",
+      "link": "https://www.elektra.mx/control-compatible-con-pantalla-tcl-roku-tv-mas-pilas-1300656044/p",
+      "Modelo": ["Universal compatible"],
+      "items": [
+        {
+          "itemId": "1300656044",
+          "ean": "726597162289",
+          "images": [
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36203069/616c53e6-5a4a-411d-9572-b4f68ba20114.jpeg.jpg?v=639295497028930000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36203067/1a8a9dc6-369b-4c58-a7aa-78487a5a8d48.jpeg.jpg?v=639295497025670000"
+            },
+            {
+              "imageUrl": "https://elektra.vteximg.com.br/arquivos/ids/36203068/9b859fff-ff30-43bd-9b71-6da94edb9b52.jpeg.jpg?v=639295497026900000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "710163",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 423,
+                "ListPrice": 423,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 423,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 423,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 141,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 423,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            },
+            {
+              "sellerId": "1",
+              "sellerDefault": false,
+              "commertialOffer": {
+                "Price": 0,
+                "ListPrice": 0,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
