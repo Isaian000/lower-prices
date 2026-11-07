@@ -1,0 +1,1881 @@
+{
+  "store": "sony",
+  "query": "audifonos",
+  "status": 206,
+  "resources": "0-9/45",
+  "recordedAt": "2026-11-07T21:17:24.296Z",
+  "body": [
+    {
+      "productId": "2091",
+      "productName": "Audífonos Profesionales MDR-7506",
+      "brand": "Sony",
+      "link": "https://store.sony.com.mx/mdr-7506/p",
+      "items": [
+        {
+          "itemId": "3517",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/315525/GENBA-MDR-7506-01-MainImage-1000x1000px.jpg?v=638704003199000000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/315526/GENBA-MDR-7506-02-Sonido-1000x1000px.jpg?v=638704003199170000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/315527/GENBA-MDR-7506-03-Profesional-1000x1000px.jpg?v=638704003199330000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/315528/GENBA-MDR-7506-04-Grabacion-1000x1000px.jpg?v=638704003199330000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/315529/GENBA-MDR-7506-05-Cable-1000x1000px.jpg?v=638704003199330000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/315530/GENBA-MDR-7506-06-Plegado-1000x1000px.jpg?v=638704003199500000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/315531/GENBA-MDR-7506-07-Monitoreo-1000x1000px.jpg?v=638704003199500000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/315532/GENBA-MDR-7506-08-EnLaCaja-1000x1000px.jpg?v=638704003199630000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1699,
+                "ListPrice": 2399,
+                "AvailableQuantity": 24,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1699,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1699,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "2543",
+      "productName": "Audífonos inalámbricos WH-CH530",
+      "brand": "Sony",
+      "link": "https://store.sony.com.mx/wh-ch530/p",
+      "items": [
+        {
+          "itemId": "4216",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327050/GENBA-WH-CH530-Coral_01_MainImage_SSO_1000x1000px.jpg?v=639244008845230000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327051/GENBA-WH-CH530-Coral_02_MainImage_Dealers_1000x1000px.jpg?v=639244008845400000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327052/GENBA-WH-CH530-Coral_03_Razones_1000x1000px.jpg?v=639244008845530000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327053/GENBA-WH-CH530-Coral_04_Estilo_1000x1000px.jpg?v=639244008845530000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327054/GENBA-WH-CH530-Coral_05_Comodidad_1000x1000px.jpg?v=639244008845700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327055/GENBA-WH-CH530-Coral_06_Diseno_1000x1000px.jpg?v=639244008845700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327056/GENBA-WH-CH530-Coral_07_Sonido_1000x1000px.jpg?v=639244008845700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327057/GENBA-WH-CH530-Coral_08_Llamadas_1000x1000px.jpg?v=639244008845870000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327058/GENBA-WH-CH530-Coral_09_Bateria_1000x1000px.jpg?v=639244008845870000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327059/GENBA-WH-CH530-Coral_10_Bluetooth_1000x1000px.jpg?v=639244008845870000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327060/GENBA-WH-CH530-Coral_11_SoundConnect_1000x1000px.jpg?v=639244008846000000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327061/GENBA-WH-CH530-Coral_12_MultipointConnection_1000x1000px.jpg?v=639244008846170000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327062/GENBA-WH-CH530-Coral_13_Usabilidad_1000x1000px.jpg?v=639244008846330000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327063/GENBA-WH-CH530-Coral_14_EnLaCaja_1000x1000px.jpg?v=639244008846500000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327064/GENBA-WH-CH530-Coral_15_Sustentabilidad_1000x1000px.jpg?v=639244008846630000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 799,
+                "ListPrice": 1319,
+                "AvailableQuantity": 271,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 799,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 799,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "4211",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326975/GENBA-WH-CH530-B_01_MainImage_SSO_1000x1000px.jpg?v=639244008838100000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326976/GENBA-WH-CH530-B_02_MainImage_Dealers_1000x1000px.jpg?v=639244008838400000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326977/GENBA-WH-CH530-B_03_Razones_1000x1000px.jpg?v=639244008838400000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326978/GENBA-WH-CH530-B_04_Estilo_1000x1000px.jpg?v=639244008838570000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326979/GENBA-WH-CH530-B_05_Comodidad_1000x1000px.jpg?v=639244008838700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326980/GENBA-WH-CH530-B_06_Diseno_1000x1000px.jpg?v=639244008838870000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326981/GENBA-WH-CH530-B_07_Sonido_1000x1000px.jpg?v=639244008838870000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326982/GENBA-WH-CH530-B_08_Llamadas_1000x1000px.jpg?v=639244008839030000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326983/GENBA-WH-CH530-B_09_Bateria_1000x1000px.jpg?v=639244008839030000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326984/GENBA-WH-CH530-B_10_Bluetooth_1000x1000px.jpg?v=639244008839030000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326985/GENBA-WH-CH530-B_11_SoundConnect_1000x1000px.jpg?v=639244008839200000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326986/GENBA-WH-CH530-B_12_MultipointConnection_1000x1000px.jpg?v=639244008839330000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326987/GENBA-WH-CH530-B_13_Usabilidad_1000x1000px.jpg?v=639244008839500000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326988/GENBA-WH-CH530-B_14_EnLaCaja_1000x1000px.jpg?v=639244008839670000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326989/GENBA-WH-CH530-B_15_Sustentabilidad_1000x1000px.jpg?v=639244008839770000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 799,
+                "ListPrice": 1319,
+                "AvailableQuantity": 891,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 799,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 799,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "4212",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326990/GENBA-WH-CH530-P_01_MainImage_SSO_1000x1000px.jpg?v=639244008839930000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326991/GENBA-WH-CH530-P_02_MainImage_Dealers_1000x1000px.jpg?v=639244008839930000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326992/GENBA-WH-CH530-P_03_Razones_1000x1000px.jpg?v=639244008840070000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326993/GENBA-WH-CH530-P_04_Estilo_1000x1000px.jpg?v=639244008840070000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326994/GENBA-WH-CH530-P_05_Comodidad_1000x1000px.jpg?v=639244008840230000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326995/GENBA-WH-CH530-P_06_Diseno_1000x1000px.jpg?v=639244008840230000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326996/GENBA-WH-CH530-P_07_Sonido_1000x1000px.jpg?v=639244008840400000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326997/GENBA-WH-CH530-P_08_Llamadas_1000x1000px.jpg?v=639244008840400000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326998/GENBA-WH-CH530-P_09_Bateria_1000x1000px.jpg?v=639244008840530000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/326999/GENBA-WH-CH530-P_10_Bluetooth_1000x1000px.jpg?v=639244008840530000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327000/GENBA-WH-CH530-P_11_SoundConnect_1000x1000px.jpg?v=639244008840700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327001/GENBA-WH-CH530-P_12_MultipointConnection_1000x1000px.jpg?v=639244008840700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327002/GENBA-WH-CH530-P_13_Usabilidad_1000x1000px.jpg?v=639244008840700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327003/GENBA-WH-CH530-P_14_EnLaCaja_1000x1000px.jpg?v=639244008840870000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327004/GENBA-WH-CH530-P_15_Sustentabilidad_1000x1000px.jpg?v=639244008840870000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 799,
+                "ListPrice": 1319,
+                "AvailableQuantity": 90,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 799,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 799,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "4213",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327005/GENBA-WH-CH530-L_01_MainImage_SSO_1000x1000px.jpg?v=639244008841000000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327006/GENBA-WH-CH530-L_02_MainImage_Dealers_1000x1000px.jpg?v=639244008841170000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327007/GENBA-WH-CH530-L_03_Razones_1000x1000px.jpg?v=639244008841170000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327008/GENBA-WH-CH530-L_04_Estilo_1000x1000px.jpg?v=639244008841330000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327009/GENBA-WH-CH530-L_05_Comodidad_1000x1000px.jpg?v=639244008841330000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327010/GENBA-WH-CH530-L_06_Diseno_1000x1000px.jpg?v=639244008841500000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327011/GENBA-WH-CH530-L_07_Sonido_1000x1000px.jpg?v=639244008841630000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327012/GENBA-WH-CH530-L_08_Llamadas_1000x1000px.jpg?v=639244008841800000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327013/GENBA-WH-CH530-L_09_Bateria_1000x1000px.jpg?v=639244008841970000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327014/GENBA-WH-CH530-L_10_Bluetooth_1000x1000px.jpg?v=639244008842100000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327015/GENBA-WH-CH530-L_11_SoundConnect_1000x1000px.jpg?v=639244008842400000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327016/GENBA-WH-CH530-L_12_MultipointConnection_1000x1000px.jpg?v=639244008842570000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327017/GENBA-WH-CH530-L_13_Usabilidad_1000x1000px.jpg?v=639244008842730000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327018/GENBA-WH-CH530-L_14_EnLaCaja_1000x1000px.jpg?v=639244008842730000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327019/GENBA-WH-CH530-L_15_Sustentabilidad_1000x1000px.jpg?v=639244008842900000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 799,
+                "ListPrice": 1319,
+                "AvailableQuantity": 106,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 799,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 799,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "4214",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327020/GENBA-WH-CH530-W_01_MainImage_SSO_1000x1000px.jpg?v=639244008843370000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327021/GENBA-WH-CH530-W_02_MainImage_Dealers_1000x1000px.jpg?v=639244008843370000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327022/GENBA-WH-CH530-W_03_Razones_1000x1000px.jpg?v=639244008843500000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327023/GENBA-WH-CH530-W_04_Estilo_1000x1000px.jpg?v=639244008843500000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327024/GENBA-WH-CH530-W_05_Comodidad_1000x1000px.jpg?v=639244008843500000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327025/GENBA-WH-CH530-W_06_Diseno_1000x1000px.jpg?v=639244008843670000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327026/GENBA-WH-CH530-W_07_Sonido_1000x1000px.jpg?v=639244008843670000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327027/GENBA-WH-CH530-W_08_Llamadas_1000x1000px.jpg?v=639244008843830000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327028/GENBA-WH-CH530-W_09_Bateria_1000x1000px.jpg?v=639244008843830000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327029/GENBA-WH-CH530-W_10_Bluetooth_1000x1000px.jpg?v=639244008843830000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327030/GENBA-WH-CH530-W_11_SoundConnect_1000x1000px.jpg?v=639244008844000000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327031/GENBA-WH-CH530-W_12_MultipointConnection_1000x1000px.jpg?v=639244008844000000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327032/GENBA-WH-CH530-W_13_Usabilidad_1000x1000px.jpg?v=639244008844000000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327033/GENBA-WH-CH530-W_14_EnLaCaja_1000x1000px.jpg?v=639244008844130000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327034/GENBA-WH-CH530-W_15_Sustentabilidad_1000x1000px.jpg?v=639244008844130000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 799,
+                "ListPrice": 1319,
+                "AvailableQuantity": 342,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 799,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 799,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "4215",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327035/GENBA-WH-CH530-G_01_MainImage_SSO_1000x1000px.jpg?v=639244008844300000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327036/GENBA-WH-CH530-G_02_MainImage_Dealers_1000x1000px.jpg?v=639244008844300000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327037/GENBA-WH-CH530-G_03_Razones_1000x1000px.jpg?v=639244008844470000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327038/GENBA-WH-CH530-G_04_Estilo_1000x1000px.jpg?v=639244008844470000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327039/GENBA-WH-CH530-G_05_Comodidad_1000x1000px.jpg?v=639244008844600000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327040/GENBA-WH-CH530-G_06_Diseno_1000x1000px.jpg?v=639244008844600000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327041/GENBA-WH-CH530-G_07_Sonido_1000x1000px.jpg?v=639244008844600000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327042/GENBA-WH-CH530-G_08_Llamadas_1000x1000px.jpg?v=639244008844770000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327043/GENBA-WH-CH530-G_09_Bateria_1000x1000px.jpg?v=639244008844770000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327044/GENBA-WH-CH530-G_10_Bluetooth_1000x1000px.jpg?v=639244008844770000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327045/GENBA-WH-CH530-G_11_SoundConnect_1000x1000px.jpg?v=639244008844930000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327046/GENBA-WH-CH530-G_12_MultipointConnection_1000x1000px.jpg?v=639244008844930000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327047/GENBA-WH-CH530-G_13_Usabilidad_1000x1000px.jpg?v=639244008844930000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327048/GENBA-WH-CH530-G_14_EnLaCaja_1000x1000px.jpg?v=639244008845070000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/327049/GENBA-WH-CH530-G_15_Sustentabilidad_1000x1000px.jpg?v=639244008845070000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 799,
+                "ListPrice": 1319,
+                "AvailableQuantity": 131,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 799,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 799,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1965",
+      "productName": "Audífonos inalámbricos WH-CH520",
+      "brand": "Sony",
+      "link": "https://store.sony.com.mx/wh-ch520/p",
+      "items": [
+        {
+          "itemId": "3352",
+          "ean": "4548736142381",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317068/00-GENBA-WH-CH520-B-Main-Image-Sony-Store-Online.jpg.jpg?v=638747999295330000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317069/01-GENBA-WH-CH520-B-Main-Image-Dealers.jpg.jpg?v=638747999296270000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317070/02-GENBA-WH-CH520-B-Calidad-Sonido.jpg.jpg?v=638747999296900000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317071/03-GENBA-WH-CH520-B-Bateria.jpg.jpg?v=638747999297830000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317072/04-GENBA-WH-CH520-B-Confort.jpg.jpg?v=638747999297830000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317073/05-GENBA-WH-CH520-B-Diseno-Colores.jpg.jpg?v=638747999298000000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317074/06-GENBA-WH-CH520-B-Llamadas-Manos-Libres.jpg.jpg?v=638747999298470000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317075/07-GENBA-WH-CH520-B-Conexion-Multipunto.jpg.jpg?v=638747999298770000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317076/08-GENBA-WH-CH520-B-AsistenteDeVoz.jpg.jpg?v=638747999298930000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317077/09-GENBA-WH-CH520-B-Caja.jpg.jpg?v=638747999299230000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317078/10-GENBA-WH-CH520-B-Eco.jpg.jpg?v=638747999300070000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 699,
+                "ListPrice": 1777,
+                "AvailableQuantity": 194,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 699,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 699,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "3353",
+          "ean": "4548736142923",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317079/00-GENBA-WH-CH520-C-Main-Image-Sony-Store-Online.jpg.jpg?v=638747999300870000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317080/01-GENBA-WH-CH520-C-Main-Image-Dealers.jpg.jpg?v=638747999301000000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317081/02-GENBA-WH-CH520-C-Calidad-Sonido.jpg.jpg?v=638747999301070000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317082/03-GENBA-WH-CH520-C-Bateria.jpg.jpg?v=638747999301230000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317083/04-GENBA-WH-CH520-C-Confort.jpg.jpg?v=638747999301400000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317084/05-GENBA-WH-CH520-C-Diseno-Colores.jpg.jpg?v=638747999301500000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317085/06-GENBA-WH-CH520-C-Llamadas-Manos-Libres.jpg.jpg?v=638747999301600000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317086/07-GENBA-WH-CH520-C-Conexion-Multipunto.jpg.jpg?v=638747999301630000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317087/08-GENBA-WH-CH520-C-AsistenteDeVoz.jpg.jpg?v=638747999301700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317088/09-GENBA-WH-CH520-C-Caja.jpg.jpg?v=638747999301800000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317089/10-GENBA-WH-CH520-C-Eco.jpg.jpg?v=638747999301900000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 699,
+                "ListPrice": 1777,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "3354",
+          "ean": "4548736142824",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317090/00-GENBA-WH-CH520-W-Main-Image-Sony-Store-Online.jpg.jpg?v=638747999302770000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317091/01-GENBA-WH-CH520-W-Main-Image-Dealers.jpg.jpg?v=638747999302770000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317092/02-GENBA-WH-CH520-W-Calidad-Sonido.jpg.jpg?v=638747999302930000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317093/03-GENBA-WH-CH520-W-Bateria.jpg.jpg?v=638747999302930000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317094/04-GENBA-WH-CH520-W-Confort.jpg.jpg?v=638747999303070000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317095/05-GENBA-WH-CH520-W-Diseno-Colores.jpg.jpg?v=638747999303070000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317096/06-GENBA-WH-CH520-W-Llamadas-Manos-Libres.jpg.jpg?v=638747999303230000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317097/07-GENBA-WH-CH520-W-Conexion-Multipunto.jpg.jpg?v=638747999303230000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317098/08-GENBA-WH-CH520-W-AsistenteDeVoz.jpg.jpg?v=638747999303400000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317099/09-GENBA-WH-CH520-W-Caja.jpg.jpg?v=638747999303700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317100/10-GENBA-WH-CH520-L-Eco.jpg.jpg?v=638747999304000000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 699,
+                "ListPrice": 1777,
+                "AvailableQuantity": 101,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 699,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 699,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "3355",
+          "ean": "4548736142879",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317101/00-GENBA-WH-CH520-L-Main-Image-Sony-Store-Online.jpg.jpg?v=638747999305570000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317102/01-GENBA-WH-CH520-L-Main-Image-Dealers.jpg.jpg?v=638747999305900000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317103/02-GENBA-WH-CH520-L-Calidad-Sonido.jpg.jpg?v=638747999306030000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317104/03-GENBA-WH-CH520-L-Bateria.jpg.jpg?v=638747999306200000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317105/04-GENBA-WH-CH520-L-Confort.jpg.jpg?v=638747999306370000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317106/05-GENBA-WH-CH520-L-Diseno-Colores.jpg.jpg?v=638747999306370000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317107/06-GENBA-WH-CH520-L-Llamadas-Manos-Libres.jpg.jpg?v=638747999306500000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317108/07-GENBA-WH-CH520-L-Conexion-Multipunto.jpg.jpg?v=638747999306670000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317109/08-GENBA-WH-CH520-L-AsistenteDeVoz.jpg.jpg?v=638747999306670000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317110/09-GENBA-WH-CH520-L-Caja.jpg.jpg?v=638747999307000000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317111/10-GENBA-WH-CH520-L-Eco.jpg.jpg?v=638747999307130000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 699,
+                "ListPrice": 1777,
+                "AvailableQuantity": 9,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 699,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 699,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "3682",
+          "ean": "27242932432",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317821/GENBA_WH-CH520_Yellow_01_MainImage_SSO.jpg.jpg?v=638786576131570000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317822/GENBA_WH-CH520_Yellow_02_MainImage_2000x2000px.jpg.jpg?v=638786576131900000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317823/GENBA_WH-CH520_Yellow_03_Razones_2000x2000px.jpg.jpg?v=638786576132200000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317824/GENBA_WH-CH520_Yellow_04_CalidadSonido_2000x2000px.jpg.jpg?v=638786576132330000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317825/GENBA_WH-CH520_Yellow_05_Bateria_2000x2000px.jpg.jpg?v=638786576132330000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317826/GENBA_WH-CH520_Yellow_06_Confort_2000x2000px.jpg.jpg?v=638786576132500000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317827/GENBA_WH-CH520_Yellow_07_Diseno-Colores_2000x2000px.jpg.jpg?v=638786576132670000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317828/GENBA_WH-CH520_Yellow_08_LlamadasMaonosLibres_2000x2000px.jpg.jpg?v=638786576132800000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317829/GENBA_WH-CH520_Yellow_09_ConexionMultipunto_2000x2000px.jpg.jpg?v=638786576132970000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317830/GENBA_WH-CH520_Yellow_10_AsistenteDeVoz_2000x2000px.jpg.jpg?v=638786576133130000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317831/GENBA_WH-CH520_Yellow_11_Caja_2000x2000px.jpg.jpg?v=638786576133300000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317832/GENBA_WH-CH520_Yellow_12_Sustentabilidad_2000x2000px.jpg.jpg?v=638786576133430000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 699,
+                "ListPrice": 1777,
+                "AvailableQuantity": 77,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 699,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 699,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "3683",
+          "ean": "27242932425",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317833/GENBA_WH-CH520_Pink_01_MainImage_SSO.jpg.jpg?v=638786576666170000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317834/GENBA_WH-CH520_Pink_02_MainImage_2000x2000px.jpg.jpg?v=638786576666330000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317835/GENBA_WH-CH520_Pink_03_Razones_2000x2000px.jpg.jpg?v=638786576667100000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317836/GENBA_WH-CH520_Pink_04_CalidadSonido_2000x2000px.jpg.jpg?v=638786576667600000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317837/GENBA_WH-CH520_Pink_05_Bateria_2000x2000px.jpg.jpg?v=638786576667730000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317838/GENBA_WH-CH520_Pink_06_Confort_2000x2000px.jpg.jpg?v=638786576667900000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317839/GENBA_WH-CH520_Pink_07_Diseno-Colores_2000x2000px.jpg.jpg?v=638786576668530000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317840/GENBA_WH-CH520_Pink_08_LlamadasMaonosLibres_2000x2000px.jpg.jpg?v=638786576668830000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317841/GENBA_WH-CH520_Pink_09_ConexionMultipunto_2000x2000px.jpg.jpg?v=638786576669300000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317842/GENBA_WH-CH520_Pink_10_AsistenteDeVoz_2000x2000px.jpg.jpg?v=638786576669600000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317843/GENBA_WH-CH520_Pink_11_Caja_2000x2000px.jpg.jpg?v=638786576670230000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317844/GENBA_WH-CH520_Pink_12_Sustentabilidad_2000x2000px.jpg.jpg?v=638786576670400000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 699,
+                "ListPrice": 1777,
+                "AvailableQuantity": 753,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 699,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 699,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "287",
+      "productName": "Audífonos interno serie EX",
+      "brand": "Sony",
+      "link": "https://store.sony.com.mx/mdr-ex110ap/p",
+      "items": [
+        {
+          "itemId": "407",
+          "ean": "27242868557",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/172810/d3e8f9088fcc35d4844b605adbc7473a.jpg?v=638943420567330000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 349,
+                "ListPrice": 516,
+                "AvailableQuantity": 31,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 349,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 349,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "410",
+          "ean": "27242868564",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/171518/449f54483b16d95ee103dd43bc0f8753.jpg?v=638943420568430000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/171510/8e5b10936d54edba962562afd2073dc4.jpg?v=638943420568600000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 349,
+                "ListPrice": 516,
+                "AvailableQuantity": 44,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 349,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 349,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "411",
+          "ean": "27242866928",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/172735/d8be6bb97c781143bd5d85164ea0be53.jpg?v=638943420568600000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/172720/57f37d369a771928fe5d5a95b086efee.jpg?v=638943420568600000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 349,
+                "ListPrice": 516,
+                "AvailableQuantity": 44,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 349,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 349,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1959",
+      "productName": "Audífonos deportivos Float Run",
+      "brand": "Sony",
+      "link": "https://store.sony.com.mx/float-run/p",
+      "items": [
+        {
+          "itemId": "3340",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/312806/WI-OE610_01_MainImage_SSO_1000x1000.jpg?v=638125067001270000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/312808/WI-OE610_01_MainImage_1000x1000.jpg?v=638943415643630000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/312809/WI-OE610_02_Diseño_1000x1000.jpg?v=638943415643800000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/312810/WI-OE610_03_Estabilidad_1000x1000.jpg?v=638943415643930000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/312811/WI-OE610_04_AjustePerfecto_1000x1000.jpg?v=638943415644100000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/312812/WI-OE610_05_Sonido_1000x1000.jpg?v=638943415644100000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/312813/WI-OE610_06_Resistencia_1000x1000.jpg?v=638943415644100000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/312814/WI-OE610_07_Bateria_1000x1000.jpg?v=638943415644270000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/312815/WI-OE610_08_ControlFacil_1000x1000.jpg?v=638943415644400000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/312816/WI-OE610_09_Enlacaja_1000x1000.jpg?v=638943415644400000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 2299,
+                "ListPrice": 2299,
+                "AvailableQuantity": 24,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 2299,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 2299,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "588",
+      "productName": "Audífonos plegables MDR-ZX310",
+      "brand": "Sony",
+      "link": "https://store.sony.com.mx/mdr-zx310ap/p",
+      "items": [
+        {
+          "itemId": "1028",
+          "ean": "27242869660",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/172776/fb0ca0319f3f6fc16dfc08f6ff1cdb38.jpg?v=639126600225530000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/172778/b9c8be90acb7028e07494a1362c44191.jpg?v=639126600225530000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/169191/fb0ca0319f3f6fc16dfc08f6ff1cdb38.png?v=639126600225700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/169200/7c0c16870b520639b32bdbcaa91b980c.png?v=639126600225700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/169211/b9c8be90acb7028e07494a1362c44191.png?v=639126600225700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/172754/7c0c16870b520639b32bdbcaa91b980c.jpg?v=639126600225870000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 419,
+                "ListPrice": 705,
+                "AvailableQuantity": 72,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 419,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 419,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "1700",
+          "ean": "27242869684",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/174356/ps_games_cover_size.jpg?v=636013987187800000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/174357/ps_games_cover11_size.jpg?v=639126600226000000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 419,
+                "ListPrice": 705,
+                "AvailableQuantity": 88,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 419,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 419,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "1701",
+          "ean": "27242869677",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/174358/blanco1.jpg?v=636013993788800000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 419,
+                "ListPrice": 705,
+                "AvailableQuantity": 45,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 419,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 419,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1966",
+      "productName": "Audífonos inalámbricos WH-CH720N",
+      "brand": "Sony",
+      "link": "https://store.sony.com.mx/wh-ch720n/p",
+      "items": [
+        {
+          "itemId": "3356",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317038/00-GENBA-WH-CH720N-W-Main-Image-Sony-Store-Online.jpg.jpg?v=638747953579230000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317039/01-GENBA-WH-CH720N-W-Main-Image-Dealers.jpg.jpg?v=638747953579870000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317040/02-GENBA-WH-CH720N-W-NoiseCancelling.jpg.jpg?v=638747953580170000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317041/03-GENBA-WH-CH720N-W-Confort.jpg.jpg?v=638747953580630000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317042/04-GENBA-WH-CH720N-W-CalidadDeSonido.jpg.jpg?v=638747953580800000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317043/05-GENBA-WH-CH720N-W-Bateria.jpg.jpg?v=638747953580800000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317044/06-GENBA-WH-CH720N-W-Llamadas-Manos-Libres.jpg.jpg?v=638747953581100000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317045/07-GENBA-WH-CH720N-W-Conexion-Multipunto.jpg.jpg?v=638747953581400000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317046/08-GENBA-WH-CH720N-W-Caja.jpg.jpg?v=638747953581900000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317047/09-GENBA-WH-CH720N-W-Eco.jpg.jpg?v=638747953582370000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1499,
+                "ListPrice": 2499,
+                "AvailableQuantity": 61,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1499,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1499,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "3357",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317048/00-GENBA-WH-CH720N-B-Main-Image-Sony-Store-Online.jpg.jpg?v=638747953582830000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317049/01-GENBA-WH-CH720N-B-Main-Image-Dealers.jpg.jpg?v=638747953582830000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317050/02-GENBA-WH-CH720N-B-NoiseCancelling.jpg.jpg?v=638747953582830000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317051/03-GENBA-WH-CH720N-B-Confort.jpg.jpg?v=638747953582830000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317052/04-GENBA-WH-CH720N-B-CalidadDeSonido.jpg.jpg?v=638747953582970000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317053/05-GENBA-WH-CH720N-B-Bateria.jpg.jpg?v=638747953582970000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317054/06-GENBA-WH-CH720N-B-Llamadas-Manos-Libres.jpg.jpg?v=638747953582970000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317055/07-GENBA-WH-CH720N-B-Conexion-Multipunto.jpg.jpg?v=638747953582970000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317056/08-GENBA-WH-CH720N-B-Caja.jpg.jpg?v=638747953583130000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317057/09-GENBA-WH-CH720N-B-Eco.jpg.jpg?v=638747953583130000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1499,
+                "ListPrice": 2499,
+                "AvailableQuantity": 199,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1499,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1499,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "3358",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317058/00-GENBA-WH-CH720N-L-Main-Image-Sony-Store-Online.jpg.jpg?v=638747953583430000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317059/01-GENBA-WH-CH720N-L-Main-Image-Dealers.jpg.jpg?v=638747953583430000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317060/02-GENBA-WH-CH720N-L-NoiseCancelling.jpg.jpg?v=638747953583600000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317061/03-GENBA-WH-CH720N-L-Confort.jpg.jpg?v=638747953583600000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317062/04-GENBA-WH-CH720N-L-CalidadDeSonido.jpg.jpg?v=638747953583600000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317063/05-GENBA-WH-CH720N-L-Bateria.jpg.jpg?v=638747953583600000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317064/06-GENBA-WH-CH720N-L-Llamadas-Manos-Libres.jpg.jpg?v=638747953583770000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317065/07-GENBA-WH-CH720N-L-Conexion-Multipunto.jpg.jpg?v=638747953583770000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317066/08-GENBA-WH-CH720N-L-Caja.jpg.jpg?v=638747953583770000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317067/09-GENBA-WH-CH720N-L-Eco.jpg.jpg?v=638747953583900000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1499,
+                "ListPrice": 2499,
+                "AvailableQuantity": 316,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1499,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1499,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "3684",
+          "ean": "27242932449",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317758/GENBA_WH-CH720N_Pink_01_MainImage_SSO.jpg.jpg?v=638785965710870000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317759/GENBA_WH-CH720N_Pink_02_MainImage_2000x2000px.jpg.jpg?v=638785965711330000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317760/GENBA_WH-CH720N_Pink_03_Razones_2000x2000px.jpg.jpg?v=638785965711500000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317761/GENBA_WH-CH720N_Pink_04_NoiseCancelling_2000x2000px.jpg.jpg?v=638785965711630000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317762/GENBA_WH-CH720N_Pink_05_CalidadDeSonido_2000x2000px.jpg.jpg?v=638785965711630000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317763/GENBA_WH-CH720N_Pink_06_Confort_2000x2000px.jpg.jpg?v=638785965711800000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317764/GENBA_WH-CH720N_Pink_07_Bateria_2000x2000px.jpg.jpg?v=638785965711800000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317765/GENBA_WH-CH720N_Pink_08_LlamadasMaonosLibres_2000x2000px.jpg.jpg?v=638785965711970000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317766/GENBA_WH-CH720N_Pink_09_ConexionMultipunto_2000x2000px.jpg.jpg?v=638785965712270000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317767/GENBA_WH-CH720N_Pink_10_Caja_2000x2000px.jpg.jpg?v=638785965712430000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317768/GENBA_WH-CH720N_Pink_11_Sustentabilidad_2000x2000px.jpg.jpg?v=638785965712430000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1499,
+                "ListPrice": 2499,
+                "AvailableQuantity": 227,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1499,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1499,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "2109",
+      "productName": "Audífonos \"True Wireless\" WF-C510",
+      "brand": "Sony",
+      "link": "https://store.sony.com.mx/wf-c510/p",
+      "items": [
+        {
+          "itemId": "3543",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317279/GENBA_WF-C510-L_01_MainImage_1000x1000px.jpg?v=638755101020270000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317280/GENBA_WF-C510-L_02_Razones_1000x1000px.jpg?v=638755101020600000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317281/GENBA_WF-C510-L_03_Bateria_1000x1000px.jpg?v=638755101020730000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317282/GENBA_WF-C510-L_04_Diseño_1000x1000px.jpg?v=638755101020900000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317283/GENBA_WF-C510-L_05_ConexionMultipunto_1000x1000px.jpg?v=638755101021070000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317284/GENBA_WF-C510-L_06_CalidadSonido_1000x1000px.jpg.jpg?v=638755101021400000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317285/GENBA_WF-C510-L_07_SonidoAmbiente_1000x1000px.jpg?v=638755101021570000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317286/GENBA_WF-C510-L_08_Resistencia_1000x1000px.jpg?v=638755101021700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317287/GENBA_WF-C510-L_09_EnLaCaja_1000x1000px.jpg?v=638755101022030000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317288/GENBA_WF-C510-L_10_Sostenibilidad_1000x1000px.jpg?v=638755101022030000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 749,
+                "ListPrice": 1719,
+                "AvailableQuantity": 37,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 749,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 749,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "3544",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317289/GENBA_WF-C510-Y_01_MainImage_1000x1000px.jpg?v=638755101022500000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317290/GENBA_WF-C510-Y_02_Razones_1000x1000px.jpg?v=638755101022500000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317291/GENBA_WF-C510-Y_03_Bateria_1000x1000px.jpg?v=638755101022670000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317292/GENBA_WF-C510-Y_04_Diseño_1000x1000px.jpg?v=638755101022800000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317293/GENBA_WF-C510-Y_05_ConexionMultipunto_1000x1000px.jpg?v=638755101022800000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317294/GENBA_WF-C510-Y_06_CalidadSonido_1000x1000px.jpg.jpg?v=638755101022800000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317295/GENBA_WF-C510-Y_07_SonidoAmbiente_1000x1000px.jpg?v=638755101022970000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317296/GENBA_WF-C510-Y_08_Resistencia_1000x1000px.jpg?v=638755101022970000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317297/GENBA_WF-C510-Y_09_EnLaCaja_1000x1000px.jpg?v=638755101022970000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317298/GENBA_WF-C510-Y_10_Sostenibilidad_1000x1000px.jpg?v=638755101022970000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 749,
+                "ListPrice": 1719,
+                "AvailableQuantity": 34,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 749,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 749,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "3545",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317299/GENBA_WF-C510-B_01_MainImage_1000x1000px.jpg?v=638755101207300000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317300/GENBA_WF-C510-B_02_Razones_1000x1000px.jpg?v=638755101207470000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317301/GENBA_WF-C510-B_03_Bateria_1000x1000px.jpg?v=638755101207470000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317302/GENBA_WF-C510-B_04_Diseño_1000x1000px.jpg?v=638755101207470000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317303/GENBA_WF-C510-B_05_ConexionMultipunto_1000x1000px.jpg?v=638755101207470000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317304/GENBA_WF-C510-B_06_CalidadSonido_1000x1000px.jpg.jpg?v=638755101207630000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317305/GENBA_WF-C510-B_07_SonidoAmbiente_1000x1000px.jpg?v=638755101207630000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317306/GENBA_WF-C510-B_08_Resistencia_1000x1000px.jpg?v=638755101207800000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317307/GENBA_WF-C510-B_09_EnLaCaja_1000x1000px.jpg?v=638755101207800000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317308/GENBA_WF-C510-B_10_Sostenibilidad_1000x1000px.jpg?v=638755101207800000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 749,
+                "ListPrice": 1719,
+                "AvailableQuantity": 433,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 749,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 749,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "3546",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317309/GENBA_WF-C510-W_01_MainImage_1000x1000px.jpg?v=638755101208270000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317310/GENBA_WF-C510-W_02_Razones_1000x1000px.jpg?v=638755101208270000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317311/GENBA_WF-C510-W_03_Bateria_1000x1000px.jpg?v=638755101208400000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317312/GENBA_WF-C510-W_04_Diseño_1000x1000px.jpg?v=638755101208730000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317313/GENBA_WF-C510-W_05_ConexionMultipunto_1000x1000px.jpg?v=638755101208870000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317314/GENBA_WF-C510-W_06_CalidadSonido_1000x1000px.jpg.jpg?v=638755101209030000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317315/GENBA_WF-C510-W_07_SonidoAmbiente_1000x1000px.jpg?v=638755101209200000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317316/GENBA_WF-C510-W_08_Resistencia_1000x1000px.jpg?v=638755101209330000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317317/GENBA_WF-C510-W_09_EnLaCaja_1000x1000px.jpg?v=638755101209500000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/317318/GENBA_WF-C510-W_10_Sostenibilidad_1000x1000px.jpg?v=638755101209500000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 749,
+                "ListPrice": 1719,
+                "AvailableQuantity": 48,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 749,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 749,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1909",
+      "productName": "Audífonos internos inalámbricos WI-C100",
+      "brand": "Sony",
+      "link": "https://store.sony.com.mx/wi-c100/p",
+      "items": [
+        {
+          "itemId": "3261",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/312137/1-Product-WI-C100-N.jpg?v=637998296058730000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311531/1-Product-WI-C100-N.jpg?v=638943417644370000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311532/2-Size-WI-C100-N.jpg?v=638943417644670000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311533/3-Connectivity-WI-C100-N.jpg?v=638943417644670000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311534/4-Settings-WI-C100-N.jpg?v=638943417644830000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311535/5-Resistance-WI-C100-N.jpg?v=638943417645000000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311762/6-Inthebox-WI-C100-N.jpg?v=638943417645000000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 429,
+                "ListPrice": 856,
+                "AvailableQuantity": 61,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 429,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 429,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "3262",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/312138/1-Product-WI-C100-B.jpg?v=637998307849770000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311537/1-Product-WI-C100-B.jpg?v=638943417645130000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311538/2-Size-WI-C100-B.jpg?v=638943417645130000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311539/3-Connectivity-WI-C100-B.jpg?v=638943417645300000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311540/4-Settings-WI-C100-B.jpg?v=638943417645300000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311541/5-Resistance-WI-C100-B.jpg?v=638943417645300000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311763/6-Inthebox-WI-C100-B.jpg?v=638943417645300000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 429,
+                "ListPrice": 856,
+                "AvailableQuantity": 224,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 429,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 429,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "3263",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/312136/1-Product-WI-C100-L.jpg?v=637998294529900000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311543/1-Product-WI-C100-L.jpg?v=638943417645470000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311544/2-Size-WI-C100-L.jpg?v=638943417645470000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311545/3-Connectivity-WI-C100-L.jpg?v=638943417645470000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311546/4-Settings-WI-C100-L.jpg?v=638943417645470000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311547/5-Resistance-WI-C100-L.jpg?v=638943417645630000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311764/6-Inthebox-WI-C100-L.jpg?v=638943417645630000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 429,
+                "ListPrice": 856,
+                "AvailableQuantity": 122,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 429,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 429,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "3264",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/312139/1-Product-WI-C100-W.jpg?v=637998309074430000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311549/1-Product-WI-C100-W.jpg?v=638943417645700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311550/2-Size-WI-C100-W.jpg?v=638943417645700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311551/3-Connectivity-WI-C100-W.jpg?v=638943417645700000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311552/4-Settings-WI-C100-W.jpg?v=638943417645830000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311553/5-Resistance-WI-C100-W.jpg?v=638943417645830000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/311765/6-Inthebox-WI-C100-W.jpg?v=638943417645830000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 429,
+                "ListPrice": 856,
+                "AvailableQuantity": 70,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 429,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 429,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "226",
+      "productName": "Audífonos tipo diadema serie ZX",
+      "brand": "Sony",
+      "link": "https://store.sony.com.mx/mdr-zx110ap/p",
+      "items": [
+        {
+          "itemId": "450",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/171125/8e2364ea770052eb890f78ce3ad936f5.jpg?v=638943423974130000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/171126/edf4008ab0018bab29a2ec9ed4be6a25.jpg?v=638943423974470000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/165205/edf4008ab0018bab29a2ec9ed4be6a25.png?v=638943423974470000"
+            },
+            {
+              "imageUrl": "https://mxsonyb2c.vteximg.com.br/arquivos/ids/165213/8e2364ea770052eb890f78ce3ad936f5.png?v=638943423974470000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 349,
+                "ListPrice": 516,
+                "AvailableQuantity": 40,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 349,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 349,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

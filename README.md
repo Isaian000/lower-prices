@@ -82,7 +82,7 @@ Cada tienda se integra con la mejor fuente disponible, en este orden:
 3. **API pública de la plataforma de la tienda**: endpoints JSON públicos y sin autenticación que usa el propio sitio de la tienda (p. ej. el catálogo de VTEX). Son estables y estructurados, pero no hay un acuerdo formal con la tienda.
 4. **Scraping de HTML**, solo si no existe ninguna de las anteriores y los términos de uso lo permiten. Se marca como fuente frágil.
 
-### Tiendas para el MVP: tiendas VTEX (verificado el 2026-11-06)
+### Tiendas para el MVP: tiendas VTEX (verificado el 2026-11-06 y el 2026-11-07)
 
 Varias tiendas mexicanas usan la plataforma **VTEX**, que expone una API pública de búsqueda de catálogo en JSON, sin credenciales:
 
@@ -92,14 +92,47 @@ GET https://<tienda>/api/catalog_system/pub/products/search?ft=<texto>&_from=0&_
 
 Devuelve nombre, marca, **EAN (código de barras)**, modelo, precio, precio de lista, disponibilidad, imágenes y enlace. Un solo **adaptador VTEX genérico**, configurado por tienda, cubre todas.
 
-| Tienda    | Fuente           | Estado        | Notas                                          |
-| --------- | ---------------- | ------------- | ---------------------------------------------- |
-| Elektra   | API pública VTEX | ✅ Verificada | Electrónica, línea blanca, celulares, muebles. |
-| Chedraui  | API pública VTEX | ✅ Verificada | Supermercado + electrónica y hogar.            |
-| OfficeMax | API pública VTEX | ✅ Verificada | Papelería, cómputo y oficina.                  |
-| Martí     | API pública VTEX | ✅ Verificada | Deportes.                                      |
+| Tienda              | Fuente           | Estado        | Notas                                                                    |
+| ------------------- | ---------------- | ------------- | ------------------------------------------------------------------------ |
+| Elektra             | API pública VTEX | ✅ Verificada | Electrónica, línea blanca, celulares, muebles.                           |
+| Chedraui            | API pública VTEX | ✅ Verificada | Supermercado + electrónica y hogar.                                      |
+| OfficeMax           | API pública VTEX | ✅ Verificada | Papelería, cómputo y oficina.                                            |
+| Martí               | API pública VTEX | ✅ Verificada | Deportes.                                                                |
+| Whirlpool           | API pública VTEX | ✅ Verificada | Tienda oficial de marca: lavadoras, refrigeradores, cocina. Informa MSI. |
+| Oster               | API pública VTEX | ✅ Verificada | Tienda oficial de marca: electrodomésticos de cocina.                    |
+| T-fal               | API pública VTEX | ✅ Verificada | Tienda oficial de marca: utensilios de cocina. Publica el modelo.        |
+| Sony                | API pública VTEX | ✅ Verificada | Tienda oficial de marca. No siempre publica código de barras.            |
+| Mixup               | API pública VTEX | ✅ Verificada | Música, audio, electrónica (multimarca). Informa MSI.                    |
+| iShop Mixup         | API pública VTEX | ✅ Verificada | Apple. Informa MSI.                                                      |
+| Juguetron           | API pública VTEX | ✅ Verificada | Juguetes (multimarca).                                                   |
+| Farmacias Similares | API pública VTEX | ✅ Verificada | Farmacia.                                                                |
+| Vinoteca            | API pública VTEX | ✅ Verificada | Vinos y licores (multimarca).                                            |
+| Devlyn              | API pública VTEX | ✅ Verificada | Óptica y lentes de sol.                                                  |
+| Miniso              | API pública VTEX | ✅ Verificada | Hogar, regalos y accesorios.                                             |
+| Voit                | API pública VTEX | ✅ Verificada | Deportes.                                                                |
+| Asics               | API pública VTEX | ✅ Verificada | Tienda oficial de marca. Informa MSI.                                    |
+| Vans                | API pública VTEX | ✅ Verificada | Tienda oficial de marca. Informa MSI.                                    |
+| Timberland          | API pública VTEX | ✅ Verificada | Tienda oficial de marca. Informa MSI.                                    |
+| The North Face      | API pública VTEX | ✅ Verificada | Tienda oficial de marca.                                                 |
+| Levi's              | API pública VTEX | ✅ Verificada | Tienda oficial de marca.                                                 |
+| Guess               | API pública VTEX | ✅ Verificada | Tienda oficial de marca.                                                 |
+| Carter's            | API pública VTEX | ✅ Verificada | Tienda oficial de marca, ropa infantil.                                  |
 
 > Se comprobó que Elektra y Chedraui venden la misma pantalla TCL con el mismo EAN, así que la agrupación por código de barras funciona entre tiendas reales.
+
+### Tiendas Shopify vía UCP (verificado el 2026-11-07)
+
+Muchas tiendas mexicanas en **Shopify** publican un servidor oficial del **Universal Commerce Protocol (UCP)** para agentes. Se descubre en `https://<tienda>/.well-known/ucp` y expone la herramienta MCP `search_catalog` (JSON-RPC por `POST https://<tienda>.myshopify.com/api/ucp/mcp`). Un **adaptador Shopify genérico** (`apps/api/src/stores/shopify/`) cubre todas.
+
+- **Requisito:** cada consulta lleva la URL pública de nuestro **perfil de agente UCP**, y la tienda la descarga para validarla (sin ella responde `invalid_profile_url`). La API sirve ese perfil en `GET /.well-known/ucp`, y declara solo lectura de catálogo. Por eso las tiendas Shopify **se activan solo cuando existe `UCP_AGENT_PROFILE_URL`**, es decir, después de desplegar la API en un dominio público.
+- **Datos:** nombre, precio y precio de lista (en centavos, se convierten a pesos), disponibilidad, imagen, enlace y SKU. UCP **no publica marca, código de barras ni MSI**. En las tiendas oficiales la marca se toma de la configuración; en las multimarca esas ofertas se agrupan solo por título.
+- **Paginación:** `search_catalog` usa un cursor opaco. El adaptador pide los primeros `offset + limit` productos y recorta, así que llega hasta 250 resultados por búsqueda.
+- **Pendiente:** las pruebas usan respuestas armadas según el esquema oficial. Al desplegar, grabar respuestas reales y verificar que las tiendas acepten el perfil.
+
+| Tipo             | Tiendas                                                                                                                                |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Multimarca       | +Kota (mascotas), Doto, Calzzapato, Cklass, Lolaflora, WeCare Pharma, La Castellana, La Europea                                        |
+| Oficial de marca | Aldo Conti, Crocs, Steve Madden, Koblenz, Taurus, Jafra, New Era, Tupperware, Oggi, Shasa, Wrangler, Columbia, Merrell, Salomon, GoPro |
 
 ### Otras tiendas (fases posteriores)
 
@@ -165,6 +198,8 @@ Con categorías tan variadas no es viable mantener un catálogo propio de todo. 
   1. **GTIN/EAN/UPC** (código de barras): confianza muy alta.
   2. **Marca + modelo** normalizados: confianza alta.
   3. **Similitud del título** normalizado por encima de un umbral: confianza media.
+
+  Antes de agrupar, un **filtro de relevancia** descarta las ofertas cuyo nombre, marca y modelo no contienen las palabras buscadas (todas si son 1 o 2; el 60 % si son más), para que las tiendas de un solo giro o de marca no metan resultados ajenos. Los accesorios que no se buscaron (fundas, micas, cargadores… al buscar un teléfono) bajan al final del orden por relevancia.
 
   Además, saca del grupo las ofertas con un precio muy alejado del resto (probables accesorios) y junta los duplicados dentro de una misma tienda (p. ej. varios vendedores con la misma publicación de catálogo en Mercado Libre), mostrando el más barato. Cada grupo indica con qué nivel se agrupó (`matchedBy`).
 
@@ -327,21 +362,22 @@ pnpm dev            # levanta la API (:4000) y la web (:3000) a la vez
 
 Todas son opcionales en desarrollo. Se pueden poner en un archivo `.env` dentro de cada app (no se versiona).
 
-| App | Variable                                              | Por defecto             | Descripción                                                                                    |
-| --- | ----------------------------------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------- |
-| api | `PORT`                                                | `4000`                  | Puerto de la API                                                                               |
-| api | `NODE_ENV`                                            | `development`           | `development` \| `production` \| `test`                                                        |
-| api | `LOG_LEVEL`                                           | `info`                  | Nivel de logs de `pino` (`silent` para apagarlos)                                              |
-| api | `STORE_TIMEOUT_MS`                                    | `2500`                  | Tiempo máximo de espera por tienda                                                             |
-| api | `STORE_PAGE_SIZE`                                     | `10`                    | Resultados por tienda en cada bloque de "cargar más"                                           |
-| api | `CACHE_TTL_SECONDS`                                   | `600`                   | Vida de la caché de resultados por tienda                                                      |
-| api | `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` | —                       | Si ambas están definidas se usa Upstash Redis; si no, caché en memoria                         |
-| api | `KV_REST_API_URL` / `KV_REST_API_TOKEN`               | —                       | Alternativa a las dos anteriores: son los nombres que crea la integración de Upstash en Vercel |
-| api | `STORE_FAILURE_THRESHOLD`                             | `3`                     | Fallas seguidas de una tienda antes de pausarla                                                |
-| api | `STORE_PAUSE_SECONDS`                                 | `60`                    | Duración de la pausa de una tienda que falla                                                   |
-| api | `CORS_ORIGINS`                                        | `http://localhost:3000` | Orígenes que pueden llamar a la API desde el navegador, separados por coma                     |
-| web | `PORT`                                                | `3000`                  | Puerto de la web                                                                               |
-| web | `API_URL`                                             | `http://localhost:4000` | URL de la API (solo se usa en el servidor)                                                     |
+| App | Variable                                              | Por defecto             | Descripción                                                                                                                         |
+| --- | ----------------------------------------------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| api | `PORT`                                                | `4000`                  | Puerto de la API                                                                                                                    |
+| api | `NODE_ENV`                                            | `development`           | `development` \| `production` \| `test`                                                                                             |
+| api | `LOG_LEVEL`                                           | `info`                  | Nivel de logs de `pino` (`silent` para apagarlos)                                                                                   |
+| api | `STORE_TIMEOUT_MS`                                    | `2500`                  | Tiempo máximo de espera por tienda                                                                                                  |
+| api | `STORE_PAGE_SIZE`                                     | `10`                    | Resultados por tienda en cada bloque de "cargar más"                                                                                |
+| api | `CACHE_TTL_SECONDS`                                   | `600`                   | Vida de la caché de resultados por tienda                                                                                           |
+| api | `UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` | —                       | Si ambas están definidas se usa Upstash Redis; si no, caché en memoria                                                              |
+| api | `KV_REST_API_URL` / `KV_REST_API_TOKEN`               | —                       | Alternativa a las dos anteriores: son los nombres que crea la integración de Upstash en Vercel                                      |
+| api | `STORE_FAILURE_THRESHOLD`                             | `3`                     | Fallas seguidas de una tienda antes de pausarla                                                                                     |
+| api | `STORE_PAUSE_SECONDS`                                 | `60`                    | Duración de la pausa de una tienda que falla                                                                                        |
+| api | `UCP_AGENT_PROFILE_URL`                               | —                       | URL pública `https` del perfil de agente UCP (p. ej. `https://<api>/.well-known/ucp`). Sin ella no se consultan las tiendas Shopify |
+| api | `CORS_ORIGINS`                                        | `http://localhost:3000` | Orígenes que pueden llamar a la API desde el navegador, separados por coma                                                          |
+| web | `PORT`                                                | `3000`                  | Puerto de la web                                                                                                                    |
+| web | `API_URL`                                             | `http://localhost:4000` | URL de la API (solo se usa en el servidor)                                                                                          |
 
 ### Endpoints de la API
 
@@ -349,6 +385,7 @@ Todas son opcionales en desarrollo. Se pueden poner en un archivo `.env` dentro 
 | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | `GET /api/health`                                              | Estado de la API                                                                                                    |
 | `GET /api/openapi.json`                                        | Documentación OpenAPI 3.1 de la API                                                                                 |
+| `GET /.well-known/ucp`                                         | Perfil de agente UCP que descargan las tiendas Shopify                                                              |
 | `GET /api/stores`                                              | Tiendas disponibles                                                                                                 |
 | `GET /api/search?q=&cursor=&sort=&stores=&minPrice=&maxPrice=` | Búsqueda agrupada. `sort`: `relevance` (por defecto), `price_asc` o `price_desc`. `stores`: ids separados por coma. |
 
@@ -374,7 +411,8 @@ Las tiendas que fallan no pasan al cursor de "cargar más", para no reintentar u
 2. En Vercel: **Add New → Project**, importar el repositorio y poner **Root Directory** = `apps/api`. Vercel detecta Express solo (`src/app.ts` exporta la app por defecto); no hace falta `vercel.json`.
 3. En **Storage → Upstash (Redis)**, crear una base gratuita y conectarla al proyecto. Eso crea `KV_REST_API_URL` y `KV_REST_API_TOKEN`, que la API ya reconoce.
 4. Cuando exista la web, agregar su dominio en `CORS_ORIGINS`.
-5. Desplegar y probar `/api/health` y `/api/search?q=tv`. Hay que confirmar que las tiendas VTEX no bloqueen las IP de Vercel: si aparecen en `error`, revisar los logs del proyecto.
+5. Definir `UCP_AGENT_PROFILE_URL` = `https://<dominio de la API>/.well-known/ucp` para activar las 23 tiendas Shopify.
+6. Desplegar y probar `/api/health` y `/api/search?q=tv`. Hay que confirmar que las tiendas VTEX no bloqueen las IP de Vercel: si aparecen en `error`, revisar los logs del proyecto.
 
 ### Diseño de la interfaz
 
@@ -460,11 +498,12 @@ Esta fase arranca **con datos reales** de las tiendas VTEX (Elektra, Chedraui, O
 
 6. ✅ Mejoras del backend: enlace de salida, búsquedas simultáneas, pausa por tienda, seguridad y OpenAPI.
 7. Desplegar la API en Vercel (con Upstash Redis). Preparado; falta crear las cuentas.
-8. Sumar Mercado Libre, Amazon (Creators API) y tiendas con afiliados conforme se obtenga acceso.
+8. ✅ Adaptador Shopify vía UCP para 23 tiendas (se activa con `UCP_AGENT_PROFILE_URL` al desplegar).
+9. Sumar Mercado Libre, Amazon (Creators API) y tiendas con afiliados conforme se obtenga acceso.
 
 **Frontend (al final)**
 
-9. ✅ Construir el frontend en React con skills de diseño: buscador, resultados agrupados, meses sin intereses y "cargar más".
-10. Desplegar la web en Vercel.
+10. ✅ Construir el frontend en React con skills de diseño: buscador, resultados agrupados, meses sin intereses y "cargar más".
+11. Desplegar la web en Vercel.
 
-**Estado:** la búsqueda del backend funciona (pasos 1 a 5). `/api/search` consulta las 4 tiendas reales en unos 300 ms, agrupa por GTIN entre tiendas (p. ej. la misma pantalla TCL 65Q5K en Elektra y Chedraui), muestra MSI y pagina con "cargar más". Ya tiene pausa por tienda, seguridad, enlaces de salida validados y documentación OpenAPI (78 pruebas). El frontend ya está construido (paso 9) con el diseño de etiqueta de anaquel (minimalista en blanco). Siguiente: desplegar la API y la web en Vercel.
+**Estado:** la búsqueda del backend funciona (pasos 1 a 5). `/api/search` consulta las 4 tiendas reales en unos 300 ms, agrupa por GTIN entre tiendas (p. ej. la misma pantalla TCL 65Q5K en Elektra y Chedraui), muestra MSI y pagina con "cargar más". Ya tiene pausa por tienda, seguridad, enlaces de salida validados y documentación OpenAPI (78 pruebas). El frontend ya está construido (paso 9) con el diseño de etiqueta de anaquel (minimalista en blanco). Además consulta 23 tiendas VTEX y tiene listo el adaptador Shopify (UCP) para 23 más, que se activa al desplegar. Siguiente: desplegar la API y la web en Vercel.

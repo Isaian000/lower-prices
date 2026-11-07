@@ -1,0 +1,556 @@
+{
+  "store": "tfal",
+  "query": "sarten",
+  "status": 206,
+  "resources": "0-9/60",
+  "recordedAt": "2026-11-07T21:17:23.963Z",
+  "body": [
+    {
+      "productId": "111",
+      "productName": "Sartén 20cm Delight",
+      "brand": "T-fal",
+      "link": "https://www.t-fal.com.mx/sarten-20cm-delight/p",
+      "Modelo": ["g2930202"],
+      "items": [
+        {
+          "itemId": "1032",
+          "ean": "3168430342262",
+          "images": [
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158813/2100125863_G2930202_SARTEN20CMDELIGHT-1-.jpg?v=638950373711400000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158814/2100125863_G2930202_SARTEN20CMDELIGHT-2-.jpg?v=638950373711600000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158815/2100125863_G2930202_SARTEN20CMDELIGHT-3-.jpg?v=638950373711600000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158816/2100125863_G2930202_SARTEN20CMDELIGHT-4-.jpg?v=638950373711600000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158817/2100125863_G2930202_SARTEN20CMDELIGHT-5-.jpg?v=638950373711600000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158818/2100125863_G2930202_SARTEN20CMDELIGHT-6-.jpg?v=638950373711770000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 699,
+                "ListPrice": 699,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 699,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 699,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "226",
+      "productName": "Sartén 30cm Emotion SS",
+      "brand": "T-fal",
+      "link": "https://www.t-fal.com.mx/sarten-30cm-emotion-ss/p",
+      "Modelo": ["E3000704"],
+      "items": [
+        {
+          "itemId": "971",
+          "ean": "3168430310025",
+          "images": [
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158065/2100117989_E3000704_Sarten_30cm_Emotion_SS-1-.jpg?v=638932150849300000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158066/2100117989_E3000704_Sarten_30cm_Emotion_SS-2-.jpg?v=638932150849470000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158067/2100117989_E3000704_Sarten_30cm_Emotion_SS-3-.jpg?v=638932150849470000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158068/2100117989_E3000704_Sarten_30cm_Emotion_SS-4-.jpg?v=638932150849470000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158069/2100117989_E3000704_Sarten_30cm_Emotion_SS-5-.jpg?v=638932150849600000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158070/2100117989_E3000704_Sarten_30cm_Emotion_SS-6-.jpg?v=638932150849600000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 699,
+                "ListPrice": 699,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 699,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 699,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "202",
+      "productName": "Sartén 20cm Daily expert rojo",
+      "brand": "T-fal",
+      "link": "https://www.t-fal.com.mx/sarten-20cm-daily-expert-rojo-931/p",
+      "Modelo": ["C2890202"],
+      "items": [
+        {
+          "itemId": "931",
+          "ean": "3168430353053",
+          "images": [
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158432/2100129936_C2890202_SARTEN20CMDAILYEXPERT-1-.jpg?v=638950302804570000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158433/2100129936_C2890202_SARTEN20CMDAILYEXPERT-2-.jpg?v=638950302804870000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158434/2100129936_C2890202_SARTEN20CMDAILYEXPERT-3-.jpg?v=638950302804870000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158435/2100129936_C2890202_SARTEN20CMDAILYEXPERT-4-.jpg?v=638950302805030000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158436/2100129936_C2890202_SARTEN20CMDAILYEXPERT-5-.jpg?v=638950302805030000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158437/2100129936_C2890202_SARTEN20CMDAILYEXPERT-6-.jpg?v=638950302805170000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 659,
+                "ListPrice": 849,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 659,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 659,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "343",
+      "productName": "Sartén Excellence+ 30cm Fusion Core",
+      "brand": "T-fal",
+      "link": "https://www.t-fal.com.mx/sarten-excellence--30cm-fusion-core/p",
+      "Modelo": ["G3300702"],
+      "items": [
+        {
+          "itemId": "1092",
+          "ean": "3168430376403",
+          "images": [
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159477/2100139013_G3300702_SARTEN30CMCCEXCELLENCE--01-.jpg?v=639123224580430000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159478/2100139013_G3300702_SARTEN30CMCCEXCELLENCE--02-.jpg?v=639123224580600000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159479/2100139013_G3300702_SARTEN30CMCCEXCELLENCE--03-.jpg?v=639123224580600000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159480/2100139013_G3300702_SARTEN30CMCCEXCELLENCE--04-.jpg?v=639123224580600000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159481/2100139013_G3300702_SARTEN30CMCCEXCELLENCE--05-.jpg?v=639123224580600000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159482/2100139013_G3300702_SARTEN30CMCCEXCELLENCE--06-.jpg?v=639123224580600000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1839,
+                "ListPrice": 2299,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1839,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1839,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "204",
+      "productName": "Sartén 28cm Daily expert rojo",
+      "brand": "T-fal",
+      "link": "https://www.t-fal.com.mx/sarten-28cm-daily-expert-rojo-929/p",
+      "Modelo": ["C2890602"],
+      "items": [
+        {
+          "itemId": "929",
+          "ean": "3168430353046",
+          "images": [
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158452/2100129935_C2890602_SARTEN28CMDAILYEXPERT-1-.jpg?v=638950306320600000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158453/2100129935_C2890602_SARTEN28CMDAILYEXPERT-2-.jpg?v=638950306320600000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158454/2100129935_C2890602_SARTEN28CMDAILYEXPERT-3-.jpg?v=638950306320600000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158455/2100129935_C2890602_SARTEN28CMDAILYEXPERT-4-.jpg?v=638950306320770000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158456/2100129935_C2890602_SARTEN28CMDAILYEXPERT-5-.jpg?v=638950306320770000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158457/2100129935_C2890602_SARTEN28CMDAILYEXPERT-6-.jpg?v=638950306320770000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1009,
+                "ListPrice": 1299,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1009,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1009,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "205",
+      "productName": "Sartén 32cm Daily expert rojo",
+      "brand": "T-fal",
+      "link": "https://www.t-fal.com.mx/sarten-32cm-daily-expert-rojo-928/p",
+      "Modelo": ["C2890802"],
+      "items": [
+        {
+          "itemId": "928",
+          "ean": "3168430353060",
+          "images": [
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158462/2100129937_C2890802_SARTEN32CMDAILYEXPERT-1-.jpg?v=638950307659800000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158463/2100129937_C2890802_SARTEN32CMDAILYEXPERT-2-.jpg?v=638950307659800000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158464/2100129937_C2890802_SARTEN32CMDAILYEXPERT-3-.jpg?v=638950307659930000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158465/2100129937_C2890802_SARTEN32CMDAILYEXPERT-4-.jpg?v=638950307659930000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158466/2100129937_C2890802_SARTEN32CMDAILYEXPERT-5-.jpg?v=638950307659930000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158467/2100129937_C2890802_SARTEN32CMDAILYEXPERT-6-.jpg?v=638950307659930000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1149,
+                "ListPrice": 1499,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1149,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1149,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "345",
+      "productName": "Sartén Excellence+ 20cm Fusion Core",
+      "brand": "T-fal",
+      "link": "https://www.t-fal.com.mx/sarten-excellence--20cm-fusion-core/p",
+      "Modelo": ["G3300202"],
+      "items": [
+        {
+          "itemId": "1094",
+          "ean": "3168430376410",
+          "images": [
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159465/2100139014_G3300202_SARTEN20CMCCEXCELLENCE--01-.jpg?v=639123224385570000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159466/2100139014_G3300202_SARTEN20CMCCEXCELLENCE--02-.jpg?v=639123224385700000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159467/2100139014_G3300202_SARTEN20CMCCEXCELLENCE--03-.jpg?v=639123224385700000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159468/2100139014_G3300202_SARTEN20CMCCEXCELLENCE--04-.jpg?v=639123224385700000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159469/2100139014_G3300202_SARTEN20CMCCEXCELLENCE--05-.jpg?v=639123224385700000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159470/2100139014_G3300202_SARTEN20CMCCEXCELLENCE--06-.jpg?v=639123224385700000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1199,
+                "ListPrice": 1499,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1199,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1199,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "339",
+      "productName": "Sartén Excellence+ 24cm Fusion Core",
+      "brand": "T-fal",
+      "link": "https://www.t-fal.com.mx/sarten-excellence--24cm-fusion-core/p",
+      "Modelo": ["G3300402"],
+      "items": [
+        {
+          "itemId": "1088",
+          "ean": "3168430376380",
+          "images": [
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159471/2100139011_G3300402_SARTEN24CMCCEXCELLENCE--01-.jpg?v=639123224485830000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159472/2100139011_G3300402_SARTEN24CMCCEXCELLENCE--02-.jpg?v=639123224486000000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159473/2100139011_G3300402_SARTEN24CMCCEXCELLENCE--03-.jpg?v=639123224486000000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159474/2100139011_G3300402_SARTEN24CMCCEXCELLENCE--04-.jpg?v=639123224486000000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159475/2100139011_G3300402_SARTEN24CMCCEXCELLENCE--05-.jpg?v=639123224486000000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159476/2100139011_G3300402_SARTEN24CMCCEXCELLENCE--06-.jpg?v=639123224486170000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1359,
+                "ListPrice": 1699,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1359,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1359,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "203",
+      "productName": "Sartén 24cm Daily expert rojo",
+      "brand": "T-fal",
+      "link": "https://www.t-fal.com.mx/sarten-24cm-daily-expert-rojo-930/p",
+      "Modelo": ["C2890402"],
+      "items": [
+        {
+          "itemId": "930",
+          "ean": "3168430353039",
+          "images": [
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158442/2100129934_C2890402_SARTEN24CMDAILYEXPERT-1-.jpg?v=638950304787830000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158443/2100129934_C2890402_SARTEN24CMDAILYEXPERT-2-.jpg?v=638950304788000000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158444/2100129934_C2890402_SARTEN24CMDAILYEXPERT-3-.jpg?v=638950304788000000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158445/2100129934_C2890402_SARTEN24CMDAILYEXPERT-4-.jpg?v=638950304788130000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158446/2100129934_C2890402_SARTEN24CMDAILYEXPERT-5-.jpg?v=638950304788130000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/158447/2100129934_C2890402_SARTEN24CMDAILYEXPERT-6-.jpg?v=638950304788130000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 839,
+                "ListPrice": 1099,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 839,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 839,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "365",
+      "productName": "Sartén 26cm Tri-ply Mesh",
+      "brand": "T-fal",
+      "link": "https://www.t-fal.com.mx/sarten-26cm-tri-ply-mesh-e5260564/p",
+      "Modelo": ["E5260564"],
+      "items": [
+        {
+          "itemId": "1114",
+          "ean": "32406070158",
+          "images": [
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159705/2100134292_E5260564_HYBRID-MESH-SS-10.25-INCH-FRYPAN-01.webp?v=639148783866930000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159706/2100134292_E5260564_HYBRID-MESH-SS-10.25-INCH-FRYPAN-02.webp?v=639148783867370000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159707/2100134292_E5260564_HYBRID-MESH-SS-10.25-INCH-FRYPAN-03.webp?v=639148783867430000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159708/2100134292_E5260564_HYBRID-MESH-SS-10.25-INCH-FRYPAN-04.webp?v=639148783867470000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159709/2100134292_E5260564_HYBRID-MESH-SS-10.25-INCH-FRYPAN-05.webp?v=639148783867500000"
+            },
+            {
+              "imageUrl": "https://tfalmx.vteximg.com.br/arquivos/ids/159710/2100134292_E5260564_HYBRID-MESH-SS-10.25-INCH-FRYPAN-06.webp?v=639148783867530000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 2999,
+                "ListPrice": 2999,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 2999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 2999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 999.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 2999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

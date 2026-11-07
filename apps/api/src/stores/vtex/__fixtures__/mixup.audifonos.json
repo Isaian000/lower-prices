@@ -1,0 +1,1898 @@
+{
+  "store": "mixup",
+  "query": "audifonos",
+  "status": 206,
+  "resources": "0-9/250",
+  "recordedAt": "2026-11-07T21:39:57.504Z",
+  "body": [
+    {
+      "productId": "83263",
+      "productName": "Audifonos Quietcomfort",
+      "brand": "Bose",
+      "link": "https://www.mixup.com/audifonos-quietcomfort-en-negro/p",
+      "items": [
+        {
+          "itemId": "88806",
+          "ean": "5155248",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410435/17817848961.jpg?v=639063325399900000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410436/17817848961_1.jpg?v=639063325400630000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410437/17817848961_2.jpg?v=639063325400800000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410438/17817848961_3.jpg?v=639063325400930000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410439/17817848961_4.jpg?v=639063325401100000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410440/17817848961_5.jpg?v=639063325401200000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 6999,
+                "ListPrice": 6999,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 6999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2333,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1166.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 630.14,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 7561.68,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "88807",
+          "ean": "5155248",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/284347/17817848978.jpg?v=638319603257330000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/284352/17817848978_1.jpg?v=638744663117230000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 6999,
+                "ListPrice": 6999,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 6999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2333,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1166.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 630.14,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 7561.68,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "88808",
+          "ean": "5155248",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/284348/17817848985.jpg?v=638319603266400000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/284353/17817848985_1.jpg?v=638744663117230000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 6999,
+                "ListPrice": 6999,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 6999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2333,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1166.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 630.14,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 7561.68,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "93712",
+          "ean": "5155248",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/296108/17817850506.jpg?v=638744663117400000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 6999,
+                "ListPrice": 6999,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 6999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2333,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1166.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 630.14,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 7561.68,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "111626",
+          "ean": "5155248",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/406827/17817860239.jpg?v=638949329405100000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/406828/17817860239_1.jpg?v=638949329405430000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/406829/17817860239_2.jpg?v=638949329405430000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/406830/17817860239_3.jpg?v=638949329405430000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/406831/17817860239_4.jpg?v=638949329405430000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/406832/17817860239_5.jpg?v=638949329405600000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/406833/17817860239_6.jpg?v=638949329405600000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/406834/17817860239_7.jpg?v=638949329405600000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 6999,
+                "ListPrice": 6999,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 6999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2333,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1166.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 630.14,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 7561.68,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "111627",
+          "ean": "5155248",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/405562/17817860260.jpg?v=638949329405600000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/405563/17817860260_1.jpg?v=638949329405600000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/405564/17817860260_3.jpg?v=638949329405600000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 6999,
+                "ListPrice": 6999,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 6999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2333,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1166.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 630.14,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 7561.68,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "167161",
+          "ean": "5155248",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410209/17817860499.jpg?v=639063325402900000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 6999,
+                "ListPrice": 6999,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 6999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2333,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1166.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6999,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 630.14,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 7561.68,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "83831",
+      "productName": "Audifonos Quietcomfort Ultra",
+      "brand": "Bose",
+      "link": "https://www.mixup.com/audifonos-quietcomfort-ultra/p",
+      "items": [
+        {
+          "itemId": "89601",
+          "ean": "1784619",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/286913/17817846141.jpg?v=638345400461900000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 8999,
+                "ListPrice": 8999,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 8999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2999.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1499.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8999,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 810.2,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 9722.4,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "89602",
+          "ean": "1784619",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/286914/17817846172.jpg?v=638345400508300000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 8999,
+                "ListPrice": 8999,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 8999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2999.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1499.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8999,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 810.2,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 9722.4,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "91450",
+          "ean": "1784619",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/292255/17817846127.jpg?v=638481886389570000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/292268/17817846127_1.jpg?v=638785203366130000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/292269/17817846127_2.jpg?v=638785203366130000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 8999,
+                "ListPrice": 8999,
+                "AvailableQuantity": 0,
+                "IsAvailable": false,
+                "Installments": []
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "105153",
+          "ean": "1784619",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/345240/17817860215.jpg?v=639256925208930000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/345241/17817860215_1.jpg?v=639256925209230000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/345242/17817860215_2.jpg?v=639256925209270000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/345243/17817860215_3.jpg?v=639256925209300000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 8999,
+                "ListPrice": 8999,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 8999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2999.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1499.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8999,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 810.2,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 9722.4,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "194193",
+      "productName": "Audifonos Alpha Inalambricos",
+      "brand": "SELECT SOUND",
+      "link": "https://www.mixup.com/audifonos-alpha-inalambricos-en-negro/p",
+      "items": [
+        {
+          "itemId": "202448",
+          "ean": "5493180",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/485877/7500916010528.jpg?v=639253501527600000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/485878/7500916010528_1.jpg?v=639253501527870000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/485879/7500916010528_2.jpg?v=639253501527900000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/485880/7500916010528_3.jpg?v=639253501527930000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 599,
+                "ListPrice": 699,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 599,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 599,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 53.92,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 647.04,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "202488",
+          "ean": "1601053",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/485881/7500916010535.jpg?v=639253501527970000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/485882/7500916010535_1.jpg?v=639253501528000000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/485883/7500916010535_2.jpg?v=639253501528000000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/485884/7500916010535_3.jpg?v=639253501528030000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 599,
+                "ListPrice": 699,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 599,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 599,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 53.92,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 647.04,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "90553",
+      "productName": "Audifonos Noisse+ Bluetooth",
+      "brand": "SELECT SOUND",
+      "link": "https://www.mixup.com/audifonos-noisse--bluetooth-en/p",
+      "items": [
+        {
+          "itemId": "97655",
+          "ean": "5291618",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/314649/7500916007917.jpg?v=638796375520770000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/314650/7500916007917_1.jpg?v=638796375520930000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/314651/7500916007917_2.jpg?v=638796375520930000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/314652/7500916007917_3.jpg?v=638796375520930000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 449,
+                "ListPrice": 549,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 449,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 449,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "97656",
+          "ean": "5291618",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/314644/7500916007948.jpg?v=638796375520930000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/314645/7500916007948_1.jpg?v=638796375521070000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/314646/7500916007948_2.jpg?v=638796375521070000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/314647/7500916007948_3.jpg?v=638796375521070000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 449,
+                "ListPrice": 549,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 449,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 449,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "88884",
+      "productName": "Audifonos Quietcomfort Earbuds",
+      "brand": "Bose",
+      "link": "https://www.mixup.com/audifonos-quietcomfort-earbuds-en/p",
+      "items": [
+        {
+          "itemId": "95666",
+          "ean": "1785340",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/307078/17817853200.jpg?v=639256924014070000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/307079/17817853200_1.jpg?v=639256924014330000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/307080/17817853200_2.jpg?v=639256924014370000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/307081/17817853200_3.jpg?v=639256924014400000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/307082/17817853200_4.jpg?v=639256924014430000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 3999,
+                "ListPrice": 3999,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 3999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1333,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 666.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3999,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 360.04,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 4320.48,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "95667",
+          "ean": "1785340",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/307083/17817853439.jpg?v=639256924014530000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/307084/17817853439_1.jpg?v=639256924014570000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/307085/17817853439_2.jpg?v=639256924014600000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/307086/17817853439_3.jpg?v=639256924014630000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/307087/17817853439_4.jpg?v=639256924014670000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 3999,
+                "ListPrice": 3999,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 3999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1333,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 666.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3999,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 360.04,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 4320.48,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "95668",
+          "ean": "1785340",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/307088/17817853460.jpg?v=639256924017000000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/307089/17817853460_1.jpg?v=639256924017030000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/307090/17817853460_2.jpg?v=639256924017070000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/307091/17817853460_3.jpg?v=639256924017130000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/307092/17817853460_4.jpg?v=639256924017170000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 3999,
+                "ListPrice": 3999,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 3999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1333,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 666.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3999,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 360.04,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 4320.48,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "87726",
+      "productName": "Audifonos Grom Wired",
+      "brand": "SKULLCANDY",
+      "link": "https://www.mixup.com/audifonos-grom-wired-en/p",
+      "items": [
+        {
+          "itemId": "94092",
+          "ean": "5185603",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/312148/810045688695.jpg?v=638792161255570000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/312149/810045688695_1.jpg?v=638792161255730000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/312150/810045688695_2.jpg?v=638792161255730000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/312151/810045688695_3.jpg?v=638792161255730000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/312152/810045688695_4.jpg?v=638792161255730000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 679,
+                "ListPrice": 679,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 679,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 679,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 226.33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 679,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 113.16,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 679,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 75.44,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 679,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "94093",
+          "ean": "5185603",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/296755/810045688701.jpg?v=638755729010470000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 679,
+                "ListPrice": 679,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 679,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 679,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 226.33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 679,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 113.16,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 679,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 75.44,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 679,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "85755",
+      "productName": "Audifonos Ultra Open Earbuds",
+      "brand": "Bose",
+      "link": "https://www.mixup.com/audifonos-ultra-open-earbuds/p",
+      "items": [
+        {
+          "itemId": "91837",
+          "ean": "1784695",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/305761/17817846912.jpg?v=639010731043300000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/305762/17817846912_1.jpg?v=639010731044430000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/305763/17817846912_2.jpg?v=639010731044530000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/305764/17817846912_3.jpg?v=639010731044630000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/305765/17817846912_4.jpg?v=639010731044700000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/305766/17817846912_5.jpg?v=639010731044770000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/305767/17817846912_6.jpg?v=639010731044900000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 6599,
+                "ListPrice": 6599,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 6599,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2199.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1099.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 594.12,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 7129.44,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "91838",
+          "ean": "1784695",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/305775/17817846929.jpg?v=639010731045100000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/305776/17817846929_1.jpg?v=639010731045200000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/305777/17817846929_2.jpg?v=639010731045270000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/305778/17817846929_3.jpg?v=639010731045330000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/305779/17817846929_4.jpg?v=639010731045470000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/305780/17817846929_5.jpg?v=639010731045570000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/305781/17817846929_6.jpg?v=639010731045670000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 6599,
+                "ListPrice": 6599,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 6599,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2199.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1099.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 594.12,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 7129.44,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "167166",
+          "ean": "1784695",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410318/17817860048.jpg?v=639010731045730000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410319/17817860048_1.jpg?v=639010731045870000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410320/17817860048_2.jpg?v=639010731045970000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410321/17817860048_3.jpg?v=639010731046070000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410322/17817860048_4.jpg?v=639010731046170000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410323/17817860048_5.jpg?v=639010731046300000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 6599,
+                "ListPrice": 6599,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 6599,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2199.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1099.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 594.12,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 7129.44,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "167167",
+          "ean": "1784695",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410324/17817860536.jpg?v=639010731046470000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410325/17817860536_1.jpg?v=639010731046530000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410326/17817860536_2.jpg?v=639010731046630000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410327/17817860536_3.jpg?v=639010731046700000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410328/17817860536_4.jpg?v=639010731046800000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/410329/17817860536_5.jpg?v=639010731046930000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 6599,
+                "ListPrice": 6599,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 6599,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2199.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1099.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 594.12,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 7129.44,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "84280",
+      "productName": "Audifonos Quietcomfort Ultra Earbuds",
+      "brand": "Bose",
+      "link": "https://www.mixup.com/audifonos-quietcomfort-ultra-earbuds/p",
+      "items": [
+        {
+          "itemId": "90121",
+          "ean": "1784763",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/288274/17817847643.jpg?v=638366150207630000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 6599,
+                "ListPrice": 6599,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 6599,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2199.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1099.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 594.12,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 7129.44,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "90122",
+          "ean": "1784763",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/288275/17817847681.jpg?v=638366150255200000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 6599,
+                "ListPrice": 6599,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 6599,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2199.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1099.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 594.12,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 7129.44,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "91451",
+          "ean": "1784763",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/292256/17817851329.jpg?v=638481886405070000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 6599,
+                "ListPrice": 6599,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 6599,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2199.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1099.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 6599,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 594.12,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 7129.44,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "91410",
+      "productName": "Audifonos True Wireless Vogue",
+      "brand": "Reebok",
+      "link": "https://www.mixup.com/audifonos-true-wireless-vogue/p",
+      "items": [
+        {
+          "itemId": "98612",
+          "ean": "5384921",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/441864/3114100128995.jpg?v=639059094506670000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/441865/3114100128995_2.jpg?v=639059094507000000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/441866/3114100128995_3.jpg?v=639059094507070000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/441867/3114100128995_1.jpg?v=639059094507130000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 499,
+                "ListPrice": 499,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 499,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 499,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 44.92,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 539.04,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "98613",
+          "ean": "5384921",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/441868/3114100129008_3.jpg?v=639059094507300000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/441869/3114100129008_1.jpg?v=639059094507330000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/441870/3114100129008.jpg?v=639059094507400000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/441871/3114100129008_2.jpg?v=639059094507470000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 499,
+                "ListPrice": 499,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 499,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 499,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 44.92,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 539.04,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "98614",
+          "ean": "5384921",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/441872/3114100129015.jpg?v=639059094507600000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/441873/3114100129015_2.jpg?v=639059094507700000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/441874/3114100129015_1.jpg?v=639059094507730000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/441875/3114100129015_3.jpg?v=639059094507770000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 499,
+                "ListPrice": 499,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 499,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 499,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 44.92,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 539.04,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "178527",
+          "ean": "5384921",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/442675/3114100129046.jpg?v=639063452846600000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/442676/3114100129046_1.jpg?v=639063452846830000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/442677/3114100129046_2.jpg?v=639063452846930000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 499,
+                "ListPrice": 499,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 499,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 499,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 44.92,
+                    "InterestRate": 0.67,
+                    "TotalValuePlusInterestRate": 539.04,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "90169",
+      "productName": "Audifonos True Wireless Freeclip",
+      "brand": "HUAWEI",
+      "link": "https://www.mixup.com/audifonos-true-wireless-freeclip-en-morado/p",
+      "items": [
+        {
+          "itemId": "97225",
+          "ean": "5345083",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/311840/6942103112232.jpg?v=638779070573100000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/311841/6942103112232_1.jpg?v=638779070573100000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/311842/6942103112232_2.jpg?v=638779070573270000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/311843/6942103112232_3.jpg?v=638779070573270000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/311844/6942103112232_4.jpg?v=638779070573270000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 3499,
+                "ListPrice": 3499,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 3499,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3499,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1166.33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3499,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 583.16,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3499,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 388.77,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3499,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 349.9,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3499,
+                    "NumberOfInstallments": 10,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "itemId": "97666",
+          "ean": "5345083",
+          "images": [
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/314653/6942103112225.jpg?v=638895841250900000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/314654/6942103112225_1.jpg?v=638895841251200000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/314655/6942103112225_2.jpg?v=638895841251200000"
+            },
+            {
+              "imageUrl": "https://ishopmx.vteximg.com.br/arquivos/ids/314656/6942103112225_3.jpg?v=638895841251200000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 3499,
+                "ListPrice": 3499,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 3499,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3499,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1166.33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3499,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 583.16,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3499,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 388.77,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3499,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 349.9,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3499,
+                    "NumberOfInstallments": 10,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

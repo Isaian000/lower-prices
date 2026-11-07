@@ -54,7 +54,7 @@ describe("createSearchService", () => {
     const a = createMockStore("a", { offers: offers("a", 3) });
     const b = createMockStore("b", { offers: offers("b", 1) });
 
-    const result = await service([a, b]).search({ query: "tv", sort: "relevance" });
+    const result = await service([a, b]).search({ query: "producto", sort: "relevance" });
 
     expect(result.fetchedAt).toBe("2026-11-07T12:00:00.000Z");
     expect(result.groups).toHaveLength(3);
@@ -71,7 +71,10 @@ describe("createSearchService", () => {
     const slow = createMockStore("slow", { offers: offers("slow", 1), delayMs: 1000 });
     const broken = createMockStore("broken", { fail: true });
 
-    const result = await service([ok, slow, broken]).search({ query: "tv", sort: "relevance" });
+    const result = await service([ok, slow, broken]).search({
+      query: "producto",
+      sort: "relevance",
+    });
 
     expect(result.groups).toHaveLength(1);
     expect(result.stores.map(({ id, status }) => [id, status])).toEqual([
@@ -88,7 +91,7 @@ describe("createSearchService", () => {
     const slow = createMockStore("slow", { delayMs: 1000 });
 
     await expect(
-      service([broken, slow]).search({ query: "tv", sort: "relevance" }),
+      service([broken, slow]).search({ query: "producto", sort: "relevance" }),
     ).rejects.toBeInstanceOf(AllStoresFailedError);
   });
 
@@ -97,9 +100,9 @@ describe("createSearchService", () => {
     const b = createMockStore("b", { offers: offers("b", 1) });
     const search = service([a, b]);
 
-    const first = await search.search({ query: "tv", sort: "relevance" });
+    const first = await search.search({ query: "producto", sort: "relevance" });
     const second = await search.search({
-      query: "tv",
+      query: "producto",
       sort: "relevance",
       cursor: first.nextCursor!,
     });
@@ -114,30 +117,38 @@ describe("createSearchService", () => {
     const a = createMockStore("a", { offers: offers("a", 1) });
     const b = createMockStore("b", { offers: offers("b", 1) });
 
-    const result = await service([a, b]).search({ query: "tv", sort: "relevance", stores: ["b"] });
+    const result = await service([a, b]).search({
+      query: "producto",
+      sort: "relevance",
+      stores: ["b"],
+    });
 
     expect(a.calls).toHaveLength(0);
     expect(result.stores.map((store) => store.id)).toEqual(["b"]);
   });
 
   it("ordena por precio cuando se pide", async () => {
-    const a = createMockStore("a", { offers: [makeOffer("a", { title: "caro", price: 900 })] });
-    const b = createMockStore("b", { offers: [makeOffer("b", { title: "barato", price: 100 })] });
+    const a = createMockStore("a", {
+      offers: [makeOffer("a", { title: "Producto caro", price: 900 })],
+    });
+    const b = createMockStore("b", {
+      offers: [makeOffer("b", { title: "Producto barato", price: 100 })],
+    });
 
-    const asc = await service([a, b]).search({ query: "tv", sort: "price_asc" });
-    const desc = await service([a, b]).search({ query: "tv", sort: "price_desc" });
+    const asc = await service([a, b]).search({ query: "producto", sort: "price_asc" });
+    const desc = await service([a, b]).search({ query: "producto", sort: "price_desc" });
 
-    expect(asc.groups.map((group) => group.title)).toEqual(["barato", "caro"]);
-    expect(desc.groups.map((group) => group.title)).toEqual(["caro", "barato"]);
+    expect(asc.groups.map((group) => group.title)).toEqual(["Producto barato", "Producto caro"]);
+    expect(desc.groups.map((group) => group.title)).toEqual(["Producto caro", "Producto barato"]);
   });
 
   it("usa la caché por tienda en búsquedas repetidas", async () => {
     const a = createMockStore("a", { offers: offers("a", 1) });
     const search = service([a]);
 
-    await search.search({ query: "TV", sort: "relevance" });
+    await search.search({ query: "PRODUCTO", sort: "relevance" });
     await new Promise((resolve) => setTimeout(resolve, 0)); // la escritura en caché no bloquea
-    await search.search({ query: "  tv ", sort: "relevance" });
+    await search.search({ query: "  producto ", sort: "relevance" });
 
     expect(a.calls).toHaveLength(1);
   });
@@ -150,7 +161,7 @@ describe("createSearchService", () => {
     };
     const a = createMockStore("a", { offers: offers("a", 1) });
 
-    const result = await service([a], brokenCache).search({ query: "tv", sort: "relevance" });
+    const result = await service([a], brokenCache).search({ query: "producto", sort: "relevance" });
 
     expect(result.groups).toHaveLength(1);
   });
@@ -212,10 +223,10 @@ describe("resiliencia y eficiencia del servicio", () => {
       circuitBreaker: breaker,
     });
 
-    await search.search({ query: "tv", sort: "relevance" });
+    await search.search({ query: "producto", sort: "relevance" });
     await new Promise((resolve) => setTimeout(resolve, 0));
     breaker.recordFailure("a");
-    const result = await search.search({ query: "tv", sort: "relevance" });
+    const result = await search.search({ query: "producto", sort: "relevance" });
 
     expect(result.stores[0]?.status).toBe("ok");
     expect(result.groups).toHaveLength(1);
@@ -226,8 +237,8 @@ describe("resiliencia y eficiencia del servicio", () => {
     const search = service([a]);
 
     const [first, second] = await Promise.all([
-      search.search({ query: "tv", sort: "relevance" }),
-      search.search({ query: "TV ", sort: "relevance" }),
+      search.search({ query: "producto", sort: "relevance" }),
+      search.search({ query: "PRODUCTO ", sort: "relevance" }),
     ]);
 
     expect(a.calls).toHaveLength(1);
@@ -237,8 +248,8 @@ describe("resiliencia y eficiencia del servicio", () => {
   it("aplica las reglas de enlace de salida y descarta enlaces ajenos", async () => {
     const a = createMockStore("a", {
       offers: [
-        makeOffer("a", { title: "Bueno", url: "https://a.example/p/1" }),
-        makeOffer("a", { title: "Malo", url: "https://phishing.example/p/2" }),
+        makeOffer("a", { title: "Producto bueno", url: "https://a.example/p/1" }),
+        makeOffer("a", { title: "Producto malo", url: "https://phishing.example/p/2" }),
       ],
     });
     const search = createSearchService({
@@ -250,10 +261,28 @@ describe("resiliencia y eficiencia del servicio", () => {
       outboundRules: { a: (url) => url.searchParams.set("ref", "lp") },
     });
 
-    const result = await search.search({ query: "tv", sort: "relevance" });
+    const result = await search.search({ query: "producto", sort: "relevance" });
 
     expect(result.groups.map((group) => group.offers[0]?.url)).toEqual([
       "https://a.example/p/1?ref=lp",
+    ]);
+  });
+});
+
+describe("orden por relevancia con accesorios", () => {
+  it("baja al final los accesorios que no se buscaron", async () => {
+    const a = createMockStore("a", {
+      offers: [
+        makeOffer("a", { title: "Funda para iPhone 16", price: 300 }),
+        makeOffer("a", { title: "iPhone 16 128GB", price: 15000 }),
+      ],
+    });
+
+    const result = await service([a]).search({ query: "iphone 16", sort: "relevance" });
+
+    expect(result.groups.map((group) => group.title)).toEqual([
+      "iPhone 16 128GB",
+      "Funda para iPhone 16",
     ]);
   });
 });

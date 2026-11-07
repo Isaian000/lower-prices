@@ -223,3 +223,113 @@ describe("createVtexAdapter con respuestas reales grabadas", () => {
     ).rejects.toBeInstanceOf(VtexError);
   });
 });
+
+describe("tiendas oficiales de marca (respuestas reales grabadas)", () => {
+  async function searchFixture(
+    name: string,
+    config: { id: string; name: string; baseUrl: string },
+  ) {
+    const { fakeFetch } = fixtureFetch(loadFixture(name));
+    const adapter = createVtexAdapter(config, { fetch: fakeFetch, now });
+    return adapter.search({ query: "x", offset: 0, limit: 10, sort: "relevance" });
+  }
+
+  it("Whirlpool: precio con descuento y meses sin intereses de 3 a 12", async () => {
+    const { offers, total } = await searchFixture("whirlpool.lavadora", {
+      id: "whirlpool",
+      name: "Whirlpool",
+      baseUrl: "https://www.whirlpool.mx",
+    });
+
+    expect(total).toBe(116);
+    const lavadora = offers.find((offer) => offer.id === "whirlpool:409");
+    expect(lavadora).toMatchObject({ price: 9999, originalPrice: 15999, discountPercent: 38 });
+    expect(lavadora?.identifiers?.gtin).toBe("00883049643717");
+    expect(lavadora?.installments.map((plan) => plan.months)).toEqual([3, 6, 9, 12]);
+  });
+
+  it("T-fal: lee el modelo de la especificación", async () => {
+    const { offers } = await searchFixture("tfal.sarten", {
+      id: "tfal",
+      name: "T-fal",
+      baseUrl: "https://www.t-fal.com.mx",
+    });
+
+    expect(offers.find((offer) => offer.id === "tfal:111")?.identifiers).toMatchObject({
+      brand: "T-fal",
+      model: "g2930202",
+    });
+  });
+
+  it("Sony: sin código de barras la oferta queda sin GTIN (se agrupará por modelo o título)", async () => {
+    const { offers } = await searchFixture("sony.audifonos", {
+      id: "sony",
+      name: "Sony",
+      baseUrl: "https://store.sony.com.mx",
+    });
+
+    const mdr = offers.find((offer) => offer.id === "sony:2091");
+    expect(mdr).toMatchObject({ title: "Audífonos Profesionales MDR-7506", price: 1699 });
+    expect(mdr?.identifiers?.gtin).toBeUndefined();
+  });
+
+  it("Oster: mapea todas las ofertas sin descuento", async () => {
+    const { offers } = await searchFixture("oster.licuadora", {
+      id: "oster",
+      name: "Oster",
+      baseUrl: "https://www.oster.com.mx",
+    });
+
+    expect(offers).toHaveLength(10);
+    expect(offers.find((offer) => offer.id === "oster:683")).toMatchObject({ price: 889 });
+  });
+});
+
+describe("tiendas multimarca (respuestas reales grabadas)", () => {
+  async function searchFixture(
+    name: string,
+    config: { id: string; name: string; baseUrl: string },
+  ) {
+    const { fakeFetch } = fixtureFetch(loadFixture(name));
+    const adapter = createVtexAdapter(config, { fetch: fakeFetch, now });
+    return adapter.search({ query: "x", offset: 0, limit: 10, sort: "relevance" });
+  }
+
+  it("Mixup: marca real y meses sin intereses", async () => {
+    const { offers } = await searchFixture("mixup.audifonos", {
+      id: "mixup",
+      name: "Mixup",
+      baseUrl: "https://www.mixup.com",
+    });
+
+    const bose = offers.find((offer) => offer.id === "mixup:83263");
+    expect(bose).toMatchObject({ title: "Audifonos Quietcomfort", price: 6999 });
+    expect(bose?.identifiers?.brand).toBe("Bose");
+    expect(bose?.installments.map((plan) => plan.months)).toEqual([3, 6]);
+  });
+
+  it("Juguetron: LEGO con código de barras válido para agrupar con otras tiendas", async () => {
+    const { offers } = await searchFixture("juguetron.lego", {
+      id: "juguetron",
+      name: "Juguetron",
+      baseUrl: "https://www.juguetron.mx",
+    });
+
+    expect(offers.find((offer) => offer.id === "juguetron:3961")?.identifiers).toMatchObject({
+      gtin: "00673419359597",
+      brand: "LEGO",
+    });
+  });
+
+  it("Farmacias Similares: ignora «PICK UP» como marca", async () => {
+    const { offers } = await searchFixture("similares.paracetamol", {
+      id: "similares",
+      name: "Farmacias Similares",
+      baseUrl: "https://www.farmaciasdesimilares.com",
+    });
+
+    const paracetamol = offers.find((offer) => offer.id === "similares:813");
+    expect(paracetamol).toMatchObject({ price: 18 });
+    expect(paracetamol?.identifiers?.brand).toBeUndefined();
+  });
+});

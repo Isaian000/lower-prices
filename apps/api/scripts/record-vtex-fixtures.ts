@@ -1,6 +1,7 @@
 /**
  * Graba respuestas reales de las tiendas VTEX como fixtures para las pruebas.
- * Uso: pnpm --filter @lower-prices/api fixtures:record
+ * Uso: pnpm --filter @lower-prices/api fixtures:record [id de tienda ...]
+ * Sin ids graba todas; con ids, solo esas (así no se regraban las que usan las pruebas).
  *
  * Cada producto se pasa por el esquema de zod, que descarta los campos que el
  * adaptador no usa, para que los archivos sean pequeños y legibles.
@@ -13,7 +14,18 @@ import { VTEX_STORES } from "../src/stores/registry.js";
 import { buildVtexSearchUrl } from "../src/stores/vtex/adapter.js";
 import { type VtexProduct, vtexProductSchema } from "../src/stores/vtex/schema.js";
 
-const QUERIES = ["audifonos", "pantalla tcl"];
+/** Búsquedas por tienda: las tiendas de marca solo venden sus propios productos. */
+const DEFAULT_QUERIES = ["audifonos", "pantalla tcl"];
+const STORE_QUERIES: Record<string, string[]> = {
+  whirlpool: ["lavadora"],
+  oster: ["licuadora"],
+  tfal: ["sarten"],
+  sony: ["audifonos"],
+  mixup: ["audifonos"],
+  juguetron: ["lego"],
+  similares: ["paracetamol"],
+};
+const only = new Set(process.argv.slice(2));
 const LIMIT = 10;
 const outDir = path.join(
   path.dirname(fileURLToPath(import.meta.url)),
@@ -43,8 +55,8 @@ function slug(value: string): string {
 
 await mkdir(outDir, { recursive: true });
 
-for (const store of VTEX_STORES) {
-  for (const query of QUERIES) {
+for (const store of VTEX_STORES.filter((s) => only.size === 0 || only.has(s.id))) {
+  for (const query of STORE_QUERIES[store.id] ?? DEFAULT_QUERIES) {
     const url = buildVtexSearchUrl(store.baseUrl, {
       query,
       offset: 0,

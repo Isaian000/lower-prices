@@ -1,0 +1,731 @@
+{
+  "store": "oster",
+  "query": "licuadora",
+  "status": 206,
+  "resources": "0-9/66",
+  "recordedAt": "2026-11-07T21:17:23.291Z",
+  "body": [
+    {
+      "productId": "604",
+      "productName": "Cafetera frappé Oster® con licuadora BVSTDC03B",
+      "brand": "Oster",
+      "link": "https://www.oster.com.mx/cafetera-frappe-oster-con-licuadora-bvstdc3b/p",
+      "items": [
+        {
+          "itemId": "615",
+          "ean": "053891171342",
+          "images": [
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/161244/BVSTDC03-1.jpg?v=638137129599100000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/161245/BVSTDC03-1B.jpg?v=638993352715930000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/161246/BVSTDC03-2.jpg?v=638993352716230000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/161247/BVSTDC03-3.jpg?v=638993352716230000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/161248/BVSTDC03-4.jpg?v=638993352716230000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/161249/BVSTDC03-5.jpg?v=638993352716400000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/161250/BVSTDC03-6.jpg?v=638993352716400000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/161251/BVSTDC03-7.jpg?v=638993352716400000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/161252/BVSTDC03-8.jpg?v=638993352716400000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/161253/BVSTDC03-9.jpg?v=638993352716570000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/161254/BVSTDC03-10.jpg?v=638993352716570000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/161255/BVSTDC03-11.jpg?v=638993352716570000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/161256/BVSTDC03-12.jpg?v=638993352716700000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/161257/BVSTDC03-13.jpg?v=638993352716700000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 3149,
+                "ListPrice": 3149,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 3149,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 3149,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "MercadoPagoProPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "521",
+      "productName": "Oster® Licuadora, con Palanca, Vaso de Vidrio, Plateado, BLSTPBTG",
+      "brand": "Oster",
+      "link": "https://www.oster.com.mx/licuadora-osterizer-max-con-palanca-y-vaso-de-vidrio-blstpbtg/p",
+      "items": [
+        {
+          "itemId": "532",
+          "ean": "053891155007",
+          "images": [
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162552/BLSTPBTG-1.jpg?v=638331577774200000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162553/BLSTPBTG-1B.jpg?v=638980602862770000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162554/BLSTPBTG-2.jpg?v=638980602863070000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162555/BLSTPBTG-3.jpg?v=638980602863070000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162556/BLSTPBTG-4.jpg?v=638980602863070000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162557/BLSTPBTG-5.jpg?v=638980602863230000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162558/BLSTPBTG-6.jpg?v=638980602863230000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162559/BLSTPBTG-7.jpg?v=638980602863230000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162560/BLSTPBTG-8.jpg?v=638980602863230000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162561/BLSTPBTG-9.jpg?v=638980602863370000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162562/BLSTPBTG-10.jpg?v=638980602863370000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162563/BLSTPBTG-11.jpg?v=638980602863370000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 2989,
+                "ListPrice": 2989,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 2989,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 2989,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "MercadoPagoProPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "683",
+      "productName": "Licuadora Oster® de 10 velocidades con vaso de plástico BLST4108",
+      "brand": "Oster",
+      "link": "https://www.oster.com.mx/licuadora-oster-de-10-velocidades-con-vaso-de-plastico-blst4108/p",
+      "items": [
+        {
+          "itemId": "694",
+          "ean": "053891169783",
+          "images": [
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163433/BLST4108-1.jpg?v=638501044973000000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163434/BLST4108-1B.jpg?v=638979628491970000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163435/BLST4108-2.jpg?v=638979628492270000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163436/BLST4108-3.jpg?v=638979628492270000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163437/BLST4108-4.jpg?v=638979628492430000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163438/BLST4108-5.jpg?v=638979628492430000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163439/BLST4108-6.jpg?v=638979628492730000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163440/BLST4108-7.jpg?v=638979628492900000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163441/BLST4108-8.jpg?v=638979628493070000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163442/BLST4108-9.jpg?v=638979628493070000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163443/BLST4108-10.jpg?v=638979628493200000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 889,
+                "ListPrice": 889,
+                "AvailableQuantity": 1,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 889,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 889,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "MercadoPagoProPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "486",
+      "productName": "Licuadora clásica Oster® roja con motor reversible BLSTBESTR",
+      "brand": "Oster",
+      "link": "https://www.oster.com.mx/licuadora-clasica-oster-roja-con-motor-reversible-blstbestr/p",
+      "items": [
+        {
+          "itemId": "498",
+          "ean": "053891140386",
+          "images": [
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162301/BLSTBESTR-1-violator.jpg?v=638327426922300000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162302/BLSTBESTR-1.jpg?v=638905439271870000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162303/BLSTBESTR-2.jpg?v=638905439272000000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162304/BLSTBESTR-3.jpg?v=638905439272170000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162305/BLSTBESTR-4.jpg?v=638905439272170000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162306/BLSTBESTR-5.jpg?v=638905439272170000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162307/BLSTBESTR-6.jpg?v=638905439272330000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162308/BLSTBESTR-7.jpg?v=638905439272330000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162310/BLSTBESTR-8.jpg?v=638905439272330000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162311/BLSTBESTR-9.jpg?v=638905439272470000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162312/BLSTBESTR-10.jpg?v=638905439272470000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162313/BLSTBESTR-11.jpg?v=638905439272630000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162314/BLSTBESTR-12.jpg?v=638905439272630000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 2399,
+                "ListPrice": 2399,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 2399,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 2399,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "MercadoPagoProPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "682",
+      "productName": "Licuadora Osterizer® con control giratorio de 2 velocidades 465013000",
+      "brand": "Oster",
+      "link": "https://www.oster.com.mx/licuadora-osterizer-con-control-giratorio-de-2-velocidades-465013000/p",
+      "items": [
+        {
+          "itemId": "693",
+          "ean": "034264025554",
+          "images": [
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163421/465013000-1.jpg?v=638500966012970000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163422/465013000-2.jpg?v=638822348161670000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163423/465013000-3.jpg?v=638822348161670000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163424/465013000-4.jpg?v=638822348161670000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163425/465013000-5.jpg?v=638822348161670000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163426/465013000-6.jpg?v=638822348161670000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163427/465013000-7.jpg?v=638822348161670000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163428/465013000-8.jpg?v=638822348161830000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163429/465013000-9.jpg?v=638822348161830000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/163430/465013000-10.jpg?v=638822348161830000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1628,
+                "ListPrice": 1628,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1628,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1628,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "MercadoPagoProPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "629",
+      "productName": "Licuadora clásica Oster® gris con interruptor de palanca BLST4127Z",
+      "brand": "Oster",
+      "link": "https://www.oster.com.mx/licuadora-clasica-oster-gris-con-interruptor-de-palanca-blst4127z/p",
+      "items": [
+        {
+          "itemId": "640",
+          "ean": "053891140621",
+          "images": [
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162362/BLST4127Z-1.jpg?v=638327464379730000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162363/BLST4127Z-1B.jpg?v=638979647459700000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162364/BLST4127Z-2.jpg?v=638979647460030000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162365/BLST4127Z-3.jpg?v=638979647460030000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162366/BLST4127Z-4.jpg?v=638979647460170000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162367/BLST4127Z-5.jpg?v=638979647460170000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162368/BLST4127Z-6.jpg?v=638979647460170000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162369/BLST4127Z-7.jpg?v=638979647460170000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162370/BLST4127Z-8.jpg?v=638979647460170000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162371/BLST4127Z-9.jpg?v=638979647460330000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162372/BLST4127Z-10.jpg?v=638979647460330000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1750,
+                "ListPrice": 1750,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1750,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1750,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "MercadoPagoProPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "496",
+      "productName": "Licuadora clásica Oster® en aluminio con motor reversible BLSTBESTE",
+      "brand": "Oster",
+      "link": "https://www.oster.com.mx/licuadora-clasica-oster-aluminio-con-motor-reversible-blstbeste/p",
+      "items": [
+        {
+          "itemId": "508",
+          "ean": "053891140355",
+          "images": [
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162277/BLSTBESTE-1-violator.jpg?v=638327398322670000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162278/BLSTBESTE-1.jpg?v=639098588397970000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162279/BLSTBESTE-2.jpg?v=639098588397970000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162280/BLSTBESTE-3.jpg?v=639098588397970000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162281/BLSTBESTE-4.jpg?v=639098588398130000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162282/BLSTBESTE-5.jpg?v=639098588398130000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162283/BLSTBESTE-6.jpg?v=639098588398130000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162284/BLSTBESTE-7.jpg?v=639098588398130000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162285/BLSTBESTE-8.jpg?v=639098588398130000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162286/BLSTBESTE-9.jpg?v=639098588398300000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162287/BLSTBESTE-10.jpg?v=639098588398430000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162288/BLSTBESTE-11.jpg?v=639098588398430000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162289/BLSTBESTE-12.jpg?v=639098588398430000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 2390,
+                "ListPrice": 2390,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 2390,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 2390,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "MercadoPagoProPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "423",
+      "productName": "Licuadora Oster® de dos velocidades con pulso y vaso de plástico BLSTKAPRPB",
+      "brand": "Oster",
+      "link": "https://www.oster.com.mx/licuadora-oster-de-dos-velocidades-y-pulso-con-vaso-de-plastico-blstkaprpb/p",
+      "items": [
+        {
+          "itemId": "435",
+          "ean": "053891138345",
+          "images": [
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162384/BLSTKAP-RPB-1.jpg?v=638327490931070000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162385/BLSTKAP-RPB-1B.jpg?v=639053086733530000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162386/BLSTKAP-RPB-2.jpg?v=639053086733700000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162387/BLSTKAP-RPB-3.jpg?v=639053086733700000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162388/BLSTKAP-RPB-4.jpg?v=639053086733700000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162389/BLSTKAP-RPB-5.jpg?v=639053086733700000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162395/BLSTKAP-RPB-6.jpg?v=639053086733870000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162396/BLSTKAP-RPB-7.jpg?v=639053086733870000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162397/BLSTKAP-RPB-8.jpg?v=639053086733870000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162398/BLSTKAP-RPB-9.jpg?v=639053086733870000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162400/BLSTKAP-RPB-10.jpg?v=639053086734000000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 885,
+                "ListPrice": 885,
+                "AvailableQuantity": 1,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 885,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 885,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "MercadoPagoProPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "601",
+      "productName": "Licuadora Oster® con programas automáticos, tecnología reversible y vaso Blend-N-Go BLSTPYG1311NBG",
+      "brand": "Oster",
+      "link": "https://www.oster.com.mx/licuadora-oster-con-programas-automaticos-y-tecnologia-reversible-y-vaso-blend-n-go-blstpyg1311ng/p",
+      "items": [
+        {
+          "itemId": "612",
+          "ean": "53891169301",
+          "images": [
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162175/BLSTPYG1311-NBG-violator.jpg?v=638327326858570000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162176/BLSTPYG1311-NBG-1.jpg?v=638962532779830000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162177/BLSTPYG1311-NBG-1B.jpg?v=638962532780130000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162178/BLSTPYG1311-NBG-2.jpg?v=638962532780300000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162179/BLSTPYG1311-NBG-3.jpg?v=638962532780300000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162180/BLSTPYG1311-NBG-4.jpg?v=638962532780300000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162181/BLSTPYG1311-NBG-5.jpg?v=638962532780300000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162182/BLSTPYG1311-NBG-6.jpg?v=638962532780300000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162183/BLSTPYG1311-NBG-7.jpg?v=638962532780470000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162184/BLSTPYG1311-NBG-8.jpg?v=638962532780470000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162185/BLSTPYG1311-NBG-9.jpg?v=638962532780470000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162186/BLSTPYG1311-NBG-10.jpg?v=638962532780470000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162187/BLSTPYG1311-NBG-11.jpg?v=638962532780470000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162188/BLSTPYG1311-NBG-12.jpg?v=638962532780600000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162189/BLSTPYG1311-NBG-13.jpg?v=638962532780600000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 2849,
+                "ListPrice": 2849,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 2849,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 2849,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "MercadoPagoProPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "603",
+      "productName": "Licuadora Osterizer® MAX con vaso de vidrio de 1,75 L BLSTPBRGR",
+      "brand": "Oster",
+      "link": "https://www.oster.com.mx/licuadora-osterizer-max-con-vaso-de-vidrio-de-1-75-l-blstpbrgr/p",
+      "items": [
+        {
+          "itemId": "614",
+          "ean": "053891169868",
+          "images": [
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162538/BLSTPBRGR-1-violator.jpg?v=638331557931500000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162539/BLSTPBRGR-1.jpg?v=638905438964170000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162540/BLSTPBRGR-1B.jpg?v=638905438964630000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162541/BLSTPBRGR-2.jpg?v=638905438964630000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162542/BLSTPBRGR-3.jpg?v=638905438964630000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162543/BLSTPBRGR-4.jpg?v=638905438964800000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162544/BLSTPBRGR-5.jpg?v=638905438964800000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162545/BLSTPBRGR-6.jpg?v=638905438964800000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162546/BLSTPBRGR-7.jpg?v=638905438964970000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162547/BLSTPBRGR-8.jpg?v=638905438964970000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162548/BLSTPBRGR-9.jpg?v=638905438964970000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162549/BLSTPBRGR-10.jpg?v=638905438965100000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162550/BLSTPBRGR-11.jpg?v=638905438965100000"
+            },
+            {
+              "imageUrl": "https://ostermx.vteximg.com.br/arquivos/ids/162551/BLSTPBRGR-12.jpg?v=638905438965100000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 4389,
+                "ListPrice": 4389,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 4389,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 4389,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "MercadoPagoProPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

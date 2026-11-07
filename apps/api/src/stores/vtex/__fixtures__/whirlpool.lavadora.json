@@ -1,0 +1,1002 @@
+{
+  "store": "whirlpool",
+  "query": "lavadora",
+  "status": 206,
+  "resources": "0-9/116",
+  "recordedAt": "2026-11-07T21:17:22.976Z",
+  "body": [
+    {
+      "productId": "409",
+      "productName": "Lavadora 19kg Carga Superior Blanca",
+      "brand": "Whirlpool",
+      "link": "https://www.whirlpool.mx/lavadora-carga-superior-19kg-blanco-7mwtw1904lm/p",
+      "items": [
+        {
+          "itemId": "482",
+          "ean": "883049643717",
+          "images": [
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160929/7MWTW1904LM-00.jpg?v=638179520405300000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160930/7MWTW1904LM-01.jpg?v=638756731673900000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160931/7MWTW1904LM-02.jpg?v=638756731673900000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160932/7MWTW1904LM-03.jpg?v=638756731673900000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160933/7MWTW1904LM-04.jpg?v=638756731673900000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160934/7MWTW1904LM-05.jpg?v=638756731673900000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160935/7MWTW1904LM-06.jpg?v=638756731673900000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160936/7MWTW1904LM-07.jpg?v=638756731673900000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160937/7MWTW1904LM-08.jpg?v=638756731674070000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160938/7MWTW1904LM-09.jpg?v=638756731674070000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160939/7MWTW1904LM-10.jpg?v=638756731674070000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160940/7MWTW1904LM-11.jpg?v=638756731674070000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160941/7MWTW1904LM-12.jpg?v=638756731674070000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/165424/BANIMG1046.jpg?v=638936698748700000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/165425/Isometrico-7MWTW1904LM.jpg?v=638937473911300000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 9999,
+                "ListPrice": 15999,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 9999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 9999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 3333,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 9999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1666.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 9999,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1111,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 9999,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 833.25,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 9999,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "166",
+      "productName": "Lavadora 22kg Carga Superior Blanca Agitador",
+      "brand": "Whirlpool",
+      "link": "https://www.whirlpool.mx/lavadora-carga-superior-22kg-agitador-8mwtw2224wjm/p",
+      "items": [
+        {
+          "itemId": "167",
+          "ean": "7501545635823",
+          "images": [
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158518/8MWTW2224WJM_01.png?v=638158752940170000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158519/8MWTW2224WJM_02.png?v=638756719817000000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158520/8MWTW2224WJM_03.png?v=638756719817000000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158521/8MWTW2224WJM_04.png?v=638756719817000000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158522/8MWTW2224WJM_05.png?v=638756719817000000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158523/8MWTW2224WJM_06.png?v=638756719817000000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158524/8MWTW2224WJM_07.png?v=638756719817000000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158525/8MWTW2224WJM_08.png?v=638756719817130000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158526/8MWTW2224WJM_09.png?v=638756719817130000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161446/Isometrico_8MWTW2224WJM.jpg?v=638756719817130000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 10499,
+                "ListPrice": 17199,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 10499,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 10499,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 3499.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 10499,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1749.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 10499,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1166.55,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 10499,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 874.91,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 10499,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "474",
+      "productName": "Lavadora 20kg carga superior Xpert System",
+      "brand": "Whirlpool",
+      "link": "https://www.whirlpool.mx/lavadora-carga-superior-20kgs-xpert-system/p",
+      "items": [
+        {
+          "itemId": "533",
+          "ean": "7501545588877",
+          "images": [
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161542/8MWTW2023WPM-00.jpg?v=638309160235430000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161543/8MWTW2023WPM-01.jpg?v=638756727356470000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161544/8MWTW2023WPM-02.jpg?v=638756727356470000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161545/8MWTW2023WPM-03.jpg?v=638756727356630000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161546/8MWTW2023WPM-04.jpg?v=638756727356630000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161547/8MWTW2023WPM-05.jpg?v=638756727356630000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161548/8MWTW2023WPM-06.jpg?v=638756727356630000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161549/8MWTW2023WPM-07.jpg?v=638756727356630000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161550/8MWTW2023WPM-08.jpg?v=638756727356630000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161551/8MWTW2023WPM-09.jpg?v=638756727356800000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161552/8MWTW2023WPM-10.jpg?v=638756727356800000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161553/8MWTW2023WPM-11.jpg?v=638756727356800000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161554/8MWTW2023WPM-12.jpg?v=638756727356800000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161555/8MWTW2023WPM-13.jpg?v=638756727356800000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 18999,
+                "ListPrice": 18999,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 18999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 18999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 6333,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 18999,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 3166.5,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 18999,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2111,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 18999,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1583.25,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 18999,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "157",
+      "productName": "Lavadora 18kg Carga Superior Blanca Agitador",
+      "brand": "Whirlpool",
+      "link": "https://www.whirlpool.mx/lavadora-carga-superior-18kg-agitador-8mwtw1813mjm/p",
+      "items": [
+        {
+          "itemId": "158",
+          "ean": "7501545633959",
+          "images": [
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158426/8MWTW1813MJM_00.jpg?v=638158752351730000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158427/8MWTW1813MJM_01.jpg?v=638756718511230000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158428/8MWTW1813MJM_02.jpg?v=638756718511230000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158429/8MWTW1813MJM_03.jpg?v=638756718511230000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158430/8MWTW1813MJM_04.jpg?v=638756718511230000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158431/8MWTW1813MJM_05.jpg?v=638756718511400000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158432/8MWTW1813MJM_06.jpg?v=638756718511400000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158433/8MWTW1813MJM_07.jpg?v=638756718511400000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158434/8MWTW1813MJM_08.jpg?v=638756718511400000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161437/Isometrico_8MWTW1813MJM.png?v=638756718511570000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 8299,
+                "ListPrice": 12699,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 8299,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8299,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2766.33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8299,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1383.16,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8299,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 922.11,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8299,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 691.58,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8299,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "156",
+      "productName": "Lavadora 20kg Carga Superior Blanca Agitador",
+      "brand": "Whirlpool",
+      "link": "https://www.whirlpool.mx/lavadora-carga-superior-20kg-agitador-8mwtw2024mjm/p",
+      "items": [
+        {
+          "itemId": "157",
+          "ean": "7501545634208",
+          "images": [
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166038/8MWTW2024MJM_00.jpg?v=638990463827800000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166039/8MWTW2024MJM_01.jpg?v=638990463828000000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166040/8MWTW2024MJM_02.jpg?v=638990463828000000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166041/8MWTW2024MJM_03.jpg?v=638990463828130000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166042/8MWTW2024MJM_04.jpg?v=638990463828130000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166043/8MWTW2024MJM_05.jpg?v=638990463828130000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166044/8MWTW2024MJM_06.jpg?v=638990463828130000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166045/8MWTW2024MJM_07.jpg?v=638990463828130000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166046/8MWTW2024MJM_08.jpg?v=638990463828300000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166047/ISOMW0043.jpg?v=638990463828300000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 8299,
+                "ListPrice": 15999,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 8299,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8299,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2766.33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8299,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1383.16,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8299,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 922.11,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8299,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 691.58,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8299,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "476",
+      "productName": "Lavadora 22kg carga superior Xpert System",
+      "brand": "Whirlpool",
+      "link": "https://www.whirlpool.mx/lavadora-carga-superior-22kgs-xpert-system-1/p",
+      "items": [
+        {
+          "itemId": "535",
+          "ean": "7501545588860",
+          "images": [
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166319/8MWTW2223WPM-00.jpg?v=639038468921170000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166320/8MWTW2223WPM-01.jpg?v=639038468921630000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166321/8MWTW2223WPM-02.jpg?v=639038468921800000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166322/8MWTW2223WPM-03.jpg?v=639038468921930000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166323/8MWTW2223WPM-04.jpg?v=639038468922100000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166324/8MWTW2223WPM-05.jpg?v=639038468922400000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166325/8MWTW2223WPM-06.jpg?v=639038468922730000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166326/8MWTW2223WPM-07.jpg?v=639038468922900000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166327/8MWTW2223WPM-08.jpg?v=639038468923030000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166328/8MWTW2223WPM-09.jpg?v=639038468923200000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166329/8MWTW2223WPM-10.jpg?v=639038468923370000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166330/8MWTW2223WPM-11.jpg?v=639038468923670000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166331/8MWTW2223WPM-12.jpg?v=639038468923830000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166332/8MWTW2223WPM-13.jpg?v=639038468923970000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166333/Isometrico-8MWTW2223WPM.jpg?v=639038468924300000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 10399,
+                "ListPrice": 16999,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 10399,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 10399,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 3466.33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 10399,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1733.16,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 10399,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1155.44,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 10399,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 866.58,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 10399,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "155",
+      "productName": "Lavadora 16kg Carga Superior Blanca Agitador",
+      "brand": "Whirlpool",
+      "link": "https://www.whirlpool.mx/lavadora-carga-superior-16kg-agitador-8mwtw1613mjq/p",
+      "items": [
+        {
+          "itemId": "156",
+          "ean": "7501545634109",
+          "images": [
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158401/8MWTW1613MJQ_00.jpg?v=638158752219100000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158402/8MWTW1613MJQ_01.jpg?v=638838974210200000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158403/8MWTW1613MJQ_02.jpg?v=638838974210530000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158404/8MWTW1613MJQ_03.jpg?v=638838974210530000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158405/8MWTW1613MJQ_04.jpg?v=638838974210530000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158406/8MWTW1613MJQ_05.jpg?v=638838974210700000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158407/8MWTW1613MJQ_06.jpg?v=638838974210700000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158408/8MWTW1613MJQ_07.jpg?v=638838974210700000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161435/ISOMW0020.jpg?v=638838974210700000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 11399,
+                "ListPrice": 11399,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 11399,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 11399,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 3799.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 11399,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1899.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 11399,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1266.55,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 11399,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 949.91,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 11399,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "652",
+      "productName": "Lavadora 16kg Carga Superior Impeller Blanca",
+      "brand": "Whirlpool",
+      "link": "https://www.whirlpool.mx/lavadora-impeller-carga-superior-8mwtw1642msq/p",
+      "items": [
+        {
+          "itemId": "708",
+          "ean": "",
+          "images": [
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166538/8MWTW1642MSQ-14.jpg?v=639048022845170000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166539/8MWTW1642MSQ-15.jpg?v=639048022845300000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166540/8MWTW1642MSQ-01.jpg?v=639048022845300000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166541/8MWTW1642MSQ-03.jpg?v=639048022845300000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166542/8MWTW1642MSQ-06.jpg?v=639048022845470000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166543/8MWTW1642MSQ-05.jpg?v=639048022845470000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166544/8MWTW1642MSQ-04.jpg?v=639048022845470000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166545/8MWTW1642MSQ-02.jpg?v=639048022845630000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/166546/Isometrico-8MWTW1642MSQ.jpg?v=639048022903530000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 7490,
+                "ListPrice": 8999,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 7490,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 7490,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2496.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 7490,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1248.33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 7490,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 832.22,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 7490,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 624.16,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 7490,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "148",
+      "productName": "Lavadora 18kg Carga Frontal HE Blanca",
+      "brand": "Whirlpool",
+      "link": "https://www.whirlpool.mx/lavadora-carga-frontal-18kg-alta-eficiencia-7mwfw560chw/p",
+      "items": [
+        {
+          "itemId": "149",
+          "ean": "883049583426",
+          "images": [
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158236/7MWFW560CHW_01.png?v=638158751469700000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158237/7MWFW560CHW_02.png?v=638756718072300000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158238/7MWFW560CHW_03.png?v=638756718072470000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158239/7MWFW560CHW_04.png?v=638756718072470000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158241/7MWFW560CHW_06.png?v=638838969793630000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/158242/7MWFW560CHW_07.png?v=638838969793800000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 22499,
+                "ListPrice": 26999,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 22499,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 22499,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 7499.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 22499,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 3749.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 22499,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2499.88,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 22499,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1874.91,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 22499,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "154",
+      "productName": "Lavadora 23kg Carga Frontal Xpert Inverter Gris",
+      "brand": "Whirlpool",
+      "link": "https://www.whirlpool.mx/lavadora-inverter-carga-frontal-23kg-7mwfw6605mc/p",
+      "items": [
+        {
+          "itemId": "155",
+          "ean": "883049644646",
+          "images": [
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160450/7MWFW6605MC-00.jpg?v=638169183005630000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160451/7MWFW6605MC-01.jpg?v=638838971538430000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160452/7MWFW6605MC-02.jpg?v=638838971538600000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160453/7MWFW6605MC-03.jpg?v=638838971538600000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160454/7MWFW6605MC-04.jpg?v=638838971538770000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160455/7MWFW6605MC-05.jpg?v=638838971538770000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160456/7MWFW6605MC-06.jpg?v=638838971538770000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160457/7MWFW6605MC-07.jpg?v=638838971538900000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160458/7MWFW6605MC-08.jpg?v=638838971538900000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160459/7MWFW6605MC-09.jpg?v=638838971538900000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160460/7MWFW6605MC-10.jpg?v=638838971539230000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160461/7MWFW6605MC-11.jpg?v=638838971539230000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160462/7MWFW6605MC-12.jpg?v=638838971539230000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160463/7MWFW6605MC-13.jpg?v=638838971539400000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160464/7MWFW6605MC-14.jpg?v=638838971539400000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160465/7MWFW6605MC-15.jpg?v=638838971539400000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160466/7MWFW6605MC-16.jpg?v=638838971539400000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160467/7MWFW6605MC-17.jpg?v=638838971539530000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160468/7MWFW6605MC-18.jpg?v=638838971539530000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160469/7MWFW6605MC-19.jpg?v=638838971539530000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160470/7MWFW6605MC-20.jpg?v=638838971539530000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/160471/7MWFW6605MC_16.jpg?v=638838971539530000"
+            },
+            {
+              "imageUrl": "https://whirlpoolmex.vteximg.com.br/arquivos/ids/161434/Isometrico-7MWFW5605MC--3-.jpg?v=638838971539700000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 23399,
+                "ListPrice": 35199,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 23399,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 23399,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 7799.66,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 23399,
+                    "NumberOfInstallments": 3,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 3899.83,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 23399,
+                    "NumberOfInstallments": 6,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 2599.88,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 23399,
+                    "NumberOfInstallments": 9,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  },
+                  {
+                    "Value": 1949.91,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 23399,
+                    "NumberOfInstallments": 12,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

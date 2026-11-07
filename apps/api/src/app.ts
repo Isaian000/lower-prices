@@ -10,6 +10,7 @@ import { logger } from "./lib/logger.js";
 import { healthRouter } from "./routes/health.js";
 import { openApiRouter } from "./routes/openapi.js";
 import { createSearchRouter } from "./routes/search.js";
+import { ucpRouter } from "./routes/ucp.js";
 import { createCircuitBreaker } from "./search/circuit-breaker.js";
 import { createSearchService, type SearchService } from "./search/service.js";
 import { createDefaultAdapters } from "./stores/registry.js";
@@ -22,7 +23,7 @@ export interface AppDeps {
 
 function createDefaultSearchService(): SearchService {
   return createSearchService({
-    adapters: createDefaultAdapters(),
+    adapters: createDefaultAdapters({ ucpAgentProfileUrl: env.UCP_AGENT_PROFILE_URL }),
     cache: createCacheFromEnv(env),
     timeoutMs: env.STORE_TIMEOUT_MS,
     pageSize: env.STORE_PAGE_SIZE,
@@ -59,6 +60,7 @@ export function createApp(deps: AppDeps = {}) {
   app.use(cors({ origin: [...corsOrigins], methods: ["GET"], maxAge: 86_400 }));
   app.use(express.json({ limit: "10kb" }));
 
+  app.use("/.well-known", ucpRouter);
   app.use("/api/health", healthRouter);
   app.use("/api", openApiRouter);
   app.use("/api", createSearchRouter(searchService));

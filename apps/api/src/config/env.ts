@@ -33,6 +33,12 @@ const envSchema = z.object({
     ),
   /** Vida de la caché de resultados por tienda. */
   CACHE_TTL_SECONDS: z.coerce.number().int().positive().default(600),
+  /**
+   * URL pública del perfil de agente UCP (la API lo sirve en /.well-known/ucp), p. ej.
+   * "https://api.ejemplo.mx/.well-known/ucp". Sin ella no se consultan las tiendas Shopify,
+   * porque cada tienda descarga el perfil para validar la consulta.
+   */
+  UCP_AGENT_PROFILE_URL: optionalString.pipe(z.url({ protocol: /^https$/ }).optional()),
   /** Si ambas están definidas se usa Upstash Redis; si no, caché en memoria. */
   UPSTASH_REDIS_REST_URL: optionalString.pipe(z.url().optional()),
   UPSTASH_REDIS_REST_TOKEN: optionalString,

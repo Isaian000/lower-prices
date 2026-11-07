@@ -1,0 +1,449 @@
+{
+  "store": "similares",
+  "query": "paracetamol",
+  "status": 206,
+  "resources": "0-9/40",
+  "recordedAt": "2026-11-07T21:39:58.241Z",
+  "body": [
+    {
+      "productId": "813",
+      "productName": "PARACETAMOL 750MG 10 TABLETAS",
+      "brand": "PICK UP",
+      "link": "https://www.farmaciasdesimilares.com/paracetamol_750mg_10tab/p",
+      "items": [
+        {
+          "itemId": "813",
+          "ean": "459",
+          "images": [
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/162999/459_frente.png?v=638732664854430000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/163000/459_cuartos.png?v=638732664982130000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/163001/459_reverso.png?v=638732665089570000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 18,
+                "ListPrice": 18,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 18,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 18,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "892",
+      "productName": "AMANTADINA / CLORFENAMINA / PARACETAMOL 24 CAPSULAS",
+      "brand": "PICK UP",
+      "link": "https://www.farmaciasdesimilares.com/amantadina_clor_para_24cap/p",
+      "items": [
+        {
+          "itemId": "892",
+          "ean": "675",
+          "images": [
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/163786/675-frente.jpg?v=638918424951300000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/163787/675-reverso.jpg?v=638918424951770000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/163788/675_cuartos.jpg?v=638918424951900000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 33,
+                "ListPrice": 33,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 33,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 33,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1261",
+      "productName": "PARACETAMOL/ORFENADRINA 450MG/35MG 50TABLETAS",
+      "brand": "PICK UP",
+      "link": "https://www.farmaciasdesimilares.com/paracetamol_orfenadrina_450mg_35mg_50tab/p",
+      "items": [
+        {
+          "itemId": "1260",
+          "ean": "3791",
+          "images": [
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/159518/3791.png?v=638454460351830000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/159519/3791.png?v=638454460356600000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/159520/3791.png?v=638454460362730000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 279,
+                "ListPrice": 279,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 279,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 279,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1546",
+      "productName": "PARACETAMOL 80MG 30 TABLETAS MASTICABLES MEJORALITO",
+      "brand": "PICK UP",
+      "link": "https://www.farmaciasdesimilares.com/paracetamol_80mg_30_tab_mast_mejoralito/p",
+      "items": [
+        {
+          "itemId": "1545",
+          "ean": "4104",
+          "images": [
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/163586/4104_frente.png?v=638870004857470000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/163587/4104_cuartos.png?v=638870004857770000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/163588/4104_reverso.png?v=638870004857770000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 72,
+                "ListPrice": 72,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 72,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 72,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "1223",
+      "productName": "PARACETAMOL 300 MG 6 SUPOSITORIOS",
+      "brand": "PICK UP",
+      "link": "https://www.farmaciasdesimilares.com/paracetamol_300mg_6_supos/p",
+      "items": [
+        {
+          "itemId": "1222",
+          "ean": "1625",
+          "images": [
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/159387/1625.png?v=638345240972100000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/159388/1625.png?v=638345240978430000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/159389/1625.png?v=638345240988570000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 51,
+                "ListPrice": 51,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 51,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 51,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "134",
+      "productName": "PARACETAMOL/IBUPROFENO 325MG/200MG 20TABLETAS",
+      "brand": "PICK UP",
+      "link": "https://www.farmaciasdesimilares.com/paracetamol_ibuprofeno_32mg_200mg_20tab/p",
+      "items": [
+        {
+          "itemId": "134",
+          "ean": "1107",
+          "images": [
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/156018/1107.png?v=638139768640070000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/156019/1107.png?v=638139768650430000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/156020/1107.png?v=638139768661870000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 46,
+                "ListPrice": 46,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 46,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 46,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "179",
+      "productName": "CLORFENAMINA / FENILEFRINA / PARACETAMOL 24 TABLETAS",
+      "brand": "PICK UP",
+      "link": "https://www.farmaciasdesimilares.com/clorfenamina_feni_para_24tab/p",
+      "items": [
+        {
+          "itemId": "179",
+          "ean": "1326",
+          "images": [
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/160549/1326.png?v=638586481752230000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/160550/1326.png?v=638586481772070000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/160551/1326.png?v=638586481778600000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 36,
+                "ListPrice": 36,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 36,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 36,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "264",
+      "productName": "PARACETAMOL 500 MG 10 TABLETAS",
+      "brand": "PICK UP",
+      "link": "https://www.farmaciasdesimilares.com/paracetamol_500mg_10tab/p",
+      "items": [
+        {
+          "itemId": "264",
+          "ean": "162",
+          "images": [
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/162066/162.png?v=638663449106430000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/162067/162.png?v=638663449110930000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/162068/162.png?v=638663449115270000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 8,
+                "ListPrice": 8,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 8,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 8,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "574",
+      "productName": "PARACETAMOL 650 MG 24 TABLETAS",
+      "brand": "PICK UP",
+      "link": "https://www.farmaciasdesimilares.com/paracetamol_650mg_24tab/p",
+      "items": [
+        {
+          "itemId": "574",
+          "ean": "2788",
+          "images": [
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/156996/2788.png?v=638139776937570000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/156997/2788.png?v=638139776953600000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/156998/2788.png?v=638139776965330000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 31,
+                "ListPrice": 31,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 31,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 31,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "896",
+      "productName": "PARACETAMOL/CAFEINA/FENILEFRINA/CLORFENAMINA 10TABLETAS SIMIFLU",
+      "brand": "PICK UP",
+      "link": "https://www.farmaciasdesimilares.com/parace_cafe_fenil_clorfen_10tab_simiflu/p",
+      "items": [
+        {
+          "itemId": "896",
+          "ean": "68",
+          "images": [
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/163099/68_frente.png?v=638748816687170000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/163100/68_cuartos.png?v=638748816774630000"
+            },
+            {
+              "imageUrl": "https://farmaciassimilaresmx.vteximg.com.br/arquivos/ids/163101/68_reverso.png?v=638748816974870000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 12,
+                "ListPrice": 12,
+                "AvailableQuantity": 99999,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 12,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 12,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -9,6 +9,8 @@ const GENERIC_BRANDS = new Set([
   "otros",
   "otra",
   "na",
+  // Farmacias Similares publica «PICK UP» (modo de entrega) en el campo de marca.
+  "pickup",
 ]);
 
 /** Modelos de relleno que no sirven para comparar. */

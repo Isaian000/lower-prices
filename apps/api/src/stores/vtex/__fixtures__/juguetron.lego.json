@@ -1,0 +1,647 @@
+{
+  "store": "juguetron",
+  "query": "lego",
+  "status": 206,
+  "resources": "0-9/1257",
+  "recordedAt": "2026-11-07T21:39:57.996Z",
+  "body": [
+    {
+      "productId": "103443690",
+      "productName": "LEGO City Great Vehicles Camión LEGO® 60500",
+      "brand": "LEGO",
+      "link": "https://www.juguetron.mx/lego-city-great-vehicles-camion-lego-60500/p",
+      "items": [
+        {
+          "itemId": "103443884",
+          "ean": "673419420938",
+          "images": [
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236918/694ee9d755247b96a43bec07.png?v=639027174396700000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236919/694ee9d73346b132db9c9b32.png?v=639027174396700000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236920/694ee9d7556d2c05475cf620.png?v=639027174396870000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236921/694ee9d75db912e92dd95c30.jpg?v=639027174396870000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236922/694ee9d7dfe5bdb515a21a76.jpg?v=639027174396870000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236923/694ee9d72e5b17c1e3137b6c.jpg?v=639027174396870000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236924/694ee9d7f7bec908a59d2dd8.jpg?v=639027174396870000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236925/694ee9d790d11a4828f2d9e6.jpg?v=639027174397030000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236926/694ee9d69f59ff1eae30c901.jpg?v=639027174397030000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236927/694ee9d79ee92b90cf270a82.jpg?v=639027174397030000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236928/694ee9d7c43db710befc7617.jpg?v=639027174397030000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236929/694ee9d6385cf25ce29f0275.jpg?v=639027174397200000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236930/694ee9d7f6b9d3819e2a3ff0.jpg?v=639027174397200000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236931/694ee9d77137bf9f94806e3a.jpg?v=639027174397200000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236932/694ee9d662efd9fafe43e521.jpg?v=639027174397200000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/236933/694ee9d77ef6f23e77a2ec25.png?v=639027174397200000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 699,
+                "ListPrice": 699,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 699,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 699,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "4124",
+      "productName": "LEGO Super Mario Aventuras Interactivas con LEGO Peach™ 71441",
+      "brand": "LEGO",
+      "link": "https://www.juguetron.mx/lego-super-mario-aventuras-interactivas-con-lego-peach-71441/p",
+      "items": [
+        {
+          "itemId": "4744",
+          "ean": "673419392853",
+          "images": [
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/184754/6748f7a62593064ddfdbbe91.jpg?v=638735947841230000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/184755/6748f7a62593064ddfdbbe90.png?v=638735947841230000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/184756/6748f7a62593064ddfdbbe89.png?v=638735947841400000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/184757/6748f7a62593064ddfdbbe92.png?v=638735947841400000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/184758/6748f7a62593064ddfdbbe8a.png?v=638735947841400000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/184759/6748f7a62593064ddfdbbe8e.png?v=638735947841400000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/184760/6748f7a62593064ddfdbbe99.png?v=638735947841400000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/184761/6748f7a62593064ddfdbbe94.png?v=638735947841400000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/184762/6748f7a62593064ddfdbbe8d.jpg?v=638735947841570000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/184763/6748f7a62593064ddfdbbe88.jpg?v=638735947841570000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/184764/6748f7a62593064ddfdbbe95.jpg?v=638735947841570000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/184765/6748f7a62593064ddfdbbe97.jpg?v=638735947841570000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1299,
+                "ListPrice": 1299,
+                "AvailableQuantity": 1,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1299,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1299,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3961",
+      "productName": "LEGO Girasoles 40524",
+      "brand": "LEGO",
+      "link": "https://www.juguetron.mx/lego-girasoles-40524/p",
+      "items": [
+        {
+          "itemId": "4528",
+          "ean": "673419359597",
+          "images": [
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/180492/6748f7a62593064ddfdbb72b.jpg?v=638726373290470000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/180493/6748f7a62593064ddfdbb72c.jpg?v=638726373290470000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/180494/6748f7a62593064ddfdbb72d.jpg?v=638726373290600000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/180495/6748f7a62593064ddfdbb72a.jpg?v=638726373290600000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 349,
+                "ListPrice": 349,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 349,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 349,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "103444037",
+      "productName": "LEGO Maceta de Sally 43288",
+      "brand": "LEGO",
+      "link": "https://www.juguetron.mx/lego-ideas-maceta-de-sally-43288/p",
+      "items": [
+        {
+          "itemId": "103444230",
+          "ean": "673419423939",
+          "images": [
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244018/69a06596b90a38d870e4319b.png?v=639077225137030000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244019/69a0659643cdb4b3b9c65dcf.png?v=639077225137170000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244020/69a06596a97929b5ff0736a2.jpg?v=639077225137170000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244021/69a0659694ac5079e1d584c7.jpg?v=639077225137170000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244022/69a06596dc884145f37fccce.jpg?v=639077225137330000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244023/69a065968ab63263b549e7ba.jpg?v=639077225137330000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244024/69a0659685abdbbac2cce716.jpg?v=639077225137330000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244025/69a06596245e5d58c22e0c29.jpg?v=639077225137330000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244026/69a06596a9c533482f228a4f.png?v=639077225137330000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1199,
+                "ListPrice": 1199,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1199,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1199,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "103443618",
+      "productName": "LEGO Botanicals Margaritas 11508",
+      "brand": "LEGO",
+      "link": "https://www.juguetron.mx/lego-botanicals-margaritas-11508/p",
+      "items": [
+        {
+          "itemId": "103443812",
+          "ean": "673419422000",
+          "images": [
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/239699/694ecaf39732c5b08e632dde.jpg?v=639045393882230000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/239700/694ecaf30f869bfa9996c121.png?v=639045393882530000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/239701/694ecaf38830674922b738f6.png?v=639045393882530000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/239702/694ecaf320ef678fc5565833.png?v=639045393882530000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/239703/694ecaf3a0e42d666076d0b4.jpg?v=639045393882700000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/239704/694ecaf3f255b8fa088fdcaf.jpg?v=639045393882700000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/239705/694ecaf31ed4a5aeaeb85f9a.jpg?v=639045393882700000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/239706/694ecaf3882d05e86128575e.jpg?v=639045393882870000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/239707/694ecaf3f101f1a4f7b3b1cd.jpg?v=639045393882870000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/239708/694ecaf33022bbbacacd348b.jpg?v=639045393883000000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/239709/694ecaf321c1cf51aba3ac43.jpg?v=639045393883170000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/239710/694ecaf3ea95e8b27cd0ca71.png?v=639045393883170000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/239711/696feae663dcfa3bf41138ed.jpg?v=639045393883330000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 349,
+                "ListPrice": 349,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 349,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 349,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3887",
+      "productName": "LEGO Bonsái Icons 10281",
+      "brand": "LEGO",
+      "link": "https://www.juguetron.mx/lego-bonsai-icons-10281/p",
+      "items": [
+        {
+          "itemId": "4664",
+          "ean": "673419340533",
+          "images": [
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/175231/6748f7a62593064ddfdbb1b5.jpg?v=638684749892300000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/175263/6748f7a62593064ddfdbb1b6.jpg?v=638684749894000000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/175283/6748f7a62593064ddfdbb1b7.jpg?v=638684749894930000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1299,
+                "ListPrice": 1299,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1299,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1299,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "103444041",
+      "productName": "LEGO Moto Amarilla 42225",
+      "brand": "LEGO",
+      "link": "https://www.juguetron.mx/lego-moto-amarilla-42225/p",
+      "items": [
+        {
+          "itemId": "103444234",
+          "ean": "673419425179",
+          "images": [
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244056/69a0710a06d908970f3f75f1.png?v=639077233507500000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244057/69a0710a4741707b9ce4c840.png?v=639077233507630000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244058/69a0710ac3136597d19d4e05.jpg?v=639077233507630000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244059/69a0710adfd4840d62f26433.jpg?v=639077233507770000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244060/69a0710a2570288cb82e597a.jpg?v=639077233507770000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244061/69a0710a9ed5bb041883edc3.jpg?v=639077233507770000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244062/69a0710a83f7131e62903465.jpg?v=639077233507770000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244063/69a0710ab15ae1d97b51fa33.jpg?v=639077233507770000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244064/69a0710ae8d128b0df4bfc80.jpg?v=639077233507900000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244065/69a0710a7c66e5e4af8715d5.png?v=639077233507900000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 249,
+                "ListPrice": 249,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 249,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 249,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "103441211",
+      "productName": "LEGO Fortnite Klombo 77077",
+      "brand": "LEGO",
+      "link": "https://www.juguetron.mx/lego-fortnite-klombo-77077/p",
+      "items": [
+        {
+          "itemId": "103441317",
+          "ean": "673419407465",
+          "images": [
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/206120/68365dd673aa8b9d9cfef48f.png?v=638841441256800000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/206121/68365dd61e8010f14028ac6e.png?v=638841441256800000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/206122/68365dd61e8010f14028ac6f.png?v=638841441256970000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/206123/68365dd653b9376e8c01ec0d.png?v=638841441256970000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/206124/68365dd60445a3d0c81f7ebb.png?v=638841441256970000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/206125/68365dd6b22e633d82f825f9.png?v=638841441256970000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/206126/68365dd662593931f7bf8c65.png?v=638841441256970000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/206127/68365dd6881889f0d9658d76.png?v=638841441256970000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/206128/68365dd6995476bdc414d4fa.jpg?v=638841441257130000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/206129/68365dd6a795d0fe5f488c6e.jpg?v=638841441257130000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 2599,
+                "ListPrice": 2599,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 2599,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 2599,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "103444035",
+      "productName": "LEGO Logotipo de Batman™ 76330",
+      "brand": "LEGO",
+      "link": "https://www.juguetron.mx/lego-art-logotipo-de-batman-76330/p",
+      "items": [
+        {
+          "itemId": "103444228",
+          "ean": "673419422512",
+          "images": [
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244151/69a0657e43cdb4b3b9c65dcd.png?v=639077243527500000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244152/69a0657edc884145f37fcccc.png?v=639077243527500000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244153/69a0657f85abdbbac2cce714.png?v=639077243527630000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244154/69a0657e94ac5079e1d584c5.jpg?v=639077243527630000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244155/69a0657fa97929b5ff0736a0.jpg?v=639077243527630000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244156/69a0657fbaf9d7ffc6a79335.jpg?v=639077243527630000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244157/69a0657ea9c533482f228a4d.jpg?v=639077243527630000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244158/69a0657eb90a38d870e43199.jpg?v=639077243527800000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244159/69a0657e245e5d58c22e0c28.jpg?v=639077243527800000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/244160/69a0657f85abdbbac2cce713.png?v=639077243527800000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1999,
+                "ListPrice": 1999,
+                "AvailableQuantity": 100,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1999,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1999,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "3888",
+      "productName": "LEGO Orquídeas Icons 10311",
+      "brand": "LEGO",
+      "link": "https://www.juguetron.mx/lego-orquideas-icons-10311/p",
+      "items": [
+        {
+          "itemId": "4411",
+          "ean": "673419363266",
+          "images": [
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/180585/6748f7a62593064ddfdbb206.jpg?v=638729947076800000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/180586/6748f7a62593064ddfdbb203.jpg?v=638729947076970000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/180587/6748f7a62593064ddfdbb209.jpg?v=638729947076970000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/180588/6748f7a62593064ddfdbb202.jpg?v=638729947077100000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/180589/6748f7a62593064ddfdbb204.jpg?v=638729947077100000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/180590/6748f7a62593064ddfdbb207.jpg?v=638729947077100000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/180591/6748f7a62593064ddfdbb208.jpg?v=638729947077270000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/180592/6748f7a62593064ddfdbb201.jpg?v=638729947077270000"
+            },
+            {
+              "imageUrl": "https://juguetron.vteximg.com.br/arquivos/ids/180593/6748f7a62593064ddfdbb205.jpg?v=638729947077270000"
+            }
+          ],
+          "sellers": [
+            {
+              "sellerId": "1",
+              "sellerDefault": true,
+              "commertialOffer": {
+                "Price": 1299,
+                "ListPrice": 1299,
+                "AvailableQuantity": 10,
+                "IsAvailable": true,
+                "Installments": [
+                  {
+                    "Value": 1299,
+                    "InterestRate": 0,
+                    "TotalValuePlusInterestRate": 1299,
+                    "NumberOfInstallments": 1,
+                    "PaymentSystemGroupName": "creditCardPaymentGroup"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,10 @@ import type { StoreAdapter, StoreSearchParams, StoreSearchResult } from "../stor
 import { type CircuitBreaker, createCircuitBreaker } from "./circuit-breaker.js";
 import { decodeCursor, encodeCursor, type StoreOffsets } from "./cursor.js";
 import { groupOffers, type RankedGroup, type RankedOffer } from "./group.js";
+import { filterRelevant, isUnsoughtAccessory, queryTerms } from "./relevance.js";
+
+/** Posiciones que baja un accesorio no buscado en el orden por relevancia. */
+const ACCESSORY_PENALTY = 10_000;
 
 export interface SearchRequest {
   query: string;
@@ -194,20 +198,32 @@ export function createSearchService(options: SearchServiceOptions) {
       ),
     );
 
-    const statuses = outcomes.map((outcome) => outcome.status);
     if (targets.length > 0 && outcomes.every((outcome) => !outcome.result)) {
-      throw new AllStoresFailedError(statuses);
+      throw new AllStoresFailedError(outcomes.map((outcome) => outcome.status));
     }
 
+    // Enlaces y relevancia se aplican después de la caché, para que un cambio en las reglas
+    // de afiliados o en el filtro aplique de inmediato.
+    const visible = outcomes.map(({ result }, i) =>
+      filterRelevant(
+        withOutboundUrls(result?.offers ?? [], targets[i]![0].allowedHosts, options.outboundRules),
+        request.query,
+      ),
+    );
+
+    // El conteo de cada tienda refleja lo que la persona ve, no lo que la tienda devolvió.
+    const statuses = outcomes.map((outcome, i) =>
+      outcome.result ? { ...outcome.status, count: visible[i]!.length } : outcome.status,
+    );
+
     // La posición global (offset + índice) permite intercalar tiendas por relevancia.
-    // Los enlaces se procesan después de la caché, para que un cambio en las reglas
-    // de afiliados aplique de inmediato.
-    const ranked: RankedOffer[] = outcomes.flatMap(({ result, offset }, i) =>
-      withOutboundUrls(
-        result?.offers ?? [],
-        targets[i]![0].allowedHosts,
-        options.outboundRules,
-      ).map((offer, index) => ({ offer, rank: offset + index })),
+    // Los accesorios que no se buscaron (fundas al buscar un teléfono) van al final.
+    const terms = queryTerms(request.query);
+    const ranked: RankedOffer[] = outcomes.flatMap(({ offset }, i) =>
+      visible[i]!.map((offer, index) => ({
+        offer,
+        rank: offset + index + (isUnsoughtAccessory(offer, terms) ? ACCESSORY_PENALTY : 0),
+      })),
     );
 
     // Las tiendas que fallaron no pasan al cursor: se pierden en esta búsqueda,

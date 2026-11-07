@@ -33,6 +33,19 @@ const healthyStores = () => [
 describe("API", () => {
   const app = appWith(healthyStores());
 
+  it("GET /.well-known/ucp sirve el perfil de agente UCP (solo lectura de catálogo)", async () => {
+    const res = await request(app).get("/.well-known/ucp");
+
+    expect(res.status).toBe(200);
+    const body = res.body as { ucp: { version: string; capabilities: Record<string, unknown> } };
+    expect(body.ucp.version).toBe("2026-08-25");
+    expect(Object.keys(body.ucp.capabilities)).toEqual([
+      "dev.ucp.shopping.catalog.search",
+      "dev.ucp.shopping.catalog.lookup",
+      "dev.shopify.catalog",
+    ]);
+  });
+
   it("GET /api/health responde ok", async () => {
     const res = await request(app).get("/api/health");
 
