@@ -6,7 +6,7 @@
 
 .results {
   display: grid;
-  gap: var(--space-5);
+  gap: var(--space-4);
   padding-top: var(--space-8);
 }
 
@@ -19,11 +19,10 @@
 }
 
 .title {
-  font-size: clamp(1.625rem, 1.2rem + 1.8vw, 2.5rem);
-  font-weight: 800;
-  font-variation-settings: "wdth" 72;
-  line-height: 1.05;
-  letter-spacing: -0.015em;
+  font-size: var(--text-title);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
   overflow-wrap: anywhere;
 }
 
@@ -32,33 +31,30 @@
   flex-wrap: wrap;
   gap: var(--space-1) var(--space-4);
   font-size: var(--text-sm);
-  color: var(--letter-dim);
+  color: var(--ink-muted);
+}
+
+/* Resumen de tiendas a la izquierda y orden a la derecha. */
+.statusRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-6);
 }
 
 .partial {
   padding: var(--space-3) var(--space-4);
-  background: var(--board-deep);
-  border: 1px solid var(--red);
+  border: 1px solid var(--alert);
   border-radius: var(--radius);
   font-size: var(--text-sm);
-}
-
-.statusRow {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-2) var(--space-6);
-  padding: var(--space-2) 0;
-  border-top: 1px solid var(--joint);
-  border-bottom: 1px solid var(--joint);
 }
 
 .more {
   display: grid;
   justify-items: center;
   gap: var(--space-3);
-  padding: var(--space-4) 0;
+  padding: var(--space-6) 0 0;
 }
 
 .moreButton {
@@ -66,14 +62,13 @@
   align-items: center;
   justify-content: center;
   min-height: 3rem;
-  min-width: 16rem;
+  min-width: 15rem;
   padding: 0 var(--space-6);
-  background: var(--letter);
-  color: var(--board);
-  border: 0;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--ink);
   border-radius: var(--radius);
-  font-weight: 700;
-  font-variation-settings: "wdth" 85;
+  font-weight: 600;
   text-decoration: none;
   cursor: pointer;
   transition:
@@ -87,24 +82,24 @@
 
 @media (hover: hover) and (pointer: fine) {
   .moreButton:hover {
-    background: var(--amber);
-    color: var(--amber-ink);
+    background: var(--paper-soft);
   }
 }
 
 .moreButton:disabled {
   cursor: progress;
-  background: var(--letter-dim);
+  color: var(--ink-muted);
+  border-color: var(--rule-strong);
 }
 
 .end {
   font-size: var(--text-sm);
-  color: var(--letter-dim);
+  color: var(--ink-muted);
 }
 
 .moreError {
   font-size: var(--text-sm);
-  color: var(--red);
+  color: var(--alert);
 }
 
 /* Estados: sin resultados y fallas. */
@@ -113,20 +108,20 @@
   justify-items: start;
   gap: var(--space-4);
   max-width: 40rem;
-  padding: var(--space-10) 0;
+  padding: var(--space-8) 0;
 }
 
 .stateTitle {
-  font-size: clamp(1.625rem, 1.2rem + 1.8vw, 2.5rem);
-  font-weight: 800;
-  font-variation-settings: "wdth" 72;
-  line-height: 1.05;
+  font-size: var(--text-title);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
   overflow-wrap: anywhere;
 }
 
 .stateBody {
   font-size: var(--text-lg);
-  color: var(--letter-dim);
+  color: var(--ink-muted);
   max-width: 50ch;
 }
 
@@ -134,7 +129,7 @@
   margin-top: var(--space-4);
   font-size: var(--text-sm);
   font-weight: 600;
-  color: var(--letter-dim);
+  color: var(--ink-muted);
 }
 
 .tryList {

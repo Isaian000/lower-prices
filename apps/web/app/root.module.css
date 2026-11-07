@@ -8,20 +8,20 @@
 }
 
 .error h1 {
-  font-size: clamp(2rem, 1.4rem + 2.6vw, 3.25rem);
-  font-weight: 800;
-  font-variation-settings: "wdth" 72;
-  line-height: 1.02;
+  font-size: var(--text-title);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
 }
 
 .error p {
   max-width: 50ch;
   font-size: var(--text-lg);
-  color: var(--letter-dim);
+  color: var(--ink-muted);
 }
 
 .error a {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .stack {
@@ -29,8 +29,8 @@
   margin-top: var(--space-6);
   padding: var(--space-4);
   overflow-x: auto;
-  background: var(--board-deep);
-  border: 1px solid var(--joint);
+  background: var(--paper-soft);
+  border: 1px solid var(--rule);
   border-radius: var(--radius);
   font-size: var(--text-sm);
 }

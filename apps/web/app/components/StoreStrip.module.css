@@ -1,13 +1,44 @@
-.strip {
+.status {
   min-width: 0;
+}
+
+.summary {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 2.75rem;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+.summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Flecha del desplegable, dibujada con bordes. */
+.summary::after {
+  content: "";
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-left: var(--space-1);
+  border-right: 1.5px solid var(--ink-muted);
+  border-bottom: 1.5px solid var(--ink-muted);
+  transform: translateY(-2px) rotate(45deg);
+  transition: transform 160ms var(--ease-out);
+}
+
+.status[open] .summary::after {
+  transform: translateY(1px) rotate(-135deg);
 }
 
 .list {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-2) var(--space-8);
+  gap: var(--space-2) var(--space-6);
   margin: 0;
-  padding: var(--space-3) 0;
+  padding: 0 0 var(--space-3);
   list-style: none;
 }
 
@@ -19,16 +50,15 @@
 }
 
 .name {
-  font-weight: 700;
-  font-variation-settings: "wdth" 75;
+  font-weight: 600;
 }
 
 .detail {
-  color: var(--letter-dim);
+  color: var(--ink-muted);
 }
 
 .item[data-state="timeout"] .detail,
 .item[data-state="error"] .detail,
 .item[data-state="paused"] .detail {
-  color: var(--red);
+  color: var(--alert);
 }

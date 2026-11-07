@@ -4,7 +4,11 @@ import { useTranslation } from "react-i18next";
 import { StoreLamp } from "./StoreLamp";
 import styles from "./StoreStrip.module.css";
 
-/** Tira de lámparas: qué tiendas se consultaron y cómo respondió cada una. */
+/**
+ * Estado de las tiendas consultadas. Muestra un resumen de una línea («4 de 4 tiendas
+ * respondieron») y el detalle de cada tienda en un desplegable, para que funcione igual
+ * con 4 o con 20 tiendas. Si alguna falló, el detalle se abre solo.
+ */
 export function StoreStrip({
   stores,
   statuses,
@@ -14,13 +18,16 @@ export function StoreStrip({
 }) {
   const { t } = useTranslation("search");
   const byId = new Map(statuses.map((status) => [status.id, status]));
+  const answered = statuses.filter((status) => status.status === "ok").length;
+  const allOk = answered === statuses.length;
 
   return (
-    <section className={styles.strip} aria-labelledby="stores-heading">
-      <h2 id="stores-heading" className="visually-hidden">
-        {t("stores.heading")}
-      </h2>
-      <ul className={styles.list}>
+    <details className={styles.status} open={!allOk}>
+      <summary className={styles.summary}>
+        <StoreLamp state={allOk ? "ok" : "timeout"} />
+        <span>{t("stores.summary", { answered, count: statuses.length })}</span>
+      </summary>
+      <ul className={styles.list} aria-label={t("stores.heading")}>
         {stores.map((store) => {
           const status = byId.get(store.id);
           const state = status?.status ?? "idle";
@@ -39,13 +46,13 @@ export function StoreStrip({
           );
         })}
       </ul>
-    </section>
+    </details>
   );
 }
 
 /**
  * Tiendas que faltan en los resultados, separadas por motivo para que el aviso diga
- * lo mismo que la tira de lámparas: no respondieron (tiempo o error) o están en pausa.
+ * lo mismo que el detalle: no respondieron (tiempo o error) o están en pausa.
  */
 export function missingStores(stores: readonly Store[], statuses: readonly StoreStatus[]) {
   const names = (codes: readonly StoreStatus["status"][]) => {

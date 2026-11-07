@@ -1,237 +1,234 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-07T19:42:01+00:00",
+  "generatedAt": "2026-11-07T21:07:31.932470+00:00",
   "title": "Design System: lower-prices",
   "extensions": {
     "colorMeta": {
-      "board": {
+      "paper": {
         "role": "neutral",
-        "displayName": "Tablero",
-        "canonical": "oklch(29.7% 0.096 260.9)",
+        "displayName": "Papel",
+        "canonical": "#ffffff",
+        "cssVar": "--paper",
         "tonalRamp": [
-          "oklch(15% 0.096 260.9)",
-          "oklch(25% 0.096 260.9)",
-          "oklch(35% 0.096 260.9)",
-          "oklch(45% 0.096 260.9)",
-          "oklch(55% 0.096 260.9)",
-          "oklch(70% 0.096 260.9)",
-          "oklch(85% 0.096 260.9)",
-          "oklch(95% 0.096 260.9)"
+          "#262626",
+          "#424242",
+          "#5e5e5e",
+          "#7a7a7a",
+          "#969696",
+          "#b2b2b2",
+          "#d1d1d1",
+          "#f2f2f2"
         ]
       },
-      "board-deep": {
+      "paper-soft": {
         "role": "neutral",
-        "displayName": "Módulo hundido",
-        "canonical": "oklch(24.0% 0.075 261.4)",
+        "displayName": "Papel de apoyo",
+        "canonical": "#f5f5f2",
+        "cssVar": "--paper-soft",
         "tonalRamp": [
-          "oklch(15% 0.075 261.4)",
-          "oklch(25% 0.075 261.4)",
-          "oklch(35% 0.075 261.4)",
-          "oklch(45% 0.075 261.4)",
-          "oklch(55% 0.075 261.4)",
-          "oklch(70% 0.075 261.4)",
-          "oklch(85% 0.075 261.4)",
-          "oklch(95% 0.075 261.4)"
+          "#2b2b21",
+          "#4b4b3a",
+          "#6b6b52",
+          "#8a8a6a",
+          "#a4a489",
+          "#bcbca9",
+          "#d7d7cb",
+          "#f4f4f1"
         ]
       },
-      "board-raised": {
+      "rule": {
         "role": "neutral",
-        "displayName": "Franja elevada",
-        "canonical": "oklch(35.8% 0.120 261.6)",
+        "displayName": "Filo",
+        "canonical": "#dededa",
+        "cssVar": "--rule",
         "tonalRamp": [
-          "oklch(15% 0.120 261.6)",
-          "oklch(25% 0.120 261.6)",
-          "oklch(35% 0.120 261.6)",
-          "oklch(45% 0.120 261.6)",
-          "oklch(55% 0.120 261.6)",
-          "oklch(70% 0.120 261.6)",
-          "oklch(85% 0.120 261.6)",
-          "oklch(95% 0.120 261.6)"
+          "#282824",
+          "#46463f",
+          "#646459",
+          "#818173",
+          "#9c9c90",
+          "#b7b7ae",
+          "#d4d4ce",
+          "#f3f3f2"
         ]
       },
-      "joint": {
+      "rule-strong": {
         "role": "neutral",
-        "displayName": "Junta",
-        "canonical": "oklch(43.3% 0.109 260.3)",
+        "displayName": "Filo de control",
+        "canonical": "#b9b9b3",
+        "cssVar": "--rule-strong",
         "tonalRamp": [
-          "oklch(15% 0.109 260.3)",
-          "oklch(25% 0.109 260.3)",
-          "oklch(35% 0.109 260.3)",
-          "oklch(45% 0.109 260.3)",
-          "oklch(55% 0.109 260.3)",
-          "oklch(70% 0.109 260.3)",
-          "oklch(85% 0.109 260.3)",
-          "oklch(95% 0.109 260.3)"
+          "#282825",
+          "#454540",
+          "#62625a",
+          "#7f7f75",
+          "#9b9b92",
+          "#b6b6af",
+          "#d3d3cf",
+          "#f3f3f2"
         ]
       },
-      "joint-strong": {
+      "ink": {
         "role": "neutral",
-        "displayName": "Junta marcada",
-        "canonical": "oklch(52.4% 0.108 260.9)",
+        "displayName": "Tinta",
+        "canonical": "#111111",
+        "cssVar": "--ink",
         "tonalRamp": [
-          "oklch(15% 0.108 260.9)",
-          "oklch(25% 0.108 260.9)",
-          "oklch(35% 0.108 260.9)",
-          "oklch(45% 0.108 260.9)",
-          "oklch(55% 0.108 260.9)",
-          "oklch(70% 0.108 260.9)",
-          "oklch(85% 0.108 260.9)",
-          "oklch(95% 0.108 260.9)"
+          "#262626",
+          "#424242",
+          "#5e5e5e",
+          "#7a7a7a",
+          "#969696",
+          "#b2b2b2",
+          "#d1d1d1",
+          "#f2f2f2"
         ]
       },
-      "letter": {
+      "ink-hover": {
         "role": "neutral",
-        "displayName": "Letra",
-        "canonical": "oklch(100% 0 0)",
+        "displayName": "Tinta al pasar",
+        "canonical": "#2b2b2b",
+        "cssVar": "--ink-hover",
         "tonalRamp": [
-          "oklch(15% 0.000 0)",
-          "oklch(25% 0.000 0)",
-          "oklch(35% 0.000 0)",
-          "oklch(45% 0.000 0)",
-          "oklch(55% 0.000 0)",
-          "oklch(70% 0.000 0)",
-          "oklch(85% 0.000 0)",
-          "oklch(95% 0.000 0)"
+          "#262626",
+          "#424242",
+          "#5e5e5e",
+          "#7a7a7a",
+          "#969696",
+          "#b2b2b2",
+          "#d1d1d1",
+          "#f2f2f2"
         ]
       },
-      "letter-dim": {
+      "ink-muted": {
         "role": "neutral",
-        "displayName": "Letra tenue",
-        "canonical": "oklch(80.6% 0.061 260.1)",
+        "displayName": "Tinta secundaria",
+        "canonical": "#5e5e5e",
+        "cssVar": "--ink-muted",
         "tonalRamp": [
-          "oklch(15% 0.061 260.1)",
-          "oklch(25% 0.061 260.1)",
-          "oklch(35% 0.061 260.1)",
-          "oklch(45% 0.061 260.1)",
-          "oklch(55% 0.061 260.1)",
-          "oklch(70% 0.061 260.1)",
-          "oklch(85% 0.061 260.1)",
-          "oklch(95% 0.061 260.1)"
+          "#262626",
+          "#424242",
+          "#5e5e5e",
+          "#7a7a7a",
+          "#969696",
+          "#b2b2b2",
+          "#d1d1d1",
+          "#f2f2f2"
         ]
       },
-      "letter-faint": {
+      "ink-soft": {
         "role": "neutral",
-        "displayName": "Letra débil",
-        "canonical": "oklch(68.8% 0.076 259.5)",
+        "displayName": "Tinta suave",
+        "canonical": "#767670",
+        "cssVar": "--ink-soft",
         "tonalRamp": [
-          "oklch(15% 0.076 259.5)",
-          "oklch(25% 0.076 259.5)",
-          "oklch(35% 0.076 259.5)",
-          "oklch(45% 0.076 259.5)",
-          "oklch(55% 0.076 259.5)",
-          "oklch(70% 0.076 259.5)",
-          "oklch(85% 0.076 259.5)",
-          "oklch(95% 0.076 259.5)"
+          "#272725",
+          "#444441",
+          "#61615c",
+          "#7e7e77",
+          "#999994",
+          "#b4b4b1",
+          "#d2d2d0",
+          "#f3f3f2"
         ]
       },
-      "amber": {
+      "best": {
         "role": "primary",
-        "displayName": "Ámbar de tablero",
-        "canonical": "oklch(81.2% 0.170 76.4)",
+        "displayName": "Amarillo de oferta",
+        "canonical": "#ffd60a",
+        "cssVar": "--best",
         "tonalRamp": [
-          "oklch(15% 0.170 76.4)",
-          "oklch(25% 0.170 76.4)",
-          "oklch(35% 0.170 76.4)",
-          "oklch(45% 0.170 76.4)",
-          "oklch(55% 0.170 76.4)",
-          "oklch(70% 0.170 76.4)",
-          "oklch(85% 0.170 76.4)",
-          "oklch(95% 0.170 76.4)"
+          "#4c4000",
+          "#856e00",
+          "#bd9d00",
+          "#f5cc00",
+          "#ffdc2e",
+          "#ffe566",
+          "#fff0a3",
+          "#fffbe5"
         ]
       },
-      "amber-ink": {
+      "best-ink": {
         "role": "primary",
-        "displayName": "Tinta sobre ámbar",
-        "canonical": "oklch(21.8% 0.045 83.8)",
+        "displayName": "Tinta sobre amarillo",
+        "canonical": "#111111",
+        "cssVar": "--best-ink",
         "tonalRamp": [
-          "oklch(15% 0.045 83.8)",
-          "oklch(25% 0.045 83.8)",
-          "oklch(35% 0.045 83.8)",
-          "oklch(45% 0.045 83.8)",
-          "oklch(55% 0.045 83.8)",
-          "oklch(70% 0.045 83.8)",
-          "oklch(85% 0.045 83.8)",
-          "oklch(95% 0.045 83.8)"
+          "#262626",
+          "#424242",
+          "#5e5e5e",
+          "#7a7a7a",
+          "#969696",
+          "#b2b2b2",
+          "#d1d1d1",
+          "#f2f2f2"
         ]
       },
-      "red": {
-        "role": "secondary",
+      "alert": {
+        "role": "tertiary",
         "displayName": "Rojo de falla",
-        "canonical": "oklch(70.8% 0.184 27.3)",
+        "canonical": "#b42318",
+        "cssVar": "--alert",
         "tonalRamp": [
-          "oklch(15% 0.184 27.3)",
-          "oklch(25% 0.184 27.3)",
-          "oklch(35% 0.184 27.3)",
-          "oklch(45% 0.184 27.3)",
-          "oklch(55% 0.184 27.3)",
-          "oklch(70% 0.184 27.3)",
-          "oklch(85% 0.184 27.3)",
-          "oklch(95% 0.184 27.3)"
+          "#440d09",
+          "#751710",
+          "#a62016",
+          "#d82a1d",
+          "#e65246",
+          "#ed8078",
+          "#f4b3ae",
+          "#fceae8"
         ]
       },
-      "green": {
-        "role": "secondary",
-        "displayName": "Verde de lámpara",
-        "canonical": "oklch(79.3% 0.180 154.0)",
+      "ok": {
+        "role": "tertiary",
+        "displayName": "Verde de respuesta",
+        "canonical": "#1f7a3d",
+        "cssVar": "--ok",
         "tonalRamp": [
-          "oklch(15% 0.180 154.0)",
-          "oklch(25% 0.180 154.0)",
-          "oklch(35% 0.180 154.0)",
-          "oklch(45% 0.180 154.0)",
-          "oklch(55% 0.180 154.0)",
-          "oklch(70% 0.180 154.0)",
-          "oklch(85% 0.180 154.0)",
-          "oklch(95% 0.180 154.0)"
-        ]
-      },
-      "led-off": {
-        "role": "neutral",
-        "displayName": "Segmento apagado",
-        "canonical": "rgb(255 255 255 / 0.1)",
-        "tonalRamp": [
-          "rgb(255 255 255 / 0.04)",
-          "rgb(255 255 255 / 0.06)",
-          "rgb(255 255 255 / 0.08)",
-          "rgb(255 255 255 / 0.1)",
-          "rgb(255 255 255 / 0.14)",
-          "rgb(255 255 255 / 0.18)",
-          "rgb(255 255 255 / 0.24)",
-          "rgb(255 255 255 / 0.3)"
+          "#0f3d1e",
+          "#1b6a35",
+          "#26964b",
+          "#32c362",
+          "#58d581",
+          "#85e0a3",
+          "#b6ecc8",
+          "#ebfaf0"
         ]
       }
     },
     "typographyMeta": {
       "display": {
-        "displayName": "Titular",
-        "purpose": "Titular del inicio."
+        "displayName": "Display",
+        "purpose": "Titular de inicio, uno por página."
       },
       "headline": {
-        "displayName": "Encabezado",
-        "purpose": "Título de resultados, estados y error."
+        "displayName": "Titular",
+        "purpose": "Título de búsqueda, títulos de estado y error."
       },
       "price": {
-        "displayName": "Dígito LED",
-        "purpose": "Solo precios; sobre segmentos apagados. Más bajo: 900 ámbar."
+        "displayName": "Precio",
+        "purpose": "Precio de cada etiqueta; tabular-nums, «$» a 0.62em elevado 0.42em."
       },
       "title": {
         "displayName": "Producto",
-        "purpose": "Nombre del producto en la fila, máx. 3 líneas."
-      },
-      "body": {
-        "displayName": "Texto",
-        "purpose": "Texto corrido, wdth 100."
+        "purpose": "Nombre del producto, máximo 3 líneas."
       },
       "body-lg": {
-        "displayName": "Texto grande",
-        "purpose": "Subtítulos y cuerpos de estado."
+        "displayName": "Cuerpo grande",
+        "purpose": "Subtítulos y cuerpo de estados, máximo 50ch."
+      },
+      "body": {
+        "displayName": "Cuerpo",
+        "purpose": "Texto base."
       },
       "label": {
-        "displayName": "Rótulo",
-        "purpose": "Encabezados de columna y nombres de tienda, condensado."
-      },
-      "tag": {
         "displayName": "Etiqueta",
-        "purpose": "Más bajo, Agotado."
+        "purpose": "Tienda, resumen de tiendas, orden, controles."
+      },
+      "caption": {
+        "displayName": "Letra chica",
+        "purpose": "Mejor precio, MSI, descuento, agotado."
       }
     },
     "shadows": [],
@@ -239,171 +236,180 @@
       {
         "name": "ease-out",
         "value": "cubic-bezier(0.23, 1, 0.32, 1)",
-        "purpose": "Escala al presionar (140ms)."
+        "purpose": "Curva de salida para presión, despliegue y flechas."
       },
       {
         "name": "press",
-        "value": "transform: scale(0.97) 140ms",
-        "purpose": "Botones y fichas al presionar."
+        "value": "transform: scale(0.97) 140ms ease-out (botones, fichas); scale(0.98) 120ms (etiquetas)",
+        "purpose": "Respuesta al presionar."
       },
       {
-        "name": "state-transition",
-        "value": "160ms ease",
-        "purpose": "Color de fondo y borde en hover y foco."
+        "name": "state-color",
+        "value": "border-color / color / background-color 160ms ease",
+        "purpose": "Cambios de filo y color al pasar el cursor."
       },
       {
-        "name": "refresh",
-        "value": "300ms steps(3, jump-none); opacidad 0.25 al 50%; retraso fila×55ms + columna×35ms",
-        "purpose": "Un solo parpadeo de los dígitos que llegan; parte y termina visible."
+        "name": "reveal",
+        "value": "opacity + translateY(4px) 220ms ease-out vía @starting-style, retraso i × 30ms",
+        "purpose": "Etiquetas que aparecen con «Ver N tiendas más»."
       },
       {
-        "name": "idle",
-        "value": "1.4s steps(2, jump-none) infinite; color rgb(255 255 255 / 0.18) al 50%",
-        "purpose": "Dígitos apagados durante la carga."
+        "name": "skeleton-pulse",
+        "value": "background paper-soft → rule, 1.4s ease-in-out infinito",
+        "purpose": "Etiquetas vacías al cargar."
       },
       {
-        "name": "busy-blink",
-        "value": "700ms steps(2, jump-none) infinite; opacidad 0.35",
-        "purpose": "Lupa del botón mientras busca."
+        "name": "hover-gate",
+        "value": "@media (hover: hover) and (pointer: fine)",
+        "purpose": "Todo hover va condicionado a puntero fino."
       },
       {
         "name": "reduced-motion",
-        "value": "duración 0.01ms global",
-        "purpose": "prefers-reduced-motion: reduce."
+        "value": "@media (prefers-reduced-motion: reduce): duraciones a 0.01ms",
+        "purpose": "Respeto global al movimiento reducido."
       }
     ],
     "breakpoints": [
       {
-        "name": "stack",
-        "value": "56rem"
+        "name": "compact",
+        "value": "30rem"
       },
       {
         "name": "header-wrap",
         "value": "40rem"
       },
       {
-        "name": "narrow",
-        "value": "30rem"
+        "name": "labels-to-rows",
+        "value": "52rem"
       }
     ]
   },
   "components": [
     {
-      "name": "Ranura de búsqueda",
-      "kind": "input",
-      "refersTo": "search-slot",
-      "description": "Letrero empotrado: campo + botón ámbar; el foco enciende el borde de toda la ranura.",
-      "html": "<form class=\"ds-slot\" role=\"search\" onsubmit=\"return false\"><input class=\"ds-input\" type=\"search\" placeholder=\"¿Qué quieres comprar?\" aria-label=\"Producto\"><button class=\"ds-submit\" type=\"submit\"><svg viewBox=\"0 0 24 24\" class=\"ds-icon\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path d=\"m15.5 15.5 5 5\"/></svg>Buscar</button></form>",
-      "css": ":host{--board:#0e2a5c;--board-deep:#091d42;--board-raised:#15387a;--joint:#2b4f8c;--joint-strong:#4569a8;--letter:#fff;--letter-dim:#a9c1e8;--letter-faint:#7f9cca;--amber:#ffb000;--amber-ink:#241800;--red:#ff6a5e;--green:#3ddc84;--led-off:rgb(255 255 255 / 0.1);--font-board:'Archivo Variable','Arial Narrow',system-ui,sans-serif;--font-led:'Doto Variable',ui-monospace,monospace;--ease-out:cubic-bezier(0.23,1,0.32,1);}.ds-slot{display:grid;grid-template-columns:1fr auto;background:var(--board-deep);border:1px solid var(--joint-strong);border-radius:3px;transition:border-color 160ms ease;font-family:var(--font-board);color:var(--letter);}.ds-slot:focus-within{border-color:var(--amber);}.ds-input{min-width:0;min-height:3.5rem;padding:0 1rem;background:transparent;border:0;color:var(--letter);font:inherit;font-size:1.25rem;font-weight:500;letter-spacing:-0.01em;}.ds-input:focus-visible{outline:none;}.ds-input::placeholder{color:var(--letter-faint);}.ds-submit{display:inline-flex;align-items:center;gap:0.5rem;margin:0.25rem;padding:0 1.25rem;background:var(--amber);color:var(--amber-ink);border:0;border-radius:2px;font:inherit;font-weight:700;font-variation-settings:'wdth' 85;cursor:pointer;transition:transform 140ms var(--ease-out),background-color 160ms ease;}.ds-submit:active{transform:scale(0.97);}.ds-submit:focus-visible{outline:3px solid var(--amber);outline-offset:2px;}@media (hover:hover) and (pointer:fine){.ds-submit:hover{background:#ffc233;}}.ds-icon{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:2.25;stroke-linecap:round;}"
+      "name": "Etiqueta de anaquel",
+      "kind": "card",
+      "refersTo": "shelf-label",
+      "description": "Oferta de una tienda; la etiqueta completa es el enlace de salida.",
+      "html": "<a class=\"ds-label\" href=\"#\"><span class=\"ds-label-body\"><span class=\"ds-store\">Tienda B <svg viewBox=\"0 0 12 12\" class=\"ds-outbound\" aria-hidden=\"true\"><path d=\"M4 2.5h5.5V8M9.25 2.75 2.75 9.25\"/></svg></span><span class=\"ds-price\"><span class=\"ds-currency\">$</span>12,499</span><span class=\"ds-msi\">12 MSI de $1,041.58</span></span></a>",
+      "css": ".ds-label{display:grid;grid-template-rows:auto 1fr;width:14rem;background:var(--paper,#fff);border:1px solid var(--rule,#dededa);border-radius:var(--radius,4px);color:var(--ink,#111);text-decoration:none;overflow:hidden;font-family:var(--font-sans,'Public Sans Variable',Arial,sans-serif);transition:border-color 160ms ease,transform 120ms cubic-bezier(0.23,1,0.32,1)}.ds-label:hover{border-color:var(--ink,#111)}.ds-label:active{transform:scale(0.98)}.ds-label:focus-visible{outline:2px solid var(--ink,#111);outline-offset:2px}.ds-label-body{display:grid;gap:0.125rem;padding:0.75rem 1rem 1rem}.ds-store{display:inline-flex;align-items:center;gap:0.25rem;font-size:0.875rem;font-weight:600;color:var(--ink-muted,#5e5e5e)}.ds-outbound{width:0.625rem;height:0.625rem;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.ds-price{font-size:clamp(1.375rem,1.2rem + 0.6vw,1.625rem);font-weight:700;line-height:1.15;letter-spacing:-0.015em;font-variant-numeric:tabular-nums;white-space:nowrap}.ds-currency{margin-right:0.06em;font-size:0.62em;vertical-align:0.42em}.ds-msi{font-size:0.8125rem;font-weight:600}.ds-band{display:block;padding:0.25rem 1rem;background:var(--best,#ffd60a);color:var(--best-ink,#111);font-size:0.8125rem;font-weight:700}.ds-label[data-best]{border-color:var(--ink,#111)}.ds-label[data-best] .ds-store{color:var(--ink,#111)}"
     },
     {
-      "name": "Botón cargar más",
+      "name": "Etiqueta con Mejor precio",
+      "kind": "card",
+      "refersTo": "shelf-label-best-band",
+      "description": "La más barata disponible cuando hay más de una tienda: franja amarilla y filo de tinta.",
+      "html": "<a class=\"ds-label\" data-best href=\"#\"><span class=\"ds-band\">Mejor precio</span><span class=\"ds-label-body\"><span class=\"ds-store\">Tienda A <svg viewBox=\"0 0 12 12\" class=\"ds-outbound\" aria-hidden=\"true\"><path d=\"M4 2.5h5.5V8M9.25 2.75 2.75 9.25\"/></svg></span><span class=\"ds-price\"><span class=\"ds-currency\">$</span>11,999</span></span></a>",
+      "css": ".ds-label{display:grid;grid-template-rows:auto 1fr;width:14rem;background:var(--paper,#fff);border:1px solid var(--rule,#dededa);border-radius:var(--radius,4px);color:var(--ink,#111);text-decoration:none;overflow:hidden;font-family:var(--font-sans,'Public Sans Variable',Arial,sans-serif);transition:border-color 160ms ease,transform 120ms cubic-bezier(0.23,1,0.32,1)}.ds-label:hover{border-color:var(--ink,#111)}.ds-label:active{transform:scale(0.98)}.ds-label:focus-visible{outline:2px solid var(--ink,#111);outline-offset:2px}.ds-label-body{display:grid;gap:0.125rem;padding:0.75rem 1rem 1rem}.ds-store{display:inline-flex;align-items:center;gap:0.25rem;font-size:0.875rem;font-weight:600;color:var(--ink-muted,#5e5e5e)}.ds-outbound{width:0.625rem;height:0.625rem;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.ds-price{font-size:clamp(1.375rem,1.2rem + 0.6vw,1.625rem);font-weight:700;line-height:1.15;letter-spacing:-0.015em;font-variant-numeric:tabular-nums;white-space:nowrap}.ds-currency{margin-right:0.06em;font-size:0.62em;vertical-align:0.42em}.ds-msi{font-size:0.8125rem;font-weight:600}.ds-band{display:block;padding:0.25rem 1rem;background:var(--best,#ffd60a);color:var(--best-ink,#111);font-size:0.8125rem;font-weight:700}.ds-label[data-best]{border-color:var(--ink,#111)}.ds-label[data-best] .ds-store{color:var(--ink,#111)}"
+    },
+    {
+      "name": "Buscador",
+      "kind": "input",
+      "refersTo": "search-slot",
+      "description": "Ranura con filo fino y botón negro; el foco marca la ranura completa.",
+      "html": "<form class=\"ds-slot\" onsubmit=\"return false\"><input class=\"ds-input\" placeholder=\"Busca un producto\" aria-label=\"Producto\"><button class=\"ds-submit\">Buscar</button></form>",
+      "css": ".ds-slot{display:grid;grid-template-columns:1fr auto;width:24rem;background:#fff;border:1px solid var(--rule-strong,#b9b9b3);border-radius:4px;font-family:var(--font-sans,'Public Sans Variable',Arial,sans-serif);transition:border-color 160ms ease}.ds-slot:focus-within{border-color:#111;outline:2px solid #111;outline-offset:1px}.ds-input{min-width:0;min-height:3.5rem;padding:0 1rem;background:transparent;border:0;font:inherit;font-size:1.125rem;color:#111}.ds-input:focus-visible{outline:none}.ds-input::placeholder{color:var(--ink-soft,#767670)}.ds-submit{margin:0.25rem;padding:0 1.25rem;background:var(--ink,#111);color:#fff;border:0;border-radius:3px;font:inherit;font-weight:600;cursor:pointer;transition:transform 140ms cubic-bezier(0.23,1,0.32,1),background-color 160ms ease}.ds-submit:hover{background:var(--ink-hover,#2b2b2b)}.ds-submit:active{transform:scale(0.97)}"
+    },
+    {
+      "name": "Botón secundario",
       "kind": "button",
-      "refersTo": "button-load-more",
-      "description": "Placa blanca suelta; se enciende en ámbar al pasar.",
-      "html": "<button class=\"ds-more\">Cargar más productos</button>",
-      "css": ":host{--board:#0e2a5c;--board-deep:#091d42;--board-raised:#15387a;--joint:#2b4f8c;--joint-strong:#4569a8;--letter:#fff;--letter-dim:#a9c1e8;--letter-faint:#7f9cca;--amber:#ffb000;--amber-ink:#241800;--red:#ff6a5e;--green:#3ddc84;--led-off:rgb(255 255 255 / 0.1);--font-board:'Archivo Variable','Arial Narrow',system-ui,sans-serif;--font-led:'Doto Variable',ui-monospace,monospace;--ease-out:cubic-bezier(0.23,1,0.32,1);}.ds-more{display:inline-flex;align-items:center;justify-content:center;min-height:3rem;min-width:16rem;padding:0 1.5rem;background:var(--letter);color:var(--board);border:0;border-radius:3px;font-family:var(--font-board);font-weight:700;font-variation-settings:'wdth' 85;cursor:pointer;transition:transform 140ms var(--ease-out),background-color 160ms ease;}.ds-more:active{transform:scale(0.97);}.ds-more:focus-visible{outline:3px solid var(--amber);outline-offset:2px;}@media (hover:hover) and (pointer:fine){.ds-more:hover{background:var(--amber);color:var(--amber-ink);}}"
+      "refersTo": "button-secondary",
+      "description": "«Cargar más resultados»: papel con filo de tinta.",
+      "html": "<button class=\"ds-btn-secondary\">Cargar más resultados</button>",
+      "css": ".ds-btn-secondary{min-height:3rem;min-width:15rem;padding:0 1.5rem;background:#fff;color:#111;border:1px solid #111;border-radius:4px;font-family:var(--font-sans,'Public Sans Variable',Arial,sans-serif);font-weight:600;cursor:pointer;transition:transform 140ms cubic-bezier(0.23,1,0.32,1),background-color 160ms ease}.ds-btn-secondary:hover{background:var(--paper-soft,#f5f5f2)}.ds-btn-secondary:active{transform:scale(0.97)}.ds-btn-secondary:focus-visible{outline:2px solid #111;outline-offset:2px}"
     },
     {
       "name": "Ficha de ejemplo",
       "kind": "chip",
       "refersTo": "chip-example",
-      "description": "Letrero suelto con una búsqueda de ejemplo; el borde se enciende al pasar.",
-      "html": "<a href=\"#\" class=\"ds-chip\">pantalla tcl 55</a>",
-      "css": ":host{--board:#0e2a5c;--board-deep:#091d42;--board-raised:#15387a;--joint:#2b4f8c;--joint-strong:#4569a8;--letter:#fff;--letter-dim:#a9c1e8;--letter-faint:#7f9cca;--amber:#ffb000;--amber-ink:#241800;--red:#ff6a5e;--green:#3ddc84;--led-off:rgb(255 255 255 / 0.1);--font-board:'Archivo Variable','Arial Narrow',system-ui,sans-serif;--font-led:'Doto Variable',ui-monospace,monospace;--ease-out:cubic-bezier(0.23,1,0.32,1);}.ds-chip{display:inline-flex;align-items:center;min-height:2.75rem;padding:0 1rem;background:var(--board-deep);border:1px solid var(--joint);border-radius:3px;color:var(--letter);font-family:var(--font-board);font-size:0.875rem;font-weight:600;text-decoration:none;transition:border-color 160ms ease,transform 140ms var(--ease-out);}.ds-chip:active{transform:scale(0.97);}.ds-chip:focus-visible{outline:3px solid var(--amber);outline-offset:2px;}@media (hover:hover) and (pointer:fine){.ds-chip:hover{border-color:var(--amber);}}"
+      "description": "Búsqueda de ejemplo en inicio; 4px de esquina, sin píldora.",
+      "html": "<a class=\"ds-chip\" href=\"#\">audífonos inalámbricos</a> <a class=\"ds-chip\" href=\"#\">pantalla 55</a>",
+      "css": ".ds-chip{display:inline-flex;align-items:center;min-height:2.75rem;padding:0 1rem;border:1px solid var(--rule,#dededa);border-radius:4px;font-family:var(--font-sans,'Public Sans Variable',Arial,sans-serif);font-size:0.875rem;font-weight:500;color:#111;text-decoration:none;transition:border-color 160ms ease,transform 140ms cubic-bezier(0.23,1,0.32,1)}.ds-chip:hover{border-color:#111}.ds-chip:active{transform:scale(0.97)}.ds-chip:focus-visible{outline:2px solid #111;outline-offset:2px}"
     },
     {
-      "name": "Interruptor de orden",
+      "name": "Orden",
       "kind": "nav",
-      "refersTo": "switch-option",
-      "description": "Enlaces de orden en una caja hundida; la opción activa es una placa blanca.",
-      "html": "<nav class=\"ds-switch\" aria-label=\"Ordenar\"><span class=\"ds-switch-label\">Ordenar</span><ul class=\"ds-options\"><li><a href=\"#\" class=\"ds-option\" aria-current=\"true\">Relevancia</a></li><li><a href=\"#\" class=\"ds-option\">Menor precio</a></li><li><a href=\"#\" class=\"ds-option\">Mayor precio</a></li></ul></nav>",
-      "css": ":host{--board:#0e2a5c;--board-deep:#091d42;--board-raised:#15387a;--joint:#2b4f8c;--joint-strong:#4569a8;--letter:#fff;--letter-dim:#a9c1e8;--letter-faint:#7f9cca;--amber:#ffb000;--amber-ink:#241800;--red:#ff6a5e;--green:#3ddc84;--led-off:rgb(255 255 255 / 0.1);--font-board:'Archivo Variable','Arial Narrow',system-ui,sans-serif;--font-led:'Doto Variable',ui-monospace,monospace;--ease-out:cubic-bezier(0.23,1,0.32,1);}.ds-switch{display:flex;align-items:center;gap:0.75rem;font-family:var(--font-board);}.ds-switch-label{font-size:0.875rem;color:var(--letter-dim);}.ds-options{display:flex;margin:0;padding:2px;list-style:none;background:var(--board-deep);border:1px solid var(--joint);border-radius:3px;}.ds-option{display:inline-flex;align-items:center;min-height:2.75rem;padding:0 1rem;border-radius:2px;font-size:0.875rem;font-weight:600;font-variation-settings:'wdth' 80;color:var(--letter-dim);text-decoration:none;transition:background-color 160ms ease,color 160ms ease;}.ds-option:focus-visible{outline:3px solid var(--amber);outline-offset:2px;}@media (hover:hover) and (pointer:fine){.ds-option:hover{color:var(--letter);background:var(--board-raised);}}.ds-option[aria-current='true']{background:var(--letter);color:var(--board);}"
+      "refersTo": "sort-option",
+      "description": "Selector de orden; la opción actual lleva filo de tinta.",
+      "html": "<nav class=\"ds-sort\"><span class=\"ds-sort-label\">Ordenar</span><a class=\"ds-opt\" aria-current=\"true\" href=\"#\">Menor precio</a><a class=\"ds-opt\" href=\"#\">Relevancia</a></nav>",
+      "css": ".ds-sort{display:flex;align-items:center;gap:0.25rem;font-family:var(--font-sans,'Public Sans Variable',Arial,sans-serif);font-size:0.875rem}.ds-sort-label{margin-right:0.5rem;color:#5e5e5e}.ds-opt{display:inline-flex;align-items:center;min-height:2.5rem;padding:0 0.75rem;border:1px solid transparent;border-radius:4px;font-weight:600;color:#5e5e5e;text-decoration:none;transition:border-color 160ms ease,color 160ms ease}.ds-opt:hover{color:#111;border-color:#dededa}.ds-opt[aria-current=true]{color:#111;border-color:#111}.ds-opt:focus-visible{outline:2px solid #111;outline-offset:2px}"
     },
     {
-      "name": "Fila del tablero",
+      "name": "Resumen de tiendas",
       "kind": "custom",
-      "refersTo": "board-cell",
-      "description": "Encabezados condensados, celdas separadas por juntas de 1px, precio LED sobre segmentos apagados; ámbar solo en el más bajo; celda vacía apagada.",
-      "html": "<div class=\"ds-board\"><span class=\"ds-col\">Producto</span><span class=\"ds-col\">Elektra</span><span class=\"ds-col\">Chedraui</span><span class=\"ds-col\">OfficeMax</span><div class=\"ds-product\">Pantalla TCL 55\" 4K<small>Mismo código de barras en 3 tiendas</small></div><div class=\"ds-cell\"><span class=\"ds-led-stack\"><span class=\"ds-ghost\">$8,888</span><span class=\"ds-led\">$8,499</span></span></div><div class=\"ds-cell\" data-lowest=\"true\"><span class=\"ds-led-stack\"><span class=\"ds-ghost\">$8,888</span><span class=\"ds-led\">$7,999</span></span><span class=\"ds-tag\">Más bajo</span></div><div class=\"ds-cell\"><span class=\"ds-led-stack\"><span class=\"ds-ghost\">$8,888</span></span></div></div>",
-      "css": ":host{--board:#0e2a5c;--board-deep:#091d42;--board-raised:#15387a;--joint:#2b4f8c;--joint-strong:#4569a8;--letter:#fff;--letter-dim:#a9c1e8;--letter-faint:#7f9cca;--amber:#ffb000;--amber-ink:#241800;--red:#ff6a5e;--green:#3ddc84;--led-off:rgb(255 255 255 / 0.1);--font-board:'Archivo Variable','Arial Narrow',system-ui,sans-serif;--font-led:'Doto Variable',ui-monospace,monospace;--ease-out:cubic-bezier(0.23,1,0.32,1);}.ds-board{display:grid;grid-template-columns:minmax(12rem,2.4fr) repeat(3,minmax(7rem,1fr));gap:1px;background:var(--joint);border:1px solid var(--joint);border-radius:3px;overflow:hidden;font-family:var(--font-board);color:var(--letter);}.ds-col{padding:0.75rem 1rem;background:var(--board-raised);font-size:0.875rem;font-weight:700;font-variation-settings:'wdth' 70;letter-spacing:0.01em;}.ds-col+.ds-col{text-align:right;}.ds-product{display:grid;gap:0.25rem;padding:1rem;background:var(--board-deep);font-weight:600;line-height:1.3;}.ds-product small{font-size:0.8125rem;font-weight:400;color:var(--letter-dim);}.ds-cell{display:grid;justify-items:end;align-content:start;gap:0.25rem;padding:1rem;background:var(--board-deep);}.ds-led-stack{display:inline-grid;justify-items:end;font-family:var(--font-led);font-size:clamp(1.375rem,1.1rem + 0.9vw,1.75rem);font-weight:800;line-height:1.1;font-variant-numeric:tabular-nums;letter-spacing:0.02em;white-space:nowrap;}.ds-led-stack>*{grid-area:1/1;}.ds-ghost{color:var(--led-off);}.ds-led{color:var(--letter);}.ds-cell[data-lowest='true'] .ds-led{color:var(--amber);font-weight:900;}.ds-tag{font-size:0.8125rem;font-weight:700;font-variation-settings:'wdth' 75;color:var(--amber);}"
-    },
-    {
-      "name": "Tira de tiendas",
-      "kind": "custom",
-      "refersTo": "store-lamp",
-      "description": "Lámparas de estado con texto: llena verde = respondió; aro rojo = tiempo agotado; tachada = error o pausa; punto tenue = sin consultar.",
-      "html": "<ul class=\"ds-strip\"><li class=\"ds-item\"><svg viewBox=\"0 0 16 16\" class=\"ds-lamp\"><circle cx=\"8\" cy=\"8\" r=\"5.5\" fill=\"#3ddc84\" stroke=\"#3ddc84\" stroke-width=\"1.5\"/></svg><b>Elektra</b><span class=\"ds-detail\">24 resultados</span></li><li class=\"ds-item\" data-bad><svg viewBox=\"0 0 16 16\" class=\"ds-lamp\"><circle cx=\"8\" cy=\"8\" r=\"5.5\" fill=\"none\" stroke=\"#ff6a5e\" stroke-width=\"1.5\"/></svg><b>Chedraui</b><span class=\"ds-detail\">No respondió a tiempo</span></li><li class=\"ds-item\" data-bad><svg viewBox=\"0 0 16 16\" class=\"ds-lamp\"><circle cx=\"8\" cy=\"8\" r=\"5.5\" fill=\"none\" stroke=\"#ff6a5e\" stroke-width=\"1.5\"/><path d=\"M3.5 12.5 12.5 3.5\" stroke=\"#ff6a5e\" stroke-width=\"1.5\" stroke-linecap=\"round\"/></svg><b>Martí</b><span class=\"ds-detail\">En pausa por fallas</span></li><li class=\"ds-item\"><svg viewBox=\"0 0 16 16\" class=\"ds-lamp\"><circle cx=\"8\" cy=\"8\" r=\"4\" fill=\"rgb(255 255 255 / 0.28)\"/></svg><b>OfficeMax</b></li></ul>",
-      "css": ":host{--board:#0e2a5c;--board-deep:#091d42;--board-raised:#15387a;--joint:#2b4f8c;--joint-strong:#4569a8;--letter:#fff;--letter-dim:#a9c1e8;--letter-faint:#7f9cca;--amber:#ffb000;--amber-ink:#241800;--red:#ff6a5e;--green:#3ddc84;--led-off:rgb(255 255 255 / 0.1);--font-board:'Archivo Variable','Arial Narrow',system-ui,sans-serif;--font-led:'Doto Variable',ui-monospace,monospace;--ease-out:cubic-bezier(0.23,1,0.32,1);}.ds-strip{display:flex;flex-wrap:wrap;gap:0.5rem 2rem;margin:0;padding:0.75rem;list-style:none;background:var(--board);font-family:var(--font-board);color:var(--letter);}.ds-item{display:inline-flex;align-items:center;gap:0.5rem;font-size:0.875rem;}.ds-item b{font-weight:700;font-variation-settings:'wdth' 75;}.ds-detail{color:var(--letter-dim);}.ds-item[data-bad] .ds-detail{color:var(--red);}.ds-lamp{width:0.875rem;height:0.875rem;flex-shrink:0;}"
-    },
-    {
-      "name": "Marca",
-      "kind": "custom",
-      "refersTo": "brand-mark",
-      "description": "Signo $ en matriz de 5×7 puntos sobre placa ámbar, junto al nombre.",
-      "html": "<a href=\"#\" class=\"ds-brand\"><span class=\"ds-brand-mark\" aria-hidden=\"true\"><svg viewBox=\"0 0 20 28\" class=\"ds-brand-dots\"><circle cx=\"10\" cy=\"2\" r=\"1.55\"/><circle cx=\"6\" cy=\"6\" r=\"1.55\"/><circle cx=\"10\" cy=\"6\" r=\"1.55\"/><circle cx=\"14\" cy=\"6\" r=\"1.55\"/><circle cx=\"18\" cy=\"6\" r=\"1.55\"/><circle cx=\"2\" cy=\"10\" r=\"1.55\"/><circle cx=\"10\" cy=\"10\" r=\"1.55\"/><circle cx=\"6\" cy=\"14\" r=\"1.55\"/><circle cx=\"10\" cy=\"14\" r=\"1.55\"/><circle cx=\"14\" cy=\"14\" r=\"1.55\"/><circle cx=\"10\" cy=\"18\" r=\"1.55\"/><circle cx=\"18\" cy=\"18\" r=\"1.55\"/><circle cx=\"2\" cy=\"22\" r=\"1.55\"/><circle cx=\"6\" cy=\"22\" r=\"1.55\"/><circle cx=\"10\" cy=\"22\" r=\"1.55\"/><circle cx=\"14\" cy=\"22\" r=\"1.55\"/><circle cx=\"10\" cy=\"26\" r=\"1.55\"/></svg></span>lower-prices</a>",
-      "css": ":host{--board:#0e2a5c;--board-deep:#091d42;--board-raised:#15387a;--joint:#2b4f8c;--joint-strong:#4569a8;--letter:#fff;--letter-dim:#a9c1e8;--letter-faint:#7f9cca;--amber:#ffb000;--amber-ink:#241800;--red:#ff6a5e;--green:#3ddc84;--led-off:rgb(255 255 255 / 0.1);--font-board:'Archivo Variable','Arial Narrow',system-ui,sans-serif;--font-led:'Doto Variable',ui-monospace,monospace;--ease-out:cubic-bezier(0.23,1,0.32,1);}.ds-brand{display:inline-flex;align-items:center;gap:0.5rem;font-family:var(--font-board);font-weight:800;font-variation-settings:'wdth' 75;font-size:1.125rem;letter-spacing:-0.01em;color:var(--letter);text-decoration:none;}.ds-brand:focus-visible{outline:3px solid var(--amber);outline-offset:2px;}.ds-brand-mark{display:grid;place-items:center;width:1.75rem;height:1.75rem;background:var(--amber);color:var(--amber-ink);border-radius:2px;}.ds-brand-dots{width:1rem;height:1.4rem;fill:currentColor;}"
+      "refersTo": "store-status",
+      "description": "Una línea de resumen y detalle desplegable; estado por forma y texto.",
+      "html": "<details class=\"ds-status\" open><summary class=\"ds-sum\">3 de 4 tiendas respondieron</summary><ul class=\"ds-list\"><li><svg viewBox=\"0 0 16 16\" class=\"ds-lamp\"><circle cx=\"8\" cy=\"8\" r=\"4.5\" fill=\"#1f7a3d\"/></svg><b>Tienda A</b> <span>respondió</span></li><li><svg viewBox=\"0 0 16 16\" class=\"ds-lamp\"><circle cx=\"8\" cy=\"8\" r=\"5.25\" fill=\"none\" stroke=\"#b42318\" stroke-width=\"1.5\" stroke-dasharray=\"2.4 2.1\"/></svg><b>Tienda C</b> <span class=\"ds-bad\">no respondió a tiempo</span></li><li><svg viewBox=\"0 0 16 16\" class=\"ds-lamp\"><circle cx=\"8\" cy=\"8\" r=\"5.25\" fill=\"none\" stroke=\"#b42318\" stroke-width=\"1.5\"/><path d=\"M3.75 12.25 12.25 3.75\" stroke=\"#b42318\" stroke-width=\"1.5\" stroke-linecap=\"round\"/></svg><b>Tienda D</b> <span class=\"ds-bad\">en pausa</span></li></ul></details>",
+      "css": ".ds-status{font-family:var(--font-sans,'Public Sans Variable',Arial,sans-serif);font-size:0.875rem;color:#111}.ds-sum{min-height:2.75rem;display:flex;align-items:center;font-weight:600;cursor:pointer}.ds-sum:focus-visible{outline:2px solid #111;outline-offset:2px}.ds-list{display:flex;flex-wrap:wrap;gap:0.5rem 1.5rem;margin:0;padding:0 0 0.75rem;list-style:none}.ds-list li{display:inline-flex;align-items:center;gap:0.5rem}.ds-list span{color:#5e5e5e}.ds-list .ds-bad{color:#b42318}.ds-lamp{width:0.875rem;height:0.875rem}"
     }
   ],
   "narrative": {
-    "northStar": "La pizarra de la casa de cambio",
-    "overview": "Cada producto se lee como una divisa en el tablero de una casa de cambio: una fila por producto, una columna por tienda, y el mejor precio encendido. La página entera es el tablero: un azul marino continuo, módulos más oscuros separados por juntas de 1px, letras blancas de rotulación y precios en dígitos de matriz de puntos. Nada flota; todo está empotrado en el tablero.\n\nLa densidad es la de un instrumento, no la de un escaparate. La información se alinea en una rejilla con columnas compartidas (subgrid) para que los precios de una misma tienda queden en la misma vertical y se comparen de un vistazo. En celular, cada fila apila sus tiendas bajo el producto sin perder el módulo, la junta ni el dígito.\n\nEl sistema rechaza la cuadrícula de tarjetas de producto con botón \"ver oferta\". No hay sombras, degradados ni tema claro: el tablero es oscuro por naturaleza (`color-scheme: dark`, un solo tema).",
+    "northStar": "Etiqueta de anaquel",
+    "overview": "Cada oferta es una etiqueta de anaquel de supermercado: un rectángulo blanco con filo fino donde el precio grande y claro manda, y la tienda, el descuento y los meses sin intereses van en letra chica. La página es blanca, la tinta casi negra, y todo lo demás son filos grises de un pixel. El sistema es minimalista por decisión del autor: el blanco y sus variantes son el tono principal, y nada compite con el precio.\n\nLa densidad es de lista de comparación, no de catálogo: cada producto es un renglón con su foto, nombre e identidad a la izquierda y sus etiquetas a la derecha, ordenadas de la más barata a la más cara. El sistema escala a cualquier número de tiendas sin cambiar de forma: tres etiquetas visibles y el resto desplegable en el mismo lugar. Nunca hay una columna por tienda.\n\nRechazos confirmados: la tarjeta de producto con botón «Ver oferta», la matriz de una columna por tienda, las fuentes de fantasía o de matriz de puntos en precios, las sombras de adorno y los degradados. Hay un solo tema claro, por diseño.",
     "keyCharacteristics": [
-      "Tablero azul marino a página completa; módulos `board-deep` separados por juntas `joint` de 1px.",
-      "Archivo variable con eje de ancho: condensado (70–75) para encabezados y etiquetas, normal (100) para texto.",
-      "Doto (matriz de puntos) solo para precios, siempre montado sobre sus segmentos apagados.",
-      "Ámbar = precio más bajo. Verde y rojo solo en lámparas y estados de tienda.",
-      "Plano: profundidad por tono y juntas, nunca por sombra."
+      "Página blanca, tinta casi negra, filos de 1px; sin sombras ni degradados.",
+      "Una sola letra de trabajo (Public Sans), cifras tabulares en todos los precios.",
+      "La etiqueta completa es el enlace de salida a la tienda.",
+      "El amarillo existe solo como franja «Mejor precio» y en la marca.",
+      "Escala a N tiendas: 3 etiquetas visibles, «Ver N tiendas más» para el resto.",
+      "El estado de cada tienda se dice con forma y texto, nunca solo con color."
     ],
     "rules": [
       {
-        "name": "La Regla del Ámbar Único",
-        "body": "Dentro del tablero de datos, el ámbar significa \"precio más bajo\" y nada más: no hay avisos ámbar, ni celdas inundadas de ámbar, ni otros datos en ámbar. El precio más bajo es dígito ámbar sobre el mismo módulo oscuro, más la etiqueta de texto \"Más bajo\" (el color nunca es la única señal).",
+        "name": "La Regla del Amarillo Único",
+        "body": "El amarillo aparece en exactamente dos lugares: la franja «Mejor precio» sobre la etiqueta más barata disponible (solo cuando el producto está en más de una tienda) y la marca, que dibuja una etiqueta con esa franja. Ningún otro botón, fondo, resaltado ni selección es amarillo.",
         "section": "colors"
       },
       {
-        "name": "La Regla de las Lámparas",
-        "body": "Verde solo para \"respondió\"; rojo solo para fallas. Ninguno de los dos se usa como decoración ni como acento.",
+        "name": "La Regla de la Selección Neutra",
+        "body": "La selección de texto es tinta sobre papel (fondo `ink`, texto `paper`), nunca amarilla.",
         "section": "colors"
       },
       {
-        "name": "La Regla del Dígito",
-        "body": "Doto es exclusivo de precios. Ningún título, etiqueta ni número que no sea un precio usa la matriz de puntos.",
+        "name": "La Regla del Blanco Principal",
+        "body": "El blanco y sus variantes (`paper`, `paper-soft`) son el tono dominante de toda superficie. No se introducen fondos de color ni tema oscuro.",
+        "section": "colors"
+      },
+      {
+        "name": "La Regla del Precio Legible",
+        "body": "Todo precio va en Public Sans 700 con cifras tabulares. Nunca fuentes de fantasía, de matriz de puntos, condensadas ni de display en precios.",
         "section": "typography"
       },
       {
-        "name": "La Regla del Ancho",
-        "body": "La jerarquía se marca con el eje de ancho y el peso, no con mayúsculas ni tracking amplio: condensado (70–75) = rótulo, 80–85 = dato secundario y botones, 100 = lectura.",
+        "name": "La Regla de la Letra Única",
+        "body": "No se añade una segunda familia tipográfica. Sin texto en mayúsculas espaciadas ni etiquetas sobre títulos.",
         "section": "typography"
       },
       {
-        "name": "La Regla del Aviso Blanco",
-        "body": "Un agrupamiento por nombre parecido se avisa en `letter` peso 600, nunca en ámbar ni en rojo.",
-        "section": "typography"
+        "name": "La Regla de las N Tiendas",
+        "body": "Nunca una columna por tienda. Cada producto muestra 3 etiquetas y un botón «Ver N tiendas más» que despliega las restantes en el mismo lugar. Un producto en una sola tienda lo dice en texto («Solo en 1 de N tiendas») y no lleva franja de mejor precio.",
+        "section": "layout"
       },
       {
-        "name": "La Regla del Tablero Plano",
-        "body": "Si algo necesita destacar, se enciende (color de letra o de dígito) o cambia de tono de módulo; nunca se levanta con sombra.",
+        "name": "La Regla del Filo Fino",
+        "body": "Sin sombras de adorno ni degradados. Si algo necesita destacarse, su filo pasa a tinta.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "**Do** montar cada precio sobre sus segmentos apagados (`led-off`) y usar celdas apagadas \"$8,888\" donde una tienda no tiene oferta.",
-      "**Do** marcar el precio más bajo con dígitos ámbar sobre el módulo oscuro normal y la etiqueta de texto \"Más bajo\".",
-      "**Do** separar módulos con juntas de 1px (`gap: 1px` sobre fondo `joint`), no con sombras ni espacios grandes.",
-      "**Do** usar el eje de ancho de Archivo para la jerarquía: 70–75 en rótulos, 100 en texto.",
-      "**Do** limitar el hover a `(hover: hover) and (pointer: fine)` y usar `scale(0.97)` al presionar botones y fichas.",
-      "**Do** respetar `prefers-reduced-motion`: todas las animaciones y transiciones se reducen a 0.01ms de forma global.",
-      "**Do** acompañar cada color de estado (lámpara, ámbar, rojo) con texto."
+      "**Do** dejar que la etiqueta completa sea el enlace de salida, con la flecha SVG junto al nombre de la tienda.",
+      "**Do** escribir todo precio en Public Sans 700 con `tabular-nums` y el «$» a 0.62em elevado.",
+      "**Do** mostrar 3 etiquetas por producto y desplegar el resto en el mismo lugar con «Ver N tiendas más».",
+      "**Do** pasar las etiquetas a renglones de ancho completo con el precio a la derecha por debajo de 52rem.",
+      "**Do** decir el estado de cada tienda con forma y texto: lleno, aro punteado, aro tachado.",
+      "**Do** abrir el detalle de tiendas automáticamente cuando alguna falla.",
+      "**Do** condicionar el hover a `(hover: hover) and (pointer: fine)` y usar escala 0.97–0.98 al presionar.",
+      "**Do** respetar `prefers-reduced-motion` globalmente."
     ],
     "donts": [
-      "**Don't** usar ámbar para avisos, advertencias ni celdas rellenas; dentro de los datos solo significa precio más bajo.",
-      "**Don't** usar Doto para nada que no sea un precio.",
-      "**Don't** dibujar celdas vacías con rayas ni guiones; son módulos apagados.",
-      "**Don't** representar \"sin consultar\" con un aro: el aro hueco significa \"no respondió a tiempo\".",
-      "**Don't** agregar sombras, degradados ni un tema claro.",
-      "**Don't** convertir los resultados en tarjetas de producto con botón \"ver oferta\".",
-      "**Don't** mostrar logos de tiendas ni imágenes que no vengan de la tienda; los nombres de tienda van en texto."
+      "**Don't** usar el amarillo `best` fuera de la franja «Mejor precio» y la marca, ni para la selección de texto.",
+      "**Don't** poner franja de mejor precio cuando el producto está en una sola tienda.",
+      "**Don't** hacer una columna por tienda ni una matriz de comparación.",
+      "**Don't** usar fuentes de fantasía, de matriz de puntos o una segunda familia en precios.",
+      "**Don't** usar sombras de adorno, degradados ni fondos de color.",
+      "**Don't** usar píldoras: fichas y controles llevan 4px de esquina.",
+      "**Don't** indicar estado solo con color.",
+      "**Don't** añadir tema oscuro: un solo tema claro, por diseño.",
+      "**Don't** usar botones «Ver oferta» dentro de la etiqueta, logos de tiendas ni íconos de fuente o glifos."
     ]
   }
 }

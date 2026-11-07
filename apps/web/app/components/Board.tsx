@@ -1,5 +1,5 @@
-import type { Offer, ProductGroup, Store } from "@lower-prices/shared";
-import { useId } from "react";
+import type { Offer, ProductGroup } from "@lower-prices/shared";
+import { useId, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import { formatBoardPrice } from "~/lib/format";
@@ -7,43 +7,27 @@ import { thumbnailUrl } from "~/lib/images";
 
 import styles from "./Board.module.css";
 
+/** Etiquetas visibles por producto antes de "Ver N tiendas más". */
+const VISIBLE_OFFERS = 3;
+
 interface BoardProps {
-  /** Columnas del tablero, en orden. */
-  stores: readonly Store[];
   groups: readonly ProductGroup[];
-  /** Posición del primer grupo nuevo: solo esas filas encienden sus dígitos. */
-  animateFrom?: number;
+  /** Tiendas consultadas, para decir «Solo en 1 de 4 tiendas». */
+  storeCount: number;
 }
 
-type BoardStyle = React.CSSProperties & Record<`--${string}`, string | number>;
-
 /**
- * La pizarra: una fila por producto y una columna por tienda.
- * En pantallas angostas cada fila apila sus tiendas bajo el producto.
+ * Lista de productos. Cada producto muestra sus ofertas como etiquetas de anaquel,
+ * de la más barata a la más cara. Funciona igual con 2 o con 20 tiendas: se ven las
+ * primeras y el resto se despliega en el mismo lugar.
  */
-export function Board({ stores, groups, animateFrom = 0 }: BoardProps) {
-  const { t } = useTranslation("search");
-  const style: BoardStyle = { "--stores": stores.length };
-
+export function Board({ groups, storeCount }: BoardProps) {
   return (
-    <div className={styles.board} style={style}>
-      <div className={styles.columns} aria-hidden="true">
-        <span>{t("columns.product")}</span>
-        {stores.map((store) => (
-          <span key={store.id}>{store.name}</span>
-        ))}
-      </div>
-      <ol className={styles.rows}>
-        {groups.map((group, index) => (
-          <BoardRow
-            key={group.id}
-            group={group}
-            stores={stores}
-            animationIndex={index >= animateFrom ? index - animateFrom : undefined}
-          />
-        ))}
-      </ol>
-    </div>
+    <ol className={styles.list}>
+      {groups.map((group) => (
+        <ProductRow key={group.id} group={group} storeCount={storeCount} />
+      ))}
+    </ol>
   );
 }
 
@@ -67,37 +51,33 @@ function bestInstallment(offer: Offer) {
     .toSorted((a, b) => b.months - a.months)[0];
 }
 
-function BoardRow({
-  group,
-  stores,
-  animationIndex,
-}: {
-  group: ProductGroup;
-  stores: readonly Store[];
-  animationIndex: number | undefined;
-}) {
+function ProductRow({ group, storeCount }: { group: ProductGroup; storeCount: number }) {
   const { t } = useTranslation("search");
   const titleId = useId();
-  const byStore = new Map(group.offers.map((offer) => [offer.store.id, offer]));
-  const compared = group.offerCount > 1;
-  const lowest = compared
-    ? group.offers.find((offer) => offer.available && offer.price === group.lowestPrice)
-    : undefined;
+  const offersId = useId();
+  const [expanded, setExpanded] = useState(false);
+
+  // La API ya las entrega con stock primero y de menor a mayor precio.
+  const offers = group.offers;
+  const best =
+    group.offerCount > 1
+      ? offers.find((offer) => offer.available && offer.price === group.lowestPrice)
+      : undefined;
+  const visible = expanded ? offers : offers.slice(0, VISIBLE_OFFERS);
+  const hidden = offers.length - VISIBLE_OFFERS;
   const matched = matchedKey(group);
-  const style: BoardStyle | undefined =
-    animationIndex === undefined ? undefined : { "--row": Math.min(animationIndex, 12) };
 
   return (
-    <li className={styles.row} data-animate={animationIndex !== undefined} style={style}>
+    <li className={styles.row}>
       <article className={styles.article} aria-labelledby={titleId}>
         <div className={styles.product}>
           <div className={styles.thumb}>
             {group.imageUrl && (
               <img
-                src={thumbnailUrl(group.imageUrl, 160)}
+                src={thumbnailUrl(group.imageUrl, 200)}
                 alt=""
-                width={80}
-                height={80}
+                width={96}
+                height={96}
                 loading="lazy"
                 decoding="async"
               />
@@ -113,12 +93,18 @@ function BoardRow({
                 {group.model && <span>{group.model}</span>}
               </p>
             )}
-            {matched && (
+            {matched ? (
               <p className={styles.matched} data-level={group.matchedBy}>
                 {t(matched, { count: group.offerCount })}
               </p>
+            ) : (
+              storeCount > 1 && (
+                <p className={styles.matched}>
+                  {t("group.onlyIn", { count: group.offerCount, total: storeCount })}
+                </p>
+              )
             )}
-            {compared && group.highestPrice > group.lowestPrice && (
+            {best && group.highestPrice > group.lowestPrice && (
               <p className={styles.spread}>
                 {t("group.spread", {
                   amount: formatBoardPrice(group.highestPrice - group.lowestPrice),
@@ -128,135 +114,123 @@ function BoardRow({
           </div>
         </div>
 
-        <dl className={styles.cells}>
-          {stores.map((store, column) => {
-            const offer = byStore.get(store.id);
-            return (
-              <div
-                key={store.id}
-                className={styles.cell}
-                data-empty={!offer}
-                data-lowest={offer !== undefined && offer === lowest}
-                style={{ "--col": column } as BoardStyle}
+        <div className={styles.offers}>
+          <ul id={offersId} className={styles.labels} aria-label={t("group.offersLabel")}>
+            {visible.map((offer, index) => (
+              <li
+                key={offer.id}
+                className={styles.labelItem}
+                data-revealed={index >= VISIBLE_OFFERS}
+                style={{ "--i": Math.max(index - VISIBLE_OFFERS, 0) } as React.CSSProperties}
               >
-                <dt className={styles.storeName}>{store.name}</dt>
-                <dd className={styles.cellBody}>
-                  {offer ? (
-                    <OfferCell offer={offer} isLowest={offer === lowest} />
-                  ) : (
-                    <>
-                      <span aria-hidden="true" className={styles.ledStack}>
-                        <span className={styles.ghost}>{UNLIT}</span>
-                      </span>
-                      <span className="visually-hidden">
-                        {t("group.noOffer", { store: store.name })}
-                      </span>
-                    </>
-                  )}
-                </dd>
-              </div>
-            );
-          })}
-        </dl>
+                <PriceLabel offer={offer} isBest={offer === best} />
+              </li>
+            ))}
+          </ul>
+          {hidden > 0 && (
+            <button
+              type="button"
+              className={styles.more}
+              aria-expanded={expanded}
+              aria-controls={offersId}
+              onClick={() => setExpanded((value) => !value)}
+            >
+              {expanded ? t("group.showLess") : t("group.showMore", { count: hidden })}
+            </button>
+          )}
+        </div>
       </article>
     </li>
   );
 }
 
-/** Segmentos apagados de una celda sin precio: el módulo del tablero sin encender. */
-const UNLIT = "$8,888";
-
 /**
- * Precio en dígitos de matriz de puntos, con los segmentos apagados detrás (como en el
- * tablero físico). El fantasma es decorativo; el lector de pantalla lee solo el precio.
+ * Precio como en la etiqueta de anaquel: el signo de pesos más chico y los dígitos
+ * grandes. El lector de pantalla lo lee completo («$6,997»).
  */
-function Led({ value }: { value: string }) {
+function Price({ amount }: { amount: number }) {
+  const text = formatBoardPrice(amount);
+  const hasSign = text.startsWith("$");
   return (
-    <span className={styles.ledStack}>
-      <span aria-hidden="true" className={styles.ghost}>
-        {value.replace(/\d/g, "8")}
-      </span>
-      <span className={styles.led}>{value}</span>
+    <span className={styles.price}>
+      {hasSign && <span className={styles.currency}>$</span>}
+      {hasSign ? text.slice(1) : text}
     </span>
   );
 }
 
-function OfferCell({ offer, isLowest }: { offer: Offer; isLowest: boolean }) {
+/** Etiqueta de anaquel de una oferta. Toda la etiqueta es el enlace a la tienda. */
+function PriceLabel({ offer, isBest }: { offer: Offer; isBest: boolean }) {
   const { t } = useTranslation("search");
   const plan = bestInstallment(offer);
 
   return (
-    <>
-      <a
-        className={styles.offerLink}
-        href={offer.url}
-        target="_blank"
-        rel="noopener noreferrer nofollow"
-        data-sold-out={!offer.available}
-      >
-        <Led value={formatBoardPrice(offer.price)} />
-        <span className="visually-hidden">
-          {isLowest ? `${t("group.lowest")}. ` : ""}
-          {t("offer.goTo", { store: offer.store.name })} {t("offer.newTab")}
+    <a
+      className={styles.label}
+      href={offer.url}
+      target="_blank"
+      rel="noopener noreferrer nofollow"
+      data-best={isBest}
+      data-sold-out={!offer.available}
+    >
+      {isBest && <span className={styles.bestBand}>{t("group.lowest")}</span>}
+      <span className={styles.labelBody}>
+        <span className={styles.store}>
+          {offer.store.name}
+          <svg aria-hidden="true" viewBox="0 0 12 12" className={styles.outbound}>
+            <path d="M4 2.5h5.5V8M9.25 2.75 2.75 9.25" />
+          </svg>
         </span>
-      </a>
-      {isLowest && (
-        <span className={styles.lowestTag} aria-hidden="true">
-          {t("group.lowestTag")}
-        </span>
-      )}
-      {!offer.available && <span className={styles.soldOut}>{t("offer.soldOut")}</span>}
-      {offer.originalPrice !== undefined && offer.discountPercent !== undefined && (
-        <span className={styles.discount}>
-          <s>{t("offer.was", { price: formatBoardPrice(offer.originalPrice) })}</s>
-          <strong>{t("offer.discount", { percent: offer.discountPercent })}</strong>
-        </span>
-      )}
-      {plan && (
-        <span className={styles.msi}>
-          {t("offer.msi", { months: plan.months, amount: formatBoardPrice(plan.amount) })}
-        </span>
-      )}
-    </>
+        <Price amount={offer.price} />
+        {!offer.available && <span className={styles.soldOut}>{t("offer.soldOut")}</span>}
+        {offer.originalPrice !== undefined && offer.discountPercent !== undefined && (
+          <span className={styles.discount}>
+            <s>{t("offer.was", { price: formatBoardPrice(offer.originalPrice) })}</s>
+            <span>{t("offer.discount", { percent: offer.discountPercent })}</span>
+          </span>
+        )}
+        {plan && (
+          <span className={styles.msi}>
+            {t("offer.msi", { months: plan.months, amount: formatBoardPrice(plan.amount) })}
+          </span>
+        )}
+      </span>
+      <span className="visually-hidden">{t("offer.newTab")}</span>
+    </a>
   );
 }
 
-/** Filas con dígitos apagados mientras las tiendas responden. */
-export function BoardSkeleton({ stores, rows = 4 }: { stores: readonly Store[]; rows?: number }) {
+/** Productos y etiquetas vacíos mientras las tiendas responden. */
+export function BoardSkeleton({ rows = 4 }: { rows?: number }) {
   const { t } = useTranslation("search");
-  const style: BoardStyle = { "--stores": Math.max(stores.length, 1) };
 
   return (
-    <div className={styles.board} style={style} aria-busy="true">
+    <div aria-busy="true">
       <p className="visually-hidden" role="status">
         {t("loading")}
       </p>
-      <div className={styles.columns} aria-hidden="true">
-        <span>{t("columns.product")}</span>
-        {stores.map((store) => (
-          <span key={store.id}>{store.name}</span>
-        ))}
-      </div>
-      <div className={styles.rows} aria-hidden="true">
+      <div className={styles.list} aria-hidden="true">
         {Array.from({ length: rows }, (_, row) => (
-          <div key={row} className={`${styles.row} ${styles.skeletonRow}`}>
+          <div key={row} className={`${styles.row} ${styles.skeleton}`}>
             <div className={styles.article}>
               <div className={styles.product}>
                 <div className={styles.thumb} />
                 <div className={styles.productText}>
-                  <span className={styles.bar} style={{ width: `${70 - row * 9}%` }} />
-                  <span className={styles.bar} style={{ width: "35%" }} />
+                  <span className={styles.bar} style={{ width: `${78 - row * 10}%` }} />
+                  <span className={styles.bar} style={{ width: "32%" }} />
                 </div>
               </div>
-              <div className={styles.cells}>
-                {stores.map((store) => (
-                  <div key={store.id} className={styles.cell}>
-                    <span className={styles.storeName}>{store.name}</span>
-                    <span className={styles.ledStack}>
-                      <span className={styles.ghost}>{UNLIT}</span>
-                    </span>
-                  </div>
-                ))}
+              <div className={styles.offers}>
+                <div className={styles.labels}>
+                  {Array.from({ length: 3 }, (_, i) => (
+                    <div key={i} className={`${styles.label} ${styles.labelGhost}`}>
+                      <span className={styles.labelBody}>
+                        <span className={styles.bar} style={{ width: "45%" }} />
+                        <span className={`${styles.bar} ${styles.barPrice}`} />
+                      </span>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>

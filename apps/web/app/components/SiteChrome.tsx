@@ -5,7 +5,7 @@ import { APP_NAME } from "~/config";
 
 import styles from "./SiteChrome.module.css";
 
-/** Franja superior del tablero: nombre y, en resultados, la búsqueda compacta. */
+/** Encabezado: nombre y, en resultados, la búsqueda compacta. */
 export function SiteHeader({ children }: { children?: React.ReactNode }) {
   const { t } = useTranslation();
 
@@ -17,28 +17,12 @@ export function SiteHeader({ children }: { children?: React.ReactNode }) {
       <header className={styles.header}>
         <div className={styles.headerInner}>
           <Link to="/" className={styles.brand} aria-label={t("homeLink", { appName: APP_NAME })}>
-            <span aria-hidden="true" className={styles.brandMark}>
-              {/* Signo de pesos en matriz de 5×7 puntos, como un dígito del tablero. */}
-              <svg viewBox="0 0 20 28" className={styles.brandDots}>
-                <circle cx="10" cy="2" r="1.55" />
-                <circle cx="6" cy="6" r="1.55" />
-                <circle cx="10" cy="6" r="1.55" />
-                <circle cx="14" cy="6" r="1.55" />
-                <circle cx="18" cy="6" r="1.55" />
-                <circle cx="2" cy="10" r="1.55" />
-                <circle cx="10" cy="10" r="1.55" />
-                <circle cx="6" cy="14" r="1.55" />
-                <circle cx="10" cy="14" r="1.55" />
-                <circle cx="14" cy="14" r="1.55" />
-                <circle cx="10" cy="18" r="1.55" />
-                <circle cx="18" cy="18" r="1.55" />
-                <circle cx="2" cy="22" r="1.55" />
-                <circle cx="6" cy="22" r="1.55" />
-                <circle cx="10" cy="22" r="1.55" />
-                <circle cx="14" cy="22" r="1.55" />
-                <circle cx="10" cy="26" r="1.55" />
-              </svg>
-            </span>
+            {/* Una etiqueta de anaquel con su franja amarilla: el mejor precio. */}
+            <svg aria-hidden="true" viewBox="0 0 24 24" className={styles.brandMark}>
+              <rect x="2.75" y="4.75" width="18.5" height="14.5" rx="2" className={styles.tag} />
+              <path d="M3.5 5.5h17v4h-17z" className={styles.band} />
+              <path d="M6.5 15.5h7" className={styles.line} />
+            </svg>
             {APP_NAME}
           </Link>
           {children && <div className={styles.headerSlot}>{children}</div>}

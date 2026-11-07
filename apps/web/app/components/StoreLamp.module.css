@@ -4,32 +4,27 @@
   height: 0.875rem;
 }
 
+.fill {
+  fill: var(--ok);
+}
+
+.lamp[data-state="idle"] .fill {
+  fill: var(--rule-strong);
+}
+
 .ring {
   fill: none;
-  stroke: var(--letter-faint);
+  stroke: var(--alert);
   stroke-width: 1.5;
 }
 
-.lamp[data-state="ok"] .ring {
-  fill: var(--green);
-  stroke: var(--green);
-}
-
+/* No respondió a tiempo: aro punteado. */
 .lamp[data-state="timeout"] .ring {
-  stroke: var(--red);
-}
-
-.lamp[data-state="error"] .ring,
-.lamp[data-state="paused"] .ring {
-  stroke: var(--red);
+  stroke-dasharray: 2.4 2.1;
 }
 
 .slash {
-  stroke: var(--red);
+  stroke: var(--alert);
   stroke-width: 1.5;
   stroke-linecap: round;
-}
-
-.idle {
-  fill: rgb(255 255 255 / 0.28);
 }

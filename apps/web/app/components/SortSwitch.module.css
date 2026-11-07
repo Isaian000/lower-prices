@@ -6,45 +6,43 @@
 
 .label {
   font-size: var(--text-sm);
-  color: var(--letter-dim);
+  color: var(--ink-muted);
 }
 
 .options {
   display: flex;
+  gap: var(--space-1);
   margin: 0;
-  padding: 2px;
+  padding: 0;
   list-style: none;
-  background: var(--board-deep);
-  border: 1px solid var(--joint);
-  border-radius: var(--radius);
 }
 
 .option {
   display: inline-flex;
   align-items: center;
-  min-height: 2.75rem;
-  padding: 0 var(--space-4);
-  border-radius: 2px;
+  min-height: 2.5rem;
+  padding: 0 var(--space-3);
+  border: 1px solid transparent;
+  border-radius: var(--radius);
   font-size: var(--text-sm);
   font-weight: 600;
-  font-variation-settings: "wdth" 80;
-  color: var(--letter-dim);
+  color: var(--ink-muted);
   text-decoration: none;
   transition:
-    background-color 160ms ease,
+    border-color 160ms ease,
     color 160ms ease;
 }
 
 @media (hover: hover) and (pointer: fine) {
   .option:hover {
-    color: var(--letter);
-    background: var(--board-raised);
+    color: var(--ink);
+    border-color: var(--rule);
   }
 }
 
 .option[aria-current="true"] {
-  background: var(--letter);
-  color: var(--board);
+  color: var(--ink);
+  border-color: var(--ink);
 }
 
 @media (max-width: 30rem) {
@@ -63,6 +61,7 @@
   .option {
     justify-content: center;
     width: 100%;
+    min-height: 2.75rem;
     padding: 0 var(--space-2);
   }
 }

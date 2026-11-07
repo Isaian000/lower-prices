@@ -56,7 +56,7 @@ export default function Search({ loaderData }: Route.ComponentProps) {
       </SiteHeader>
       <main id="main" className={styles.main}>
         {searching ? (
-          <Searching stores={result.ok ? storesOf(result.data, catalog) : catalog} />
+          <Searching />
         ) : result.ok ? (
           // La key reinicia "cargar más" al cambiar la búsqueda o el orden.
           <Results key={`${q}|${sort}`} q={q} sort={sort} first={result.data} catalog={catalog} />
@@ -78,10 +78,10 @@ function storesOf(data: SearchResponse, catalog: readonly Store[]): Store[] {
   return data.stores.map((status) => known.get(status.id) ?? { id: status.id, name: status.id });
 }
 
-function Searching({ stores }: { stores: readonly Store[] }) {
+function Searching() {
   return (
     <div className={styles.results}>
-      <BoardSkeleton stores={stores} rows={5} />
+      <BoardSkeleton rows={5} />
     </div>
   );
 }
@@ -166,7 +166,7 @@ function Results({
         </p>
       )}
 
-      <Board stores={stores} groups={groups} animateFrom={added?.from ?? 0} />
+      <Board groups={groups} storeCount={first.stores.length} />
 
       <div className={styles.more}>
         <p className="visually-hidden" role="status" aria-live="polite">

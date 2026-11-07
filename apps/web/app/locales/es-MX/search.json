@@ -20,23 +20,24 @@
     "partialNotice_one": "{{stores}} no respondió. Estos resultados no la incluyen.",
     "partialNotice_other": "{{stores}} no respondieron. Estos resultados no las incluyen.",
     "pausedNotice_one": "{{stores}} está en pausa por fallas recientes. Estos resultados no la incluyen.",
-    "pausedNotice_other": "{{stores}} están en pausa por fallas recientes. Estos resultados no las incluyen."
-  },
-  "columns": {
-    "product": "Producto",
-    "store": "Precio en {{store}}"
+    "pausedNotice_other": "{{stores}} están en pausa por fallas recientes. Estos resultados no las incluyen.",
+    "summary_one": "{{answered}} de {{count}} tienda respondió",
+    "summary_other": "{{answered}} de {{count}} tiendas respondieron"
   },
   "group": {
     "matched_gtin": "Mismo código de barras en {{count}} tiendas",
     "matched_model": "Misma marca y modelo en {{count}} tiendas",
     "matched_title": "Nombre parecido en {{count}} tiendas: revisa que sea el mismo",
     "spread": "Diferencia entre tiendas: {{amount}}",
-    "noOffer": "Sin oferta en {{store}}",
-    "lowest": "Precio más bajo",
-    "lowestTag": "Más bajo"
+    "lowest": "Mejor precio",
+    "offersLabel": "Precios por tienda, de menor a mayor",
+    "showMore_one": "Ver {{count}} tienda más",
+    "showMore_other": "Ver {{count}} tiendas más",
+    "showLess": "Ver menos tiendas",
+    "onlyIn_one": "Solo en {{count}} de {{total}} tiendas",
+    "onlyIn_other": "En {{count}} de {{total}} tiendas"
   },
   "offer": {
-    "goTo": "Ver en {{store}}",
     "newTab": "(se abre en otra pestaña)",
     "was": "Antes {{price}}",
     "discount": "−{{percent}} %",

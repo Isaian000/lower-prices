@@ -1,44 +1,41 @@
-/* Estilos globales: tokens del tablero, reset y accesibilidad base (RNF-10).
-   Mundo visual: la pizarra de una casa de cambio. Ver DESIGN.md.
+/* Estilos globales: tokens, reset y accesibilidad base (RNF-10).
+   Mundo visual: la etiqueta de anaquel. Página blanca, filos finos, precios claros. Ver DESIGN.md.
    Los estilos de cada componente van en su propio archivo *.module.css. */
 
-@import "@fontsource-variable/archivo/wdth.css";
-@import "@fontsource-variable/doto/index.css";
+@import "@fontsource-variable/public-sans/wght.css";
 
 :root {
-  /* El tablero es oscuro por naturaleza: un solo tema, sin variante clara. */
-  color-scheme: dark;
+  /* Un solo tema claro: el blanco es el tono principal del producto. */
+  color-scheme: light;
 
-  /* Tablero */
-  --board: #0e2a5c; /* fondo de página */
-  --board-deep: #091d42; /* módulos: celdas y filas */
-  --board-raised: #15387a; /* franjas, ranura de búsqueda */
-  --joint: #2b4f8c; /* juntas de 1px entre módulos */
-  --joint-strong: #4569a8;
+  /* Superficies */
+  --paper: #ffffff; /* fondo de página y etiquetas */
+  --paper-soft: #f5f5f2; /* zonas de apoyo: ranuras, filas al pasar el cursor */
+  --rule: #dededa; /* filos de 1px */
+  --rule-strong: #b9b9b3; /* filos de controles (3:1 sobre blanco no aplica a decoración) */
 
-  /* Letras */
-  --letter: #ffffff; /* 14.6:1 sobre --board */
-  --letter-dim: #a9c1e8; /* 7.6:1 sobre --board, 8.8:1 sobre --board-deep */
-  --letter-faint: #7f9cca; /* 4.9:1 sobre --board-deep; solo texto secundario breve */
+  /* Tinta */
+  --ink: #111111; /* 18.9:1 sobre blanco */
+  --ink-hover: #2b2b2b; /* botón negro al pasar el cursor */
+  --ink-muted: #5e5e5e; /* 6.5:1 sobre blanco */
+  --ink-soft: #767670; /* 4.6:1 sobre blanco; solo texto secundario breve */
 
   /* Señales */
-  --amber: #ffb000; /* el precio más bajo; 9.4:1 sobre --board-deep */
-  --amber-ink: #241800; /* texto sobre placa ámbar */
-  --amber-hover: #ffc233; /* botón ámbar al pasar el cursor */
-  --red: #ff6a5e; /* agotado, tienda caída; 5.3:1 sobre --board-deep */
-  --green: #3ddc84; /* lámpara de tienda que respondió */
-  --led-off: rgb(255 255 255 / 0.1); /* segmentos apagados */
+  --best: #ffd60a; /* franja del mejor precio; siempre con tinta encima */
+  --best-ink: #111111;
+  --alert: #b42318; /* agotado, tienda caída; 6.4:1 sobre blanco */
+  --ok: #1f7a3d; /* tienda que respondió; 5.4:1 sobre blanco */
 
-  /* Tipografía */
-  --font-board: "Archivo Variable", "Arial Narrow", system-ui, sans-serif;
-  --font-led: "Doto Variable", ui-monospace, monospace;
+  /* Tipografía: una sola letra de trabajo, con cifras tabulares en precios. */
+  --font-sans: "Public Sans Variable", "Helvetica Neue", Arial, system-ui, sans-serif;
 
   --text-xs: 0.8125rem;
   --text-sm: 0.875rem;
   --text-md: 1rem;
-  --text-lg: 1.25rem;
-  --text-price: clamp(1.375rem, 1.1rem + 0.9vw, 1.75rem);
-  --text-display: clamp(2.25rem, 1.4rem + 3vw, 3.75rem);
+  --text-lg: 1.125rem;
+  --text-price: clamp(1.375rem, 1.2rem + 0.6vw, 1.625rem);
+  --text-title: clamp(1.5rem, 1.2rem + 1.2vw, 2rem);
+  --text-display: clamp(2rem, 1.4rem + 2.6vw, 3.25rem);
 
   /* Espacio */
   --space-1: 0.25rem;
@@ -52,8 +49,8 @@
   --space-12: 3rem;
   --space-16: 4rem;
 
-  --radius: 3px; /* esquina de módulo de tablero */
-  --content-max: 82rem;
+  --radius: 4px; /* esquina de etiqueta */
+  --content-max: 76rem;
   --gutter: clamp(1rem, 3vw, 2.5rem);
 
   /* Movimiento */
@@ -68,25 +65,24 @@
 
 html {
   -webkit-text-size-adjust: 100%;
-  scrollbar-color: var(--joint-strong) var(--board);
+  scrollbar-color: var(--rule-strong) var(--paper);
 }
 
 body {
   margin: 0;
   min-height: 100vh;
-  background: var(--board);
-  color: var(--letter);
-  font-family: var(--font-board);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
   font-size: var(--text-md);
-  font-variation-settings: "wdth" 100;
   line-height: 1.5;
-  caret-color: var(--amber);
+  caret-color: var(--ink);
   -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-  background: var(--amber);
-  color: var(--amber-ink);
+  background: var(--ink);
+  color: var(--paper);
 }
 
 h1,
@@ -120,19 +116,19 @@ textarea {
 }
 
 a {
-  color: var(--letter);
-  text-decoration-color: var(--joint-strong);
+  color: var(--ink);
+  text-decoration-color: var(--rule-strong);
   text-decoration-thickness: 1px;
   text-underline-offset: 0.2em;
 }
 
 a:hover {
-  text-decoration-color: var(--amber);
+  text-decoration-color: var(--ink);
 }
 
 /* Foco siempre visible al navegar con teclado. */
 :focus-visible {
-  outline: 3px solid var(--amber);
+  outline: 2px solid var(--ink);
   outline-offset: 2px;
 }
 
@@ -156,9 +152,9 @@ a:hover {
   left: var(--space-2);
   z-index: 100;
   padding: var(--space-2) var(--space-4);
-  background: var(--amber);
-  color: var(--amber-ink);
-  font-weight: 700;
+  background: var(--ink);
+  color: var(--paper);
+  font-weight: 600;
   border-radius: var(--radius);
   transform: translateY(-200%);
 }

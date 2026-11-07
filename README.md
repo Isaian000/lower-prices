@@ -290,11 +290,11 @@ lower-prices/
 │       └── app/
 │           ├── root.tsx           # layout, <html lang>, i18n, página de error
 │           ├── routes/            # páginas: inicio (/) y resultados (/buscar), con su *.module.css
-│           ├── components/        # tablero de precios, buscador, lámparas de tiendas, orden
+│           ├── components/        # lista de productos con etiquetas de precio, buscador, estado de tiendas, orden
 │           ├── i18n/              # configuración de i18next
 │           ├── locales/es-MX/     # textos traducibles por módulo
 │           ├── lib/               # formatos (Intl), cliente de la API (*.server.ts)
-│           ├── styles/global.css  # tokens del tablero (colores, tipografía, espacio) y accesibilidad base
+│           ├── styles/global.css  # tokens (colores, tipografía, espacio) y accesibilidad base
 │           └── config.ts          # nombre provisional e idioma por defecto
 └── packages/
     └── shared/                    # Tipos compartidos (Offer, ProductGroup, SearchResponse...)
@@ -378,9 +378,10 @@ Las tiendas que fallan no pasan al cursor de "cargar más", para no reintentar u
 
 ### Diseño de la interfaz
 
-- **Mundo visual:** la pizarra de una casa de cambio. Cada producto es una fila y cada tienda una columna; el precio más bajo de la fila se enciende en ámbar con la etiqueta "Más bajo". Fondo azul marino, letras de tablero (Archivo) y precios en dígitos de matriz de puntos (Doto), ambas fuentes autoalojadas.
+- **Mundo visual: la etiqueta de anaquel.** Página blanca y minimalista, filos grises de 1px y texto casi negro. Cada oferta es una etiqueta blanca como las del súper: tienda, precio grande (Public Sans, cifras tabulares, autoalojada) y abajo descuento y meses sin intereses. El único color es la franja amarilla «Mejor precio» sobre la etiqueta más barata (y el logo, que dibuja esa etiqueta).
+- **Funciona con cualquier número de tiendas:** cada producto muestra sus 3 mejores precios y «Ver N tiendas más» despliega el resto en el mismo lugar. El estado de tiendas es un resumen de una línea con detalle desplegable. En celular cada tienda es un renglón con el precio a la derecha.
 - **Documentos:** `apps/web/PRODUCT.md` (usuarios, propósito y principios) y `apps/web/DESIGN.md` (tokens y reglas del sistema visual). El contrato de dirección está en `apps/web/.impeccable/surfaces/`.
-- **Reglas que no se rompen:** el ámbar solo significa "precio más bajo"; el estado de cada tienda siempre va en texto además de su lámpara; las celdas sin oferta son módulos apagados (`$8,888` tenue); un solo tema oscuro.
+- **Reglas que no se rompen:** el amarillo solo marca el mejor precio; el estado de cada tienda va siempre en texto además de su marca; sin sombras de adorno ni degradados; un solo tema claro.
 
 ### Convenciones
 
@@ -466,4 +467,4 @@ Esta fase arranca **con datos reales** de las tiendas VTEX (Elektra, Chedraui, O
 9. ✅ Construir el frontend en React con skills de diseño: buscador, resultados agrupados, meses sin intereses y "cargar más".
 10. Desplegar la web en Vercel.
 
-**Estado:** la búsqueda del backend funciona (pasos 1 a 5). `/api/search` consulta las 4 tiendas reales en unos 300 ms, agrupa por GTIN entre tiendas (p. ej. la misma pantalla TCL 65Q5K en Elektra y Chedraui), muestra MSI y pagina con "cargar más". Ya tiene pausa por tienda, seguridad, enlaces de salida validados y documentación OpenAPI (78 pruebas). El frontend ya está construido (paso 9) con el diseño de la pizarra de casa de cambio. Siguiente: desplegar la API y la web en Vercel.
+**Estado:** la búsqueda del backend funciona (pasos 1 a 5). `/api/search` consulta las 4 tiendas reales en unos 300 ms, agrupa por GTIN entre tiendas (p. ej. la misma pantalla TCL 65Q5K en Elektra y Chedraui), muestra MSI y pagina con "cargar más". Ya tiene pausa por tienda, seguridad, enlaces de salida validados y documentación OpenAPI (78 pruebas). El frontend ya está construido (paso 9) con el diseño de etiqueta de anaquel (minimalista en blanco). Siguiente: desplegar la API y la web en Vercel.

@@ -1,11 +1,11 @@
 {
   "metaTitle": "{{appName}}: compara precios en tiendas de México",
   "metaDescription": "Busca un producto una vez y compara su precio en varias tiendas en línea de México, con meses sin intereses.",
-  "title": "El mismo producto, en todas las tiendas, en una sola fila",
+  "title": "El mismo producto, en todas las tiendas",
   "subtitle": "Escribe lo que quieres comprar. Consultamos las tiendas al momento y te mostramos dónde está más barato.",
-  "boardHeading": "Tiendas que consultamos",
   "storesUnavailable": "No pudimos cargar la lista de tiendas. La búsqueda puede seguir funcionando.",
-  "boardEmpty": "Aquí aparece el precio de cada tienda.",
   "examplesHeading": "Prueba con",
-  "examples": ["pantalla tcl 55", "audífonos sony", "licuadora oster", "tenis nike"]
+  "examples": ["pantalla tcl 55", "audífonos sony", "licuadora oster", "tenis nike"],
+  "storesLine_one": "Buscamos en {{stores}}.",
+  "storesLine_other": "Buscamos en {{count}} tiendas: {{stores}}."
 }

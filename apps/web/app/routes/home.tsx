@@ -1,12 +1,10 @@
-import type { Store } from "@lower-prices/shared";
 import { useTranslation } from "react-i18next";
 import { Link, useNavigation } from "react-router";
 
 import { BoardSkeleton } from "~/components/Board";
 import { SearchForm } from "~/components/SearchForm";
 import { SiteFooter, SiteHeader } from "~/components/SiteChrome";
-import { StoreLamp } from "~/components/StoreLamp";
-import { APP_NAME } from "~/config";
+import { APP_NAME, DEFAULT_LOCALE } from "~/config";
 import { i18n } from "~/i18n";
 import { fetchStores } from "~/lib/api.server";
 
@@ -28,9 +26,9 @@ export async function loader(_: Route.LoaderArgs) {
 export default function Home({ loaderData }: Route.ComponentProps) {
   const { t } = useTranslation("home");
   const navigation = useNavigation();
-  const stores: readonly Store[] = loaderData.stores ?? [];
   const searching = navigation.state === "loading" && navigation.location.pathname === "/buscar";
   const examples = t("examples", { returnObjects: true });
+  const storeNames = loaderData.stores?.map((store) => store.name) ?? [];
 
   return (
     <>
@@ -59,64 +57,25 @@ export default function Home({ loaderData }: Route.ComponentProps) {
               ))}
             </ul>
           </div>
+          <p className={styles.stores}>
+            {storeNames.length > 0
+              ? t("storesLine", {
+                  count: storeNames.length,
+                  stores: new Intl.ListFormat(DEFAULT_LOCALE, { type: "conjunction" }).format(
+                    storeNames,
+                  ),
+                })
+              : t("storesUnavailable")}
+          </p>
         </section>
 
-        <section className={styles.boardSection} aria-labelledby="board-heading">
-          <h2 id="board-heading" className={styles.boardHeading}>
-            {t("boardHeading")}
-          </h2>
-          {loaderData.stores === null ? (
-            <p className={styles.notice}>{t("storesUnavailable")}</p>
-          ) : searching ? (
-            <BoardSkeleton stores={stores} rows={3} />
-          ) : (
-            <EmptyBoard stores={stores} />
-          )}
-        </section>
+        {searching && (
+          <section className={styles.loading}>
+            <BoardSkeleton rows={3} />
+          </section>
+        )}
       </main>
       <SiteFooter />
     </>
-  );
-}
-
-/** Filas del tablero en espera: módulos apagados, listos para encenderse. */
-const IDLE_ROWS = 4;
-
-/** El tablero en espera: las tiendas como columnas y filas con los segmentos apagados. */
-function EmptyBoard({ stores }: { stores: readonly Store[] }) {
-  const { t } = useTranslation("home");
-
-  return (
-    <div className={styles.emptyBoard} style={{ "--stores": stores.length } as React.CSSProperties}>
-      <ul className={styles.storeColumns}>
-        {stores.map((store) => (
-          <li key={store.id} className={styles.storeColumn}>
-            <StoreLamp state="idle" />
-            <span>{store.name}</span>
-          </li>
-        ))}
-      </ul>
-      {Array.from({ length: IDLE_ROWS }, (_, row) => (
-        <div key={row} className={styles.emptyRow}>
-          {row === 0 ? (
-            <p className={styles.emptyText}>{t("boardEmpty")}</p>
-          ) : (
-            <span className={styles.emptyProduct} aria-hidden="true">
-              <span className={styles.idleBar} style={{ width: `${62 - row * 12}%` }} />
-            </span>
-          )}
-          {stores.map((store) => (
-            <span
-              key={store.id}
-              className={styles.emptyCell}
-              data-store={store.name}
-              aria-hidden="true"
-            >
-              $8,888
-            </span>
-          ))}
-        </div>
-      ))}
-    </div>
   );
 }

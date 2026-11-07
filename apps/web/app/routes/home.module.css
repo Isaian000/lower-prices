@@ -7,28 +7,25 @@
 .intro {
   display: grid;
   gap: var(--space-5);
-  padding: clamp(var(--space-8), 5vw, var(--space-16)) 0 var(--space-10);
+  max-width: 44rem;
+  padding: clamp(var(--space-10), 9vw, 7.5rem) 0 var(--space-10);
 }
 
 .title {
-  max-width: 18ch;
   font-size: var(--text-display);
-  font-weight: 800;
-  font-variation-settings: "wdth" 72;
-  line-height: 0.98;
-  letter-spacing: -0.02em;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
 }
 
 .subtitle {
-  max-width: 52ch;
+  max-width: 50ch;
   font-size: var(--text-lg);
-  color: var(--letter-dim);
-  line-height: 1.45;
+  color: var(--ink-muted);
 }
 
 .search {
-  max-width: 44rem;
-  margin-top: var(--space-4);
+  margin-top: var(--space-3);
 }
 
 .examples {
@@ -40,8 +37,8 @@
 
 .examplesHeading {
   font-size: var(--text-sm);
-  font-weight: 500;
-  color: var(--letter-dim);
+  font-weight: 400;
+  color: var(--ink-muted);
 }
 
 .exampleList {
@@ -53,17 +50,15 @@
   list-style: none;
 }
 
-/* Fichas de ejemplo: letreros intercambiables sueltos. */
 .example {
   display: inline-flex;
   align-items: center;
   min-height: 2.75rem;
   padding: 0 var(--space-4);
-  background: var(--board-deep);
-  border: 1px solid var(--joint);
+  border: 1px solid var(--rule);
   border-radius: var(--radius);
   font-size: var(--text-sm);
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
   transition:
     border-color 160ms ease,
@@ -76,144 +71,17 @@
 
 @media (hover: hover) and (pointer: fine) {
   .example:hover {
-    border-color: var(--amber);
+    border-color: var(--ink);
   }
 }
 
-.boardSection {
-  display: grid;
-  gap: var(--space-4);
-}
-
-.boardHeading {
+.stores {
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--rule);
   font-size: var(--text-sm);
-  font-weight: 700;
-  font-variation-settings: "wdth" 75;
-  color: var(--letter-dim);
+  color: var(--ink-muted);
 }
 
-.notice {
-  color: var(--letter-dim);
-}
-
-/* Tablero en espera. Mismas proporciones que la pizarra de resultados. */
-.emptyBoard {
-  display: grid;
-  grid-template-columns: minmax(17rem, 2.4fr) repeat(var(--stores), minmax(8.5rem, 1fr));
-  gap: 1px;
-  background: var(--joint);
-  border: 1px solid var(--joint);
-  border-radius: var(--radius);
-  overflow: hidden;
-}
-
-.storeColumns,
-.emptyRow {
-  display: grid;
-  grid-column: 1 / -1;
-  grid-template-columns: subgrid;
-  gap: 1px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.storeColumns {
-  background: var(--board-raised);
-}
-
-.storeColumn {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: var(--space-2);
-  padding: var(--space-3) var(--space-4);
-  font-weight: 700;
-  font-variation-settings: "wdth" 70;
-  font-size: var(--text-sm);
-}
-
-/* La primera columna (producto) queda libre en el encabezado. */
-.storeColumn:first-child {
-  grid-column: 2;
-}
-
-.emptyRow > * {
-  padding: var(--space-5) var(--space-4);
-  background: var(--board-deep);
-}
-
-.emptyProduct {
-  display: flex;
-  align-items: center;
-}
-
-.idleBar {
-  display: block;
-  height: 0.875rem;
-  background: var(--joint);
-  border-radius: 2px;
-}
-
-.emptyText {
-  color: var(--letter-dim);
-}
-
-/* Segmentos apagados a tamaño real: el tablero listo para encenderse. */
-.emptyCell {
-  font-family: var(--font-led);
-  font-size: var(--text-price);
-  font-weight: 800;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  font-variant-numeric: tabular-nums;
-  text-align: right;
-  color: var(--led-off);
-}
-
-@media (max-width: 56rem) {
-  .emptyBoard {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .storeColumn:first-child {
-    grid-column: auto;
-  }
-
-  .storeColumn {
-    justify-content: flex-start;
-  }
-
-  .storeColumns {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  /* En celular, cada fila apagada apila sus tiendas como en los resultados. */
-  .emptyRow {
-    grid-template-columns: 1fr;
-  }
-
-  .emptyRow:nth-child(n + 4) {
-    display: none;
-  }
-
-  .emptyRow + .emptyRow {
-    border-top: var(--space-3) solid var(--board);
-  }
-
-  .emptyCell {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    padding: var(--space-3);
-  }
-
-  .emptyCell::before {
-    content: attr(data-store);
-    font-family: var(--font-board);
-    font-size: var(--text-md);
-    font-weight: 700;
-    font-variation-settings: "wdth" 75;
-    color: var(--letter-dim);
-  }
+.loading {
+  padding-bottom: var(--space-8);
 }
