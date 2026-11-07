@@ -1,0 +1,10 @@
+{
+  "skipToContent": "Saltar al contenido principal",
+  "errors": {
+    "title": "Algo salió mal",
+    "notFoundTitle": "Página no encontrada",
+    "notFoundDetails": "La página que buscas no existe o fue movida.",
+    "unexpected": "Ocurrió un error inesperado. Intenta de nuevo más tarde.",
+    "backHome": "Volver al inicio"
+  }
+}

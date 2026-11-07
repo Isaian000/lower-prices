@@ -1,0 +1,14 @@
+.error {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: var(--space-12) var(--space-4);
+}
+
+.stack {
+  margin-top: var(--space-6);
+  padding: var(--space-4);
+  overflow-x: auto;
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+}

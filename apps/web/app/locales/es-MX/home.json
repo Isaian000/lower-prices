@@ -1,0 +1,12 @@
+{
+  "metaTitle": "{{appName}}: compara precios en tiendas de México",
+  "metaDescription": "Compara el precio de un mismo producto en varias tiendas en línea de México y encuentra la mejor oferta.",
+  "title": "Compara precios en tiendas de México",
+  "subtitle": "Encuentra el precio más bajo de un producto sin visitar tienda por tienda.",
+  "status": {
+    "heading": "Estado del sistema",
+    "apiUp": "API conectada",
+    "apiDown": "API no disponible",
+    "comingSoon": "La búsqueda estará disponible pronto."
+  }
+}

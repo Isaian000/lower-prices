@@ -1,0 +1,43 @@
+// Servidor Express de la web (SSR con React Router).
+// En desarrollo monta Vite como middleware; en producción sirve el build.
+import compression from "compression";
+import express from "express";
+
+const BUILD_PATH = "./build/server/index.js";
+const DEVELOPMENT = process.env.NODE_ENV === "development";
+const PORT = Number.parseInt(process.env.PORT || "3000", 10);
+
+const app = express();
+
+app.use(compression());
+app.disable("x-powered-by");
+
+if (DEVELOPMENT) {
+  console.log("Iniciando servidor web de desarrollo");
+  const viteDevServer = await import("vite").then((vite) =>
+    vite.createServer({
+      server: { middlewareMode: true },
+    }),
+  );
+  app.use(viteDevServer.middlewares);
+  app.use(async (req, res, next) => {
+    try {
+      const source = await viteDevServer.ssrLoadModule("./server/app.ts");
+      return await source.app(req, res, next);
+    } catch (error) {
+      if (typeof error === "object" && error instanceof Error) {
+        viteDevServer.ssrFixStacktrace(error);
+      }
+      next(error);
+    }
+  });
+} else {
+  console.log("Iniciando servidor web de producción");
+  app.use("/assets", express.static("build/client/assets", { immutable: true, maxAge: "1y" }));
+  app.use(express.static("build/client", { maxAge: "1h" }));
+  app.use(await import(BUILD_PATH).then((mod) => mod.app));
+}
+
+app.listen(PORT, () => {
+  console.log(`Web escuchando en http://localhost:${PORT}`);
+});

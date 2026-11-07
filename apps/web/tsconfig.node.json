@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "include": ["server.js", "vite.config.ts", "vitest.config.ts", "react-router.config.ts"],
+  "compilerOptions": {
+    "composite": true,
+    "checkJs": true,
+    "types": ["node"]
+  }
+}

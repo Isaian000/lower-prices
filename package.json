@@ -1,0 +1,36 @@
+{
+  "name": "lower-prices",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.18.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel --filter \"./apps/*\" dev",
+    "dev:api": "pnpm --filter @lower-prices/api dev",
+    "dev:web": "pnpm --filter @lower-prices/web dev",
+    "build": "pnpm -r build",
+    "start:api": "pnpm --filter @lower-prices/api start",
+    "start:web": "pnpm --filter @lower-prices/web start",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@types/node": "^24.19.2",
+    "eslint": "^9.39.5",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.14.0",
+    "prettier": "^3.9.10",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.72.1",
+    "vitest": "^5.1.0"
+  }
+}

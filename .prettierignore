@@ -1,0 +1,7 @@
+node_modules
+dist
+build
+coverage
+.react-router
+pnpm-lock.yaml
+docs/PLANEACION.md

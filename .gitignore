@@ -1,0 +1,24 @@
+# Documento local de planeación (no se versiona)
+docs/PLANEACION.md
+
+# Dependencias
+node_modules/
+
+# Builds
+dist/
+build/
+.react-router/
+*.tsbuildinfo
+coverage/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel/
+
+# Logs y sistema
+*.log
+.DS_Store

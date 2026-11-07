@@ -1,0 +1,131 @@
+/* Estilos globales: tokens de diseño, reset y accesibilidad base (RNF-10).
+   Los estilos de cada componente van en su propio archivo *.module.css. */
+
+:root {
+  color-scheme: light dark;
+
+  --color-bg: #ffffff;
+  --color-surface: #f4f5f7;
+  --color-text: #16181d;
+  --color-text-muted: #4a4f5c; /* 8.1:1 sobre --color-bg */
+  --color-border: #d4d7de;
+  --color-accent: #0b5cad; /* 6.6:1 sobre --color-bg */
+  --color-accent-contrast: #ffffff;
+  --color-success: #146c2e;
+  --color-danger: #b3261e;
+  --color-focus: #0b5cad;
+
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+
+  --content-max: 72rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #111317;
+    --color-surface: #1b1e24;
+    --color-text: #eceef2;
+    --color-text-muted: #b4b9c4;
+    --color-border: #343944;
+    --color-accent: #7cb7ff;
+    --color-accent-contrast: #0b1320;
+    --color-success: #6fd58c;
+    --color-danger: #ff8a80;
+    --color-focus: #7cb7ff;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+/* Foco siempre visible al navegar con teclado. */
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+/* Texto solo para lectores de pantalla. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Enlace "saltar al contenido": visible solo al recibir foco. */
+.skip-link {
+  position: absolute;
+  top: var(--space-2);
+  left: var(--space-2);
+  z-index: 100;
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-accent);
+  color: var(--color-accent-contrast);
+  border-radius: var(--radius-sm);
+  transform: translateY(-200%);
+}
+
+.skip-link:focus-visible {
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
