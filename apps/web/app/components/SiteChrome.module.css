@@ -1,0 +1,80 @@
+.header {
+  background: var(--board-deep);
+  border-bottom: 1px solid var(--joint);
+}
+
+.headerInner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  max-width: var(--content-max);
+  min-height: 3.75rem;
+  margin: 0 auto;
+  padding: var(--space-2) var(--gutter);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-shrink: 0;
+  font-weight: 800;
+  font-variation-settings: "wdth" 75;
+  font-size: var(--text-lg);
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
+/* El signo de pesos en dígito de tablero encendido. */
+.brandMark {
+  display: grid;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  background: var(--amber);
+  color: var(--amber-ink);
+  border-radius: 2px;
+}
+
+.brandDots {
+  width: 1rem;
+  height: 1.4rem;
+  fill: currentColor;
+}
+
+.headerSlot {
+  flex: 1;
+  max-width: 36rem;
+}
+
+.footer {
+  margin-top: var(--space-16);
+  border-top: 1px solid var(--joint);
+}
+
+.footerInner {
+  display: grid;
+  gap: var(--space-2);
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: var(--space-8) var(--gutter) var(--space-12);
+  color: var(--letter-dim);
+  font-size: var(--text-sm);
+  max-inline-size: min(var(--content-max), 100%);
+}
+
+.footerInner p {
+  max-width: 62ch;
+}
+
+@media (max-width: 40rem) {
+  .headerInner {
+    flex-wrap: wrap;
+    gap: var(--space-3);
+  }
+
+  .headerSlot {
+    flex-basis: 100%;
+    max-width: none;
+  }
+}

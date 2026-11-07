@@ -1,0 +1,34 @@
+.strip {
+  min-width: 0;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-8);
+  margin: 0;
+  padding: var(--space-3) 0;
+  list-style: none;
+}
+
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+}
+
+.name {
+  font-weight: 700;
+  font-variation-settings: "wdth" 75;
+}
+
+.detail {
+  color: var(--letter-dim);
+}
+
+.item[data-state="timeout"] .detail,
+.item[data-state="error"] .detail,
+.item[data-state="paused"] .detail {
+  color: var(--red);
+}

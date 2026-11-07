@@ -1,10 +1,20 @@
 {
   "skipToContent": "Saltar al contenido principal",
+  "homeLink": "{{appName}}, ir al inicio",
+  "searchForm": {
+    "label": "¿Qué quieres comprar?",
+    "placeholder": "Ej. pantalla tcl 55",
+    "submit": "Buscar"
+  },
+  "footer": {
+    "neutral": "No vendemos ni cobramos: te llevamos a la tienda. Ninguna tienda paga por salir primero.",
+    "prices": "Los precios se consultan al momento y pueden cambiar en la tienda. No incluyen envío."
+  },
   "errors": {
     "title": "Algo salió mal",
     "notFoundTitle": "Página no encontrada",
     "notFoundDetails": "La página que buscas no existe o fue movida.",
-    "unexpected": "Ocurrió un error inesperado. Intenta de nuevo más tarde.",
+    "unexpected": "Ocurrió un error inesperado. Intenta de nuevo en unos minutos.",
     "backHome": "Volver al inicio"
   }
 }

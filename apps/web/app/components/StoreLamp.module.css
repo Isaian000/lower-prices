@@ -1,0 +1,35 @@
+.lamp {
+  flex-shrink: 0;
+  width: 0.875rem;
+  height: 0.875rem;
+}
+
+.ring {
+  fill: none;
+  stroke: var(--letter-faint);
+  stroke-width: 1.5;
+}
+
+.lamp[data-state="ok"] .ring {
+  fill: var(--green);
+  stroke: var(--green);
+}
+
+.lamp[data-state="timeout"] .ring {
+  stroke: var(--red);
+}
+
+.lamp[data-state="error"] .ring,
+.lamp[data-state="paused"] .ring {
+  stroke: var(--red);
+}
+
+.slash {
+  stroke: var(--red);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+}
+
+.idle {
+  fill: rgb(255 255 255 / 0.28);
+}

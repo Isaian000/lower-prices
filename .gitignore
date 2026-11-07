@@ -22,3 +22,9 @@ coverage/
 # Logs y sistema
 *.log
 .DS_Store
+
+# Impeccable: capturas de revisión y archivos de sesión (el contrato y DESIGN.md sí se versionan)
+.impeccable/review/
+.impeccable/questions/
+.impeccable/build/
+.impeccable/config.local.json

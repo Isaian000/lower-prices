@@ -1,0 +1,165 @@
+.main {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.results {
+  display: grid;
+  gap: var(--space-5);
+  padding-top: var(--space-8);
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-6);
+}
+
+.title {
+  font-size: clamp(1.625rem, 1.2rem + 1.8vw, 2.5rem);
+  font-weight: 800;
+  font-variation-settings: "wdth" 72;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  overflow-wrap: anywhere;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--letter-dim);
+}
+
+.partial {
+  padding: var(--space-3) var(--space-4);
+  background: var(--board-deep);
+  border: 1px solid var(--red);
+  border-radius: var(--radius);
+  font-size: var(--text-sm);
+}
+
+.statusRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-6);
+  padding: var(--space-2) 0;
+  border-top: 1px solid var(--joint);
+  border-bottom: 1px solid var(--joint);
+}
+
+.more {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4) 0;
+}
+
+.moreButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  min-width: 16rem;
+  padding: 0 var(--space-6);
+  background: var(--letter);
+  color: var(--board);
+  border: 0;
+  border-radius: var(--radius);
+  font-weight: 700;
+  font-variation-settings: "wdth" 85;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    transform 140ms var(--ease-out),
+    background-color 160ms ease;
+}
+
+.moreButton:active {
+  transform: scale(0.97);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .moreButton:hover {
+    background: var(--amber);
+    color: var(--amber-ink);
+  }
+}
+
+.moreButton:disabled {
+  cursor: progress;
+  background: var(--letter-dim);
+}
+
+.end {
+  font-size: var(--text-sm);
+  color: var(--letter-dim);
+}
+
+.moreError {
+  font-size: var(--text-sm);
+  color: var(--red);
+}
+
+/* Estados: sin resultados y fallas. */
+.state {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-4);
+  max-width: 40rem;
+  padding: var(--space-10) 0;
+}
+
+.stateTitle {
+  font-size: clamp(1.625rem, 1.2rem + 1.8vw, 2.5rem);
+  font-weight: 800;
+  font-variation-settings: "wdth" 72;
+  line-height: 1.05;
+  overflow-wrap: anywhere;
+}
+
+.stateBody {
+  font-size: var(--text-lg);
+  color: var(--letter-dim);
+  max-width: 50ch;
+}
+
+.tryHeading {
+  margin-top: var(--space-4);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--letter-dim);
+}
+
+.tryList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-5);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 600;
+}
+
+.tryList a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+}
+
+@media (max-width: 30rem) {
+  .statusRow > nav {
+    width: 100%;
+  }
+
+  .moreButton {
+    width: 100%;
+    min-width: 0;
+  }
+}

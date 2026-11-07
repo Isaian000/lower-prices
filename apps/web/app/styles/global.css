@@ -1,49 +1,63 @@
-/* Estilos globales: tokens de diseño, reset y accesibilidad base (RNF-10).
+/* Estilos globales: tokens del tablero, reset y accesibilidad base (RNF-10).
+   Mundo visual: la pizarra de una casa de cambio. Ver DESIGN.md.
    Los estilos de cada componente van en su propio archivo *.module.css. */
 
+@import "@fontsource-variable/archivo/wdth.css";
+@import "@fontsource-variable/doto/index.css";
+
 :root {
-  color-scheme: light dark;
+  /* El tablero es oscuro por naturaleza: un solo tema, sin variante clara. */
+  color-scheme: dark;
 
-  --color-bg: #ffffff;
-  --color-surface: #f4f5f7;
-  --color-text: #16181d;
-  --color-text-muted: #4a4f5c; /* 8.1:1 sobre --color-bg */
-  --color-border: #d4d7de;
-  --color-accent: #0b5cad; /* 6.6:1 sobre --color-bg */
-  --color-accent-contrast: #ffffff;
-  --color-success: #146c2e;
-  --color-danger: #b3261e;
-  --color-focus: #0b5cad;
+  /* Tablero */
+  --board: #0e2a5c; /* fondo de página */
+  --board-deep: #091d42; /* módulos: celdas y filas */
+  --board-raised: #15387a; /* franjas, ranura de búsqueda */
+  --joint: #2b4f8c; /* juntas de 1px entre módulos */
+  --joint-strong: #4569a8;
 
-  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* Letras */
+  --letter: #ffffff; /* 14.6:1 sobre --board */
+  --letter-dim: #a9c1e8; /* 7.6:1 sobre --board, 8.8:1 sobre --board-deep */
+  --letter-faint: #7f9cca; /* 4.9:1 sobre --board-deep; solo texto secundario breve */
 
+  /* Señales */
+  --amber: #ffb000; /* el precio más bajo; 9.4:1 sobre --board-deep */
+  --amber-ink: #241800; /* texto sobre placa ámbar */
+  --amber-hover: #ffc233; /* botón ámbar al pasar el cursor */
+  --red: #ff6a5e; /* agotado, tienda caída; 5.3:1 sobre --board-deep */
+  --green: #3ddc84; /* lámpara de tienda que respondió */
+  --led-off: rgb(255 255 255 / 0.1); /* segmentos apagados */
+
+  /* Tipografía */
+  --font-board: "Archivo Variable", "Arial Narrow", system-ui, sans-serif;
+  --font-led: "Doto Variable", ui-monospace, monospace;
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-price: clamp(1.375rem, 1.1rem + 0.9vw, 1.75rem);
+  --text-display: clamp(2.25rem, 1.4rem + 3vw, 3.75rem);
+
+  /* Espacio */
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 0.75rem;
   --space-4: 1rem;
+  --space-5: 1.25rem;
   --space-6: 1.5rem;
   --space-8: 2rem;
+  --space-10: 2.5rem;
   --space-12: 3rem;
+  --space-16: 4rem;
 
-  --radius-sm: 6px;
-  --radius-md: 10px;
+  --radius: 3px; /* esquina de módulo de tablero */
+  --content-max: 82rem;
+  --gutter: clamp(1rem, 3vw, 2.5rem);
 
-  --content-max: 72rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-bg: #111317;
-    --color-surface: #1b1e24;
-    --color-text: #eceef2;
-    --color-text-muted: #b4b9c4;
-    --color-border: #343944;
-    --color-accent: #7cb7ff;
-    --color-accent-contrast: #0b1320;
-    --color-success: #6fd58c;
-    --color-danger: #ff8a80;
-    --color-focus: #7cb7ff;
-  }
+  /* Movimiento */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 *,
@@ -54,16 +68,41 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  scrollbar-color: var(--joint-strong) var(--board);
 }
 
 body {
   margin: 0;
   min-height: 100vh;
-  background: var(--color-bg);
-  color: var(--color-text);
-  font-family: var(--font-sans);
-  font-size: 1rem;
+  background: var(--board);
+  color: var(--letter);
+  font-family: var(--font-board);
+  font-size: var(--text-md);
+  font-variation-settings: "wdth" 100;
   line-height: 1.5;
+  caret-color: var(--amber);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--amber);
+  color: var(--amber-ink);
+}
+
+h1,
+h2,
+h3,
+p,
+dl,
+dd,
+figure {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
 }
 
 img,
@@ -77,15 +116,23 @@ input,
 select,
 textarea {
   font: inherit;
+  color: inherit;
 }
 
 a {
-  color: var(--color-accent);
+  color: var(--letter);
+  text-decoration-color: var(--joint-strong);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  text-decoration-color: var(--amber);
 }
 
 /* Foco siempre visible al navegar con teclado. */
 :focus-visible {
-  outline: 3px solid var(--color-focus);
+  outline: 3px solid var(--amber);
   outline-offset: 2px;
 }
 
@@ -109,9 +156,10 @@ a {
   left: var(--space-2);
   z-index: 100;
   padding: var(--space-2) var(--space-4);
-  background: var(--color-accent);
-  color: var(--color-accent-contrast);
-  border-radius: var(--radius-sm);
+  background: var(--amber);
+  color: var(--amber-ink);
+  font-weight: 700;
+  border-radius: var(--radius);
   transform: translateY(-200%);
 }
 
@@ -125,6 +173,7 @@ a {
   *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
+    animation-delay: 0ms !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }

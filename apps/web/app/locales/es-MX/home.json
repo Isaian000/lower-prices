@@ -1,12 +1,11 @@
 {
   "metaTitle": "{{appName}}: compara precios en tiendas de México",
-  "metaDescription": "Compara el precio de un mismo producto en varias tiendas en línea de México y encuentra la mejor oferta.",
-  "title": "Compara precios en tiendas de México",
-  "subtitle": "Encuentra el precio más bajo de un producto sin visitar tienda por tienda.",
-  "status": {
-    "heading": "Estado del sistema",
-    "apiUp": "API conectada",
-    "apiDown": "API no disponible",
-    "comingSoon": "La búsqueda estará disponible pronto."
-  }
+  "metaDescription": "Busca un producto una vez y compara su precio en varias tiendas en línea de México, con meses sin intereses.",
+  "title": "El mismo producto, en todas las tiendas, en una sola fila",
+  "subtitle": "Escribe lo que quieres comprar. Consultamos las tiendas al momento y te mostramos dónde está más barato.",
+  "boardHeading": "Tiendas que consultamos",
+  "storesUnavailable": "No pudimos cargar la lista de tiendas. La búsqueda puede seguir funcionando.",
+  "boardEmpty": "Aquí aparece el precio de cada tienda.",
+  "examplesHeading": "Prueba con",
+  "examples": ["pantalla tcl 55", "audífonos sony", "licuadora oster", "tenis nike"]
 }

@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-07T19:42:01+00:00",
+  "title": "Design System: lower-prices",
+  "extensions": {
+    "colorMeta": {
+      "board": {
+        "role": "neutral",
+        "displayName": "Tablero",
+        "canonical": "oklch(29.7% 0.096 260.9)",
+        "tonalRamp": [
+          "oklch(15% 0.096 260.9)",
+          "oklch(25% 0.096 260.9)",
+          "oklch(35% 0.096 260.9)",
+          "oklch(45% 0.096 260.9)",
+          "oklch(55% 0.096 260.9)",
+          "oklch(70% 0.096 260.9)",
+          "oklch(85% 0.096 260.9)",
+          "oklch(95% 0.096 260.9)"
+        ]
+      },
+      "board-deep": {
+        "role": "neutral",
+        "displayName": "Módulo hundido",
+        "canonical": "oklch(24.0% 0.075 261.4)",
+        "tonalRamp": [
+          "oklch(15% 0.075 261.4)",
+          "oklch(25% 0.075 261.4)",
+          "oklch(35% 0.075 261.4)",
+          "oklch(45% 0.075 261.4)",
+          "oklch(55% 0.075 261.4)",
+          "oklch(70% 0.075 261.4)",
+          "oklch(85% 0.075 261.4)",
+          "oklch(95% 0.075 261.4)"
+        ]
+      },
+      "board-raised": {
+        "role": "neutral",
+        "displayName": "Franja elevada",
+        "canonical": "oklch(35.8% 0.120 261.6)",
+        "tonalRamp": [
+          "oklch(15% 0.120 261.6)",
+          "oklch(25% 0.120 261.6)",
+          "oklch(35% 0.120 261.6)",
+          "oklch(45% 0.120 261.6)",
+          "oklch(55% 0.120 261.6)",
+          "oklch(70% 0.120 261.6)",
+          "oklch(85% 0.120 261.6)",
+          "oklch(95% 0.120 261.6)"
+        ]
+      },
+      "joint": {
+        "role": "neutral",
+        "displayName": "Junta",
+        "canonical": "oklch(43.3% 0.109 260.3)",
+        "tonalRamp": [
+          "oklch(15% 0.109 260.3)",
+          "oklch(25% 0.109 260.3)",
+          "oklch(35% 0.109 260.3)",
+          "oklch(45% 0.109 260.3)",
+          "oklch(55% 0.109 260.3)",
+          "oklch(70% 0.109 260.3)",
+          "oklch(85% 0.109 260.3)",
+          "oklch(95% 0.109 260.3)"
+        ]
+      },
+      "joint-strong": {
+        "role": "neutral",
+        "displayName": "Junta marcada",
+        "canonical": "oklch(52.4% 0.108 260.9)",
+        "tonalRamp": [
+          "oklch(15% 0.108 260.9)",
+          "oklch(25% 0.108 260.9)",
+          "oklch(35% 0.108 260.9)",
+          "oklch(45% 0.108 260.9)",
+          "oklch(55% 0.108 260.9)",
+          "oklch(70% 0.108 260.9)",
+          "oklch(85% 0.108 260.9)",
+          "oklch(95% 0.108 260.9)"
+        ]
+      },
+      "letter": {
+        "role": "neutral",
+        "displayName": "Letra",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0.000 0)",
+          "oklch(25% 0.000 0)",
+          "oklch(35% 0.000 0)",
+          "oklch(45% 0.000 0)",
+          "oklch(55% 0.000 0)",
+          "oklch(70% 0.000 0)",
+          "oklch(85% 0.000 0)",
+          "oklch(95% 0.000 0)"
+        ]
+      },
+      "letter-dim": {
+        "role": "neutral",
+        "displayName": "Letra tenue",
+        "canonical": "oklch(80.6% 0.061 260.1)",
+        "tonalRamp": [
+          "oklch(15% 0.061 260.1)",
+          "oklch(25% 0.061 260.1)",
+          "oklch(35% 0.061 260.1)",
+          "oklch(45% 0.061 260.1)",
+          "oklch(55% 0.061 260.1)",
+          "oklch(70% 0.061 260.1)",
+          "oklch(85% 0.061 260.1)",
+          "oklch(95% 0.061 260.1)"
+        ]
+      },
+      "letter-faint": {
+        "role": "neutral",
+        "displayName": "Letra débil",
+        "canonical": "oklch(68.8% 0.076 259.5)",
+        "tonalRamp": [
+          "oklch(15% 0.076 259.5)",
+          "oklch(25% 0.076 259.5)",
+          "oklch(35% 0.076 259.5)",
+          "oklch(45% 0.076 259.5)",
+          "oklch(55% 0.076 259.5)",
+          "oklch(70% 0.076 259.5)",
+          "oklch(85% 0.076 259.5)",
+          "oklch(95% 0.076 259.5)"
+        ]
+      },
+      "amber": {
+        "role": "primary",
+        "displayName": "Ámbar de tablero",
+        "canonical": "oklch(81.2% 0.170 76.4)",
+        "tonalRamp": [
+          "oklch(15% 0.170 76.4)",
+          "oklch(25% 0.170 76.4)",
+          "oklch(35% 0.170 76.4)",
+          "oklch(45% 0.170 76.4)",
+          "oklch(55% 0.170 76.4)",
+          "oklch(70% 0.170 76.4)",
+          "oklch(85% 0.170 76.4)",
+          "oklch(95% 0.170 76.4)"
+        ]
+      },
+      "amber-ink": {
+        "role": "primary",
+        "displayName": "Tinta sobre ámbar",
+        "canonical": "oklch(21.8% 0.045 83.8)",
+        "tonalRamp": [
+          "oklch(15% 0.045 83.8)",
+          "oklch(25% 0.045 83.8)",
+          "oklch(35% 0.045 83.8)",
+          "oklch(45% 0.045 83.8)",
+          "oklch(55% 0.045 83.8)",
+          "oklch(70% 0.045 83.8)",
+          "oklch(85% 0.045 83.8)",
+          "oklch(95% 0.045 83.8)"
+        ]
+      },
+      "red": {
+        "role": "secondary",
+        "displayName": "Rojo de falla",
+        "canonical": "oklch(70.8% 0.184 27.3)",
+        "tonalRamp": [
+          "oklch(15% 0.184 27.3)",
+          "oklch(25% 0.184 27.3)",
+          "oklch(35% 0.184 27.3)",
+          "oklch(45% 0.184 27.3)",
+          "oklch(55% 0.184 27.3)",
+          "oklch(70% 0.184 27.3)",
+          "oklch(85% 0.184 27.3)",
+          "oklch(95% 0.184 27.3)"
+        ]
+      },
+      "green": {
+        "role": "secondary",
+        "displayName": "Verde de lámpara",
+        "canonical": "oklch(79.3% 0.180 154.0)",
+        "tonalRamp": [
+          "oklch(15% 0.180 154.0)",
+          "oklch(25% 0.180 154.0)",
+          "oklch(35% 0.180 154.0)",
+          "oklch(45% 0.180 154.0)",
+          "oklch(55% 0.180 154.0)",
+          "oklch(70% 0.180 154.0)",
+          "oklch(85% 0.180 154.0)",
+          "oklch(95% 0.180 154.0)"
+        ]
+      },
+      "led-off": {
+        "role": "neutral",
+        "displayName": "Segmento apagado",
+        "canonical": "rgb(255 255 255 / 0.1)",
+        "tonalRamp": [
+          "rgb(255 255 255 / 0.04)",
+          "rgb(255 255 255 / 0.06)",
+          "rgb(255 255 255 / 0.08)",
+          "rgb(255 255 255 / 0.1)",
+          "rgb(255 255 255 / 0.14)",
+          "rgb(255 255 255 / 0.18)",
+          "rgb(255 255 255 / 0.24)",
+          "rgb(255 255 255 / 0.3)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Titular",
+        "purpose": "Titular del inicio."
+      },
+      "headline": {
+        "displayName": "Encabezado",
+        "purpose": "Título de resultados, estados y error."
+      },
+      "price": {
+        "displayName": "Dígito LED",
+        "purpose": "Solo precios; sobre segmentos apagados. Más bajo: 900 ámbar."
+      },
+      "title": {
+        "displayName": "Producto",
+        "purpose": "Nombre del producto en la fila, máx. 3 líneas."
+      },
+      "body": {
+        "displayName": "Texto",
+        "purpose": "Texto corrido, wdth 100."
+      },
+      "body-lg": {
+        "displayName": "Texto grande",
+        "purpose": "Subtítulos y cuerpos de estado."
+      },
+      "label": {
+        "displayName": "Rótulo",
+        "purpose": "Encabezados de columna y nombres de tienda, condensado."
+      },
+      "tag": {
+        "displayName": "Etiqueta",
+        "purpose": "Más bajo, Agotado."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Escala al presionar (140ms)."
+      },
+      {
+        "name": "press",
+        "value": "transform: scale(0.97) 140ms",
+        "purpose": "Botones y fichas al presionar."
+      },
+      {
+        "name": "state-transition",
+        "value": "160ms ease",
+        "purpose": "Color de fondo y borde en hover y foco."
+      },
+      {
+        "name": "refresh",
+        "value": "300ms steps(3, jump-none); opacidad 0.25 al 50%; retraso fila×55ms + columna×35ms",
+        "purpose": "Un solo parpadeo de los dígitos que llegan; parte y termina visible."
+      },
+      {
+        "name": "idle",
+        "value": "1.4s steps(2, jump-none) infinite; color rgb(255 255 255 / 0.18) al 50%",
+        "purpose": "Dígitos apagados durante la carga."
+      },
+      {
+        "name": "busy-blink",
+        "value": "700ms steps(2, jump-none) infinite; opacidad 0.35",
+        "purpose": "Lupa del botón mientras busca."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "duración 0.01ms global",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stack",
+        "value": "56rem"
+      },
+      {
+        "name": "header-wrap",
+        "value": "40rem"
+      },
+      {
+        "name": "narrow",
+        "value": "30rem"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Ranura de búsqueda",
+      "kind": "input",
+      "refersTo": "search-slot",
+      "description": "Letrero empotrado: campo + botón ámbar; el foco enciende el borde de toda la ranura.",
+      "html": "<form class=\"ds-slot\" role=\"search\" onsubmit=\"return false\"><input class=\"ds-input\" type=\"search\" placeholder=\"¿Qué quieres comprar?\" aria-label=\"Producto\"><button class=\"ds-submit\" type=\"submit\"><svg viewBox=\"0 0 24 24\" class=\"ds-icon\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path d=\"m15.5 15.5 5 5\"/></svg>Buscar</button></form>",
+      "css": ":host{--board:#0e2a5c;--board-deep:#091d42;--board-raised:#15387a;--joint:#2b4f8c;--joint-strong:#4569a8;--letter:#fff;--letter-dim:#a9c1e8;--letter-faint:#7f9cca;--amber:#ffb000;--amber-ink:#241800;--red:#ff6a5e;--green:#3ddc84;--led-off:rgb(255 255 255 / 0.1);--font-board:'Archivo Variable','Arial Narrow',system-ui,sans-serif;--font-led:'Doto Variable',ui-monospace,monospace;--ease-out:cubic-bezier(0.23,1,0.32,1);}.ds-slot{display:grid;grid-template-columns:1fr auto;background:var(--board-deep);border:1px solid var(--joint-strong);border-radius:3px;transition:border-color 160ms ease;font-family:var(--font-board);color:var(--letter);}.ds-slot:focus-within{border-color:var(--amber);}.ds-input{min-width:0;min-height:3.5rem;padding:0 1rem;background:transparent;border:0;color:var(--letter);font:inherit;font-size:1.25rem;font-weight:500;letter-spacing:-0.01em;}.ds-input:focus-visible{outline:none;}.ds-input::placeholder{color:var(--letter-faint);}.ds-submit{display:inline-flex;align-items:center;gap:0.5rem;margin:0.25rem;padding:0 1.25rem;background:var(--amber);color:var(--amber-ink);border:0;border-radius:2px;font:inherit;font-weight:700;font-variation-settings:'wdth' 85;cursor:pointer;transition:transform 140ms var(--ease-out),background-color 160ms ease;}.ds-submit:active{transform:scale(0.97);}.ds-submit:focus-visible{outline:3px solid var(--amber);outline-offset:2px;}@media (hover:hover) and (pointer:fine){.ds-submit:hover{background:#ffc233;}}.ds-icon{width:1.25rem;height:1.25rem;fill:none;stroke:currentColor;stroke-width:2.25;stroke-linecap:round;}"
+    },
+    {
+      "name": "Botón cargar más",
+      "kind": "button",
+      "refersTo": "button-load-more",
+      "description": "Placa blanca suelta; se enciende en ámbar al pasar.",
+      "html": "<button class=\"ds-more\">Cargar más productos</button>",
+      "css": ":host{--board:#0e2a5c;--board-deep:#091d42;--board-raised:#15387a;--joint:#2b4f8c;--joint-strong:#4569a8;--letter:#fff;--letter-dim:#a9c1e8;--letter-faint:#7f9cca;--amber:#ffb000;--amber-ink:#241800;--red:#ff6a5e;--green:#3ddc84;--led-off:rgb(255 255 255 / 0.1);--font-board:'Archivo Variable','Arial Narrow',system-ui,sans-serif;--font-led:'Doto Variable',ui-monospace,monospace;--ease-out:cubic-bezier(0.23,1,0.32,1);}.ds-more{display:inline-flex;align-items:center;justify-content:center;min-height:3rem;min-width:16rem;padding:0 1.5rem;background:var(--letter);color:var(--board);border:0;border-radius:3px;font-family:var(--font-board);font-weight:700;font-variation-settings:'wdth' 85;cursor:pointer;transition:transform 140ms var(--ease-out),background-color 160ms ease;}.ds-more:active{transform:scale(0.97);}.ds-more:focus-visible{outline:3px solid var(--amber);outline-offset:2px;}@media (hover:hover) and (pointer:fine){.ds-more:hover{background:var(--amber);color:var(--amber-ink);}}"
+    },
+    {
+      "name": "Ficha de ejemplo",
+      "kind": "chip",
+      "refersTo": "chip-example",
+      "description": "Letrero suelto con una búsqueda de ejemplo; el borde se enciende al pasar.",
+      "html": "<a href=\"#\" class=\"ds-chip\">pantalla tcl 55</a>",
+      "css": ":host{--board:#0e2a5c;--board-deep:#091d42;--board-raised:#15387a;--joint:#2b4f8c;--joint-strong:#4569a8;--letter:#fff;--letter-dim:#a9c1e8;--letter-faint:#7f9cca;--amber:#ffb000;--amber-ink:#241800;--red:#ff6a5e;--green:#3ddc84;--led-off:rgb(255 255 255 / 0.1);--font-board:'Archivo Variable','Arial Narrow',system-ui,sans-serif;--font-led:'Doto Variable',ui-monospace,monospace;--ease-out:cubic-bezier(0.23,1,0.32,1);}.ds-chip{display:inline-flex;align-items:center;min-height:2.75rem;padding:0 1rem;background:var(--board-deep);border:1px solid var(--joint);border-radius:3px;color:var(--letter);font-family:var(--font-board);font-size:0.875rem;font-weight:600;text-decoration:none;transition:border-color 160ms ease,transform 140ms var(--ease-out);}.ds-chip:active{transform:scale(0.97);}.ds-chip:focus-visible{outline:3px solid var(--amber);outline-offset:2px;}@media (hover:hover) and (pointer:fine){.ds-chip:hover{border-color:var(--amber);}}"
+    },
+    {
+      "name": "Interruptor de orden",
+      "kind": "nav",
+      "refersTo": "switch-option",
+      "description": "Enlaces de orden en una caja hundida; la opción activa es una placa blanca.",
+      "html": "<nav class=\"ds-switch\" aria-label=\"Ordenar\"><span class=\"ds-switch-label\">Ordenar</span><ul class=\"ds-options\"><li><a href=\"#\" class=\"ds-option\" aria-current=\"true\">Relevancia</a></li><li><a href=\"#\" class=\"ds-option\">Menor precio</a></li><li><a href=\"#\" class=\"ds-option\">Mayor precio</a></li></ul></nav>",
+      "css": ":host{--board:#0e2a5c;--board-deep:#091d42;--board-raised:#15387a;--joint:#2b4f8c;--joint-strong:#4569a8;--letter:#fff;--letter-dim:#a9c1e8;--letter-faint:#7f9cca;--amber:#ffb000;--amber-ink:#241800;--red:#ff6a5e;--green:#3ddc84;--led-off:rgb(255 255 255 / 0.1);--font-board:'Archivo Variable','Arial Narrow',system-ui,sans-serif;--font-led:'Doto Variable',ui-monospace,monospace;--ease-out:cubic-bezier(0.23,1,0.32,1);}.ds-switch{display:flex;align-items:center;gap:0.75rem;font-family:var(--font-board);}.ds-switch-label{font-size:0.875rem;color:var(--letter-dim);}.ds-options{display:flex;margin:0;padding:2px;list-style:none;background:var(--board-deep);border:1px solid var(--joint);border-radius:3px;}.ds-option{display:inline-flex;align-items:center;min-height:2.75rem;padding:0 1rem;border-radius:2px;font-size:0.875rem;font-weight:600;font-variation-settings:'wdth' 80;color:var(--letter-dim);text-decoration:none;transition:background-color 160ms ease,color 160ms ease;}.ds-option:focus-visible{outline:3px solid var(--amber);outline-offset:2px;}@media (hover:hover) and (pointer:fine){.ds-option:hover{color:var(--letter);background:var(--board-raised);}}.ds-option[aria-current='true']{background:var(--letter);color:var(--board);}"
+    },
+    {
+      "name": "Fila del tablero",
+      "kind": "custom",
+      "refersTo": "board-cell",
+      "description": "Encabezados condensados, celdas separadas por juntas de 1px, precio LED sobre segmentos apagados; ámbar solo en el más bajo; celda vacía apagada.",
+      "html": "<div class=\"ds-board\"><span class=\"ds-col\">Producto</span><span class=\"ds-col\">Elektra</span><span class=\"ds-col\">Chedraui</span><span class=\"ds-col\">OfficeMax</span><div class=\"ds-product\">Pantalla TCL 55\" 4K<small>Mismo código de barras en 3 tiendas</small></div><div class=\"ds-cell\"><span class=\"ds-led-stack\"><span class=\"ds-ghost\">$8,888</span><span class=\"ds-led\">$8,499</span></span></div><div class=\"ds-cell\" data-lowest=\"true\"><span class=\"ds-led-stack\"><span class=\"ds-ghost\">$8,888</span><span class=\"ds-led\">$7,999</span></span><span class=\"ds-tag\">Más bajo</span></div><div class=\"ds-cell\"><span class=\"ds-led-stack\"><span class=\"ds-ghost\">$8,888</span></span></div></div>",
+      "css": ":host{--board:#0e2a5c;--board-deep:#091d42;--board-raised:#15387a;--joint:#2b4f8c;--joint-strong:#4569a8;--letter:#fff;--letter-dim:#a9c1e8;--letter-faint:#7f9cca;--amber:#ffb000;--amber-ink:#241800;--red:#ff6a5e;--green:#3ddc84;--led-off:rgb(255 255 255 / 0.1);--font-board:'Archivo Variable','Arial Narrow',system-ui,sans-serif;--font-led:'Doto Variable',ui-monospace,monospace;--ease-out:cubic-bezier(0.23,1,0.32,1);}.ds-board{display:grid;grid-template-columns:minmax(12rem,2.4fr) repeat(3,minmax(7rem,1fr));gap:1px;background:var(--joint);border:1px solid var(--joint);border-radius:3px;overflow:hidden;font-family:var(--font-board);color:var(--letter);}.ds-col{padding:0.75rem 1rem;background:var(--board-raised);font-size:0.875rem;font-weight:700;font-variation-settings:'wdth' 70;letter-spacing:0.01em;}.ds-col+.ds-col{text-align:right;}.ds-product{display:grid;gap:0.25rem;padding:1rem;background:var(--board-deep);font-weight:600;line-height:1.3;}.ds-product small{font-size:0.8125rem;font-weight:400;color:var(--letter-dim);}.ds-cell{display:grid;justify-items:end;align-content:start;gap:0.25rem;padding:1rem;background:var(--board-deep);}.ds-led-stack{display:inline-grid;justify-items:end;font-family:var(--font-led);font-size:clamp(1.375rem,1.1rem + 0.9vw,1.75rem);font-weight:800;line-height:1.1;font-variant-numeric:tabular-nums;letter-spacing:0.02em;white-space:nowrap;}.ds-led-stack>*{grid-area:1/1;}.ds-ghost{color:var(--led-off);}.ds-led{color:var(--letter);}.ds-cell[data-lowest='true'] .ds-led{color:var(--amber);font-weight:900;}.ds-tag{font-size:0.8125rem;font-weight:700;font-variation-settings:'wdth' 75;color:var(--amber);}"
+    },
+    {
+      "name": "Tira de tiendas",
+      "kind": "custom",
+      "refersTo": "store-lamp",
+      "description": "Lámparas de estado con texto: llena verde = respondió; aro rojo = tiempo agotado; tachada = error o pausa; punto tenue = sin consultar.",
+      "html": "<ul class=\"ds-strip\"><li class=\"ds-item\"><svg viewBox=\"0 0 16 16\" class=\"ds-lamp\"><circle cx=\"8\" cy=\"8\" r=\"5.5\" fill=\"#3ddc84\" stroke=\"#3ddc84\" stroke-width=\"1.5\"/></svg><b>Elektra</b><span class=\"ds-detail\">24 resultados</span></li><li class=\"ds-item\" data-bad><svg viewBox=\"0 0 16 16\" class=\"ds-lamp\"><circle cx=\"8\" cy=\"8\" r=\"5.5\" fill=\"none\" stroke=\"#ff6a5e\" stroke-width=\"1.5\"/></svg><b>Chedraui</b><span class=\"ds-detail\">No respondió a tiempo</span></li><li class=\"ds-item\" data-bad><svg viewBox=\"0 0 16 16\" class=\"ds-lamp\"><circle cx=\"8\" cy=\"8\" r=\"5.5\" fill=\"none\" stroke=\"#ff6a5e\" stroke-width=\"1.5\"/><path d=\"M3.5 12.5 12.5 3.5\" stroke=\"#ff6a5e\" stroke-width=\"1.5\" stroke-linecap=\"round\"/></svg><b>Martí</b><span class=\"ds-detail\">En pausa por fallas</span></li><li class=\"ds-item\"><svg viewBox=\"0 0 16 16\" class=\"ds-lamp\"><circle cx=\"8\" cy=\"8\" r=\"4\" fill=\"rgb(255 255 255 / 0.28)\"/></svg><b>OfficeMax</b></li></ul>",
+      "css": ":host{--board:#0e2a5c;--board-deep:#091d42;--board-raised:#15387a;--joint:#2b4f8c;--joint-strong:#4569a8;--letter:#fff;--letter-dim:#a9c1e8;--letter-faint:#7f9cca;--amber:#ffb000;--amber-ink:#241800;--red:#ff6a5e;--green:#3ddc84;--led-off:rgb(255 255 255 / 0.1);--font-board:'Archivo Variable','Arial Narrow',system-ui,sans-serif;--font-led:'Doto Variable',ui-monospace,monospace;--ease-out:cubic-bezier(0.23,1,0.32,1);}.ds-strip{display:flex;flex-wrap:wrap;gap:0.5rem 2rem;margin:0;padding:0.75rem;list-style:none;background:var(--board);font-family:var(--font-board);color:var(--letter);}.ds-item{display:inline-flex;align-items:center;gap:0.5rem;font-size:0.875rem;}.ds-item b{font-weight:700;font-variation-settings:'wdth' 75;}.ds-detail{color:var(--letter-dim);}.ds-item[data-bad] .ds-detail{color:var(--red);}.ds-lamp{width:0.875rem;height:0.875rem;flex-shrink:0;}"
+    },
+    {
+      "name": "Marca",
+      "kind": "custom",
+      "refersTo": "brand-mark",
+      "description": "Signo $ en matriz de 5×7 puntos sobre placa ámbar, junto al nombre.",
+      "html": "<a href=\"#\" class=\"ds-brand\"><span class=\"ds-brand-mark\" aria-hidden=\"true\"><svg viewBox=\"0 0 20 28\" class=\"ds-brand-dots\"><circle cx=\"10\" cy=\"2\" r=\"1.55\"/><circle cx=\"6\" cy=\"6\" r=\"1.55\"/><circle cx=\"10\" cy=\"6\" r=\"1.55\"/><circle cx=\"14\" cy=\"6\" r=\"1.55\"/><circle cx=\"18\" cy=\"6\" r=\"1.55\"/><circle cx=\"2\" cy=\"10\" r=\"1.55\"/><circle cx=\"10\" cy=\"10\" r=\"1.55\"/><circle cx=\"6\" cy=\"14\" r=\"1.55\"/><circle cx=\"10\" cy=\"14\" r=\"1.55\"/><circle cx=\"14\" cy=\"14\" r=\"1.55\"/><circle cx=\"10\" cy=\"18\" r=\"1.55\"/><circle cx=\"18\" cy=\"18\" r=\"1.55\"/><circle cx=\"2\" cy=\"22\" r=\"1.55\"/><circle cx=\"6\" cy=\"22\" r=\"1.55\"/><circle cx=\"10\" cy=\"22\" r=\"1.55\"/><circle cx=\"14\" cy=\"22\" r=\"1.55\"/><circle cx=\"10\" cy=\"26\" r=\"1.55\"/></svg></span>lower-prices</a>",
+      "css": ":host{--board:#0e2a5c;--board-deep:#091d42;--board-raised:#15387a;--joint:#2b4f8c;--joint-strong:#4569a8;--letter:#fff;--letter-dim:#a9c1e8;--letter-faint:#7f9cca;--amber:#ffb000;--amber-ink:#241800;--red:#ff6a5e;--green:#3ddc84;--led-off:rgb(255 255 255 / 0.1);--font-board:'Archivo Variable','Arial Narrow',system-ui,sans-serif;--font-led:'Doto Variable',ui-monospace,monospace;--ease-out:cubic-bezier(0.23,1,0.32,1);}.ds-brand{display:inline-flex;align-items:center;gap:0.5rem;font-family:var(--font-board);font-weight:800;font-variation-settings:'wdth' 75;font-size:1.125rem;letter-spacing:-0.01em;color:var(--letter);text-decoration:none;}.ds-brand:focus-visible{outline:3px solid var(--amber);outline-offset:2px;}.ds-brand-mark{display:grid;place-items:center;width:1.75rem;height:1.75rem;background:var(--amber);color:var(--amber-ink);border-radius:2px;}.ds-brand-dots{width:1rem;height:1.4rem;fill:currentColor;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "La pizarra de la casa de cambio",
+    "overview": "Cada producto se lee como una divisa en el tablero de una casa de cambio: una fila por producto, una columna por tienda, y el mejor precio encendido. La página entera es el tablero: un azul marino continuo, módulos más oscuros separados por juntas de 1px, letras blancas de rotulación y precios en dígitos de matriz de puntos. Nada flota; todo está empotrado en el tablero.\n\nLa densidad es la de un instrumento, no la de un escaparate. La información se alinea en una rejilla con columnas compartidas (subgrid) para que los precios de una misma tienda queden en la misma vertical y se comparen de un vistazo. En celular, cada fila apila sus tiendas bajo el producto sin perder el módulo, la junta ni el dígito.\n\nEl sistema rechaza la cuadrícula de tarjetas de producto con botón \"ver oferta\". No hay sombras, degradados ni tema claro: el tablero es oscuro por naturaleza (`color-scheme: dark`, un solo tema).",
+    "keyCharacteristics": [
+      "Tablero azul marino a página completa; módulos `board-deep` separados por juntas `joint` de 1px.",
+      "Archivo variable con eje de ancho: condensado (70–75) para encabezados y etiquetas, normal (100) para texto.",
+      "Doto (matriz de puntos) solo para precios, siempre montado sobre sus segmentos apagados.",
+      "Ámbar = precio más bajo. Verde y rojo solo en lámparas y estados de tienda.",
+      "Plano: profundidad por tono y juntas, nunca por sombra."
+    ],
+    "rules": [
+      {
+        "name": "La Regla del Ámbar Único",
+        "body": "Dentro del tablero de datos, el ámbar significa \"precio más bajo\" y nada más: no hay avisos ámbar, ni celdas inundadas de ámbar, ni otros datos en ámbar. El precio más bajo es dígito ámbar sobre el mismo módulo oscuro, más la etiqueta de texto \"Más bajo\" (el color nunca es la única señal).",
+        "section": "colors"
+      },
+      {
+        "name": "La Regla de las Lámparas",
+        "body": "Verde solo para \"respondió\"; rojo solo para fallas. Ninguno de los dos se usa como decoración ni como acento.",
+        "section": "colors"
+      },
+      {
+        "name": "La Regla del Dígito",
+        "body": "Doto es exclusivo de precios. Ningún título, etiqueta ni número que no sea un precio usa la matriz de puntos.",
+        "section": "typography"
+      },
+      {
+        "name": "La Regla del Ancho",
+        "body": "La jerarquía se marca con el eje de ancho y el peso, no con mayúsculas ni tracking amplio: condensado (70–75) = rótulo, 80–85 = dato secundario y botones, 100 = lectura.",
+        "section": "typography"
+      },
+      {
+        "name": "La Regla del Aviso Blanco",
+        "body": "Un agrupamiento por nombre parecido se avisa en `letter` peso 600, nunca en ámbar ni en rojo.",
+        "section": "typography"
+      },
+      {
+        "name": "La Regla del Tablero Plano",
+        "body": "Si algo necesita destacar, se enciende (color de letra o de dígito) o cambia de tono de módulo; nunca se levanta con sombra.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** montar cada precio sobre sus segmentos apagados (`led-off`) y usar celdas apagadas \"$8,888\" donde una tienda no tiene oferta.",
+      "**Do** marcar el precio más bajo con dígitos ámbar sobre el módulo oscuro normal y la etiqueta de texto \"Más bajo\".",
+      "**Do** separar módulos con juntas de 1px (`gap: 1px` sobre fondo `joint`), no con sombras ni espacios grandes.",
+      "**Do** usar el eje de ancho de Archivo para la jerarquía: 70–75 en rótulos, 100 en texto.",
+      "**Do** limitar el hover a `(hover: hover) and (pointer: fine)` y usar `scale(0.97)` al presionar botones y fichas.",
+      "**Do** respetar `prefers-reduced-motion`: todas las animaciones y transiciones se reducen a 0.01ms de forma global.",
+      "**Do** acompañar cada color de estado (lámpara, ámbar, rojo) con texto."
+    ],
+    "donts": [
+      "**Don't** usar ámbar para avisos, advertencias ni celdas rellenas; dentro de los datos solo significa precio más bajo.",
+      "**Don't** usar Doto para nada que no sea un precio.",
+      "**Don't** dibujar celdas vacías con rayas ni guiones; son módulos apagados.",
+      "**Don't** representar \"sin consultar\" con un aro: el aro hueco significa \"no respondió a tiempo\".",
+      "**Don't** agregar sombras, degradados ni un tema claro.",
+      "**Don't** convertir los resultados en tarjetas de producto con botón \"ver oferta\".",
+      "**Don't** mostrar logos de tiendas ni imágenes que no vengan de la tienda; los nombres de tienda van en texto."
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "metaTitle": "{{query}}: precios en tiendas | {{appName}}",
+  "heading": "Precios de «{{query}}»",
+  "summary_one": "{{count}} producto",
+  "summary_other": "{{count}} productos",
+  "consultedAt": "Consultado a las {{time}}",
+  "sort": {
+    "label": "Ordenar",
+    "relevance": "Relevancia",
+    "price_asc": "Menor precio",
+    "price_desc": "Mayor precio"
+  },
+  "stores": {
+    "heading": "Tiendas consultadas",
+    "ok_one": "{{count}} resultado",
+    "ok_other": "{{count}} resultados",
+    "timeout": "No respondió a tiempo",
+    "error": "No respondió",
+    "paused": "En pausa por fallas",
+    "partialNotice_one": "{{stores}} no respondió. Estos resultados no la incluyen.",
+    "partialNotice_other": "{{stores}} no respondieron. Estos resultados no las incluyen.",
+    "pausedNotice_one": "{{stores}} está en pausa por fallas recientes. Estos resultados no la incluyen.",
+    "pausedNotice_other": "{{stores}} están en pausa por fallas recientes. Estos resultados no las incluyen."
+  },
+  "columns": {
+    "product": "Producto",
+    "store": "Precio en {{store}}"
+  },
+  "group": {
+    "matched_gtin": "Mismo código de barras en {{count}} tiendas",
+    "matched_model": "Misma marca y modelo en {{count}} tiendas",
+    "matched_title": "Nombre parecido en {{count}} tiendas: revisa que sea el mismo",
+    "spread": "Diferencia entre tiendas: {{amount}}",
+    "noOffer": "Sin oferta en {{store}}",
+    "lowest": "Precio más bajo",
+    "lowestTag": "Más bajo"
+  },
+  "offer": {
+    "goTo": "Ver en {{store}}",
+    "newTab": "(se abre en otra pestaña)",
+    "was": "Antes {{price}}",
+    "discount": "−{{percent}} %",
+    "msi": "{{months}} MSI de {{amount}}",
+    "soldOut": "Agotado"
+  },
+  "loadMore": "Cargar más productos",
+  "loadingMore": "Cargando…",
+  "loadedMore_one": "Se agregó {{count}} producto.",
+  "loadedMore_other": "Se agregaron {{count}} productos.",
+  "end": "No hay más resultados en las tiendas consultadas.",
+  "loading": "Consultando tiendas…",
+  "empty": {
+    "title": "Ninguna tienda tiene «{{query}}»",
+    "body": "Prueba con menos palabras, revisa la ortografía o busca por marca y modelo.",
+    "tryHeading": "También puedes probar"
+  },
+  "failed": {
+    "title": "Las tiendas no respondieron",
+    "body": "Ninguna de las tiendas contestó a tiempo. Suele ser algo pasajero.",
+    "retry": "Reintentar"
+  },
+  "unavailable": {
+    "title": "No pudimos hacer la búsqueda",
+    "body": "Nuestro servicio no está disponible en este momento. Intenta de nuevo en unos minutos.",
+    "retry": "Reintentar"
+  }
+}
