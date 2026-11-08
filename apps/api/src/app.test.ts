@@ -150,9 +150,21 @@ describe("seguridad", () => {
   it("envía cabeceras de seguridad", async () => {
     const res = await request(app).get("/api/health");
 
-    expect(res.headers["x-content-type-options"]).toBe("nosniff");
-    expect(res.headers["content-security-policy"]).toContain("default-src 'none'");
-    expect(res.headers["strict-transport-security"]).toBeDefined();
+    expect(res.headers).toMatchObject({
+      "content-security-policy": "default-src 'none';frame-ancestors 'none'",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "origin-agent-cluster": "?1",
+      "referrer-policy": "no-referrer",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-content-type-options": "nosniff",
+      "x-dns-prefetch-control": "off",
+      "x-download-options": "noopen",
+      "x-frame-options": "SAMEORIGIN",
+      "x-permitted-cross-domain-policies": "none",
+      "x-xss-protection": "0",
+    });
+    expect(res.headers).not.toHaveProperty("x-powered-by");
   });
 
   it("permite CORS solo a los orígenes configurados", async () => {

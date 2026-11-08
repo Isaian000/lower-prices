@@ -1,7 +1,20 @@
 import type { ApiErrorResponse } from "@lower-prices/shared";
 import cors from "cors";
 import express, { type ErrorRequestHandler } from "express";
-import helmet from "helmet";
+import {
+  contentSecurityPolicy,
+  crossOriginOpenerPolicy,
+  crossOriginResourcePolicy,
+  originAgentCluster,
+  referrerPolicy,
+  strictTransportSecurity,
+  xContentTypeOptions,
+  xDnsPrefetchControl,
+  xDownloadOptions,
+  xFrameOptions,
+  xPermittedCrossDomainPolicies,
+  xXssProtection,
+} from "helmet";
 import { pinoHttp } from "pino-http";
 
 import { createCacheFromEnv } from "./cache/index.js";
@@ -48,13 +61,25 @@ export function createApp(deps: AppDeps = {}) {
   app.disable("x-powered-by");
   app.use(pinoHttp({ logger }));
   // Cabeceras de seguridad. La API solo devuelve JSON, así que la CSP puede ser la más estricta.
+  // Son las mismas cabeceras que helmet() activa por defecto, pero con las funciones por
+  // nombre: el compilador de Vercel lee los tipos de helmet como CommonJS y ahí el
+  // `import helmet from "helmet"` no se puede llamar.
   app.use(
-    helmet({
-      contentSecurityPolicy: {
-        useDefaults: false,
-        directives: { defaultSrc: ["'none'"], frameAncestors: ["'none'"] },
-      },
+    contentSecurityPolicy({
+      useDefaults: false,
+      directives: { defaultSrc: ["'none'"], frameAncestors: ["'none'"] },
     }),
+    crossOriginOpenerPolicy(),
+    crossOriginResourcePolicy(),
+    originAgentCluster(),
+    referrerPolicy(),
+    strictTransportSecurity(),
+    xContentTypeOptions(),
+    xDnsPrefetchControl(),
+    xDownloadOptions(),
+    xFrameOptions(),
+    xPermittedCrossDomainPolicies(),
+    xXssProtection(),
   );
   // Solo GET desde los orígenes permitidos; sin cookies.
   app.use(cors({ origin: [...corsOrigins], methods: ["GET"], maxAge: 86_400 }));
