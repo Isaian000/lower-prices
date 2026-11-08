@@ -1,5 +1,6 @@
 import type { Offer, Store } from "@lower-prices/shared";
 
+import { type HttpFetch, httpFetch, type HttpResponse } from "../../lib/http.js";
 import type { StoreAdapter, StoreSearchParams, StoreSearchResult } from "../types.js";
 import { mapUcpProduct } from "./map.js";
 import { jsonRpcResponseSchema, ucpProductSchema, ucpSearchResultSchema } from "./schema.js";
@@ -16,7 +17,7 @@ export interface ShopifyStoreConfig extends Store {
 export interface ShopifyAdapterDeps {
   /** URL pública del perfil de agente UCP; la tienda la descarga para validar cada consulta. */
   agentProfileUrl: string;
-  fetch?: typeof fetch;
+  fetch?: HttpFetch;
   now?: () => Date;
 }
 
@@ -74,7 +75,7 @@ export function buildSearchCatalogRequest(
 }
 
 /** El servidor MCP puede responder JSON o un flujo SSE; en SSE el JSON va en las líneas `data:`. */
-async function readJsonRpcBody(response: Response): Promise<unknown> {
+async function readJsonRpcBody(response: HttpResponse): Promise<unknown> {
   const text = await response.text();
   if (!response.headers.get("content-type")?.includes("text/event-stream")) {
     return JSON.parse(text) as unknown;
@@ -97,7 +98,7 @@ export function createShopifyAdapter(
   config: ShopifyStoreConfig,
   deps: ShopifyAdapterDeps,
 ): StoreAdapter {
-  const doFetch = deps.fetch ?? fetch;
+  const doFetch = deps.fetch ?? httpFetch;
   const now = deps.now ?? (() => new Date());
   const { baseUrl, endpoint, brand, ...store } = config;
   let requestId = 0;

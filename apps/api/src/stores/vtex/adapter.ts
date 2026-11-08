@@ -1,5 +1,6 @@
 import type { Offer, SearchSort, Store } from "@lower-prices/shared";
 
+import { type HttpFetch, httpFetch } from "../../lib/http.js";
 import type { StoreAdapter, StoreSearchParams, StoreSearchResult } from "../types.js";
 import { mapVtexProduct } from "./map.js";
 import { vtexProductSchema } from "./schema.js";
@@ -10,7 +11,7 @@ export interface VtexStoreConfig extends Store {
 }
 
 export interface VtexAdapterDeps {
-  fetch?: typeof fetch;
+  fetch?: HttpFetch;
   now?: () => Date;
 }
 
@@ -84,7 +85,7 @@ export function createVtexAdapter(
   config: VtexStoreConfig,
   deps: VtexAdapterDeps = {},
 ): StoreAdapter {
-  const doFetch = deps.fetch ?? fetch;
+  const doFetch = deps.fetch ?? httpFetch;
   const now = deps.now ?? (() => new Date());
   const { baseUrl, ...store } = config;
 

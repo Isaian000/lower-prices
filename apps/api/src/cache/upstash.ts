@@ -1,3 +1,4 @@
+import { type HttpFetch, httpFetch } from "../lib/http.js";
 import type { Cache } from "./types.js";
 
 export interface UpstashConfig {
@@ -5,7 +6,7 @@ export interface UpstashConfig {
   token: string;
   /** La caché no debe frenar la búsqueda: si tarda más, se ignora. */
   timeoutMs?: number;
-  fetch?: typeof fetch;
+  fetch?: HttpFetch;
 }
 
 /**
@@ -13,7 +14,7 @@ export interface UpstashConfig {
  * Docs: https://upstash.com/docs/redis/features/restapi
  */
 export function createUpstashCache(config: UpstashConfig): Cache {
-  const doFetch = config.fetch ?? fetch;
+  const doFetch = config.fetch ?? httpFetch;
   const timeoutMs = config.timeoutMs ?? 500;
 
   async function command(args: (string | number)[]): Promise<unknown> {
