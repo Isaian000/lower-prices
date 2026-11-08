@@ -165,6 +165,48 @@ describe("createSearchService", () => {
 
     expect(result.groups).toHaveLength(1);
   });
+
+  it("entrega cada escritura de caché a waitUntil, para que termine en serverless", async () => {
+    const pending: Promise<unknown>[] = [];
+    const cache = createMemoryCache();
+    const search = createSearchService({
+      adapters: [
+        createMockStore("a", { offers: offers("a", 1) }),
+        createMockStore("b", { offers: offers("b", 1) }),
+      ],
+      cache,
+      timeoutMs: 50,
+      pageSize: 10,
+      cacheTtlSeconds: 60,
+      waitUntil: (promise) => pending.push(promise),
+    });
+
+    await search.search({ query: "producto", sort: "relevance" });
+
+    expect(pending).toHaveLength(2);
+    await Promise.all(pending);
+    expect(await cache.get("search:v1|a|producto|0|10|relevance||")).toBeDefined();
+  });
+
+  it("una escritura de caché fallida no rompe waitUntil", async () => {
+    const pending: Promise<unknown>[] = [];
+    const search = createSearchService({
+      adapters: [createMockStore("a", { offers: offers("a", 1) })],
+      cache: {
+        kind: "memory",
+        get: () => Promise.resolve(undefined),
+        set: () => Promise.reject(new Error("caída")),
+      },
+      timeoutMs: 50,
+      pageSize: 10,
+      cacheTtlSeconds: 60,
+      waitUntil: (promise) => pending.push(promise),
+    });
+
+    await search.search({ query: "producto", sort: "relevance" });
+    // La promesa ya trae su manejo de error: se resuelve en lugar de rechazarse.
+    await expect(Promise.all(pending)).resolves.toBeDefined();
+  });
 });
 
 describe("createCircuitBreaker", () => {

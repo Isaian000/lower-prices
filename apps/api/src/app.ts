@@ -1,4 +1,5 @@
 import type { ApiErrorResponse } from "@lower-prices/shared";
+import { waitUntil } from "@vercel/functions";
 import cors from "cors";
 import express, { type ErrorRequestHandler } from "express";
 import {
@@ -46,6 +47,7 @@ function createDefaultSearchService(): SearchService {
       cooldownMs: env.STORE_PAUSE_SECONDS * 1000,
     }),
     logger,
+    waitUntil,
   });
 }
 

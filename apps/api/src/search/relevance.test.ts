@@ -51,6 +51,53 @@ describe("isRelevant", () => {
   });
 });
 
+describe("sinónimos", () => {
+  const relevant = (title: string, query: string, brand?: string) =>
+    isRelevant(
+      makeOffer("a", { title, ...(brand ? { identifiers: { brand } } : {}) }),
+      queryTerms(query),
+    );
+
+  it("une las frases con sinónimo en un solo término", () => {
+    expect(queryTerms("computadoras portátiles")).toEqual(["computadora portatil"]);
+    expect(queryTerms("laptop gamer")).toEqual(["laptop", "gamer"]);
+  });
+
+  it("acepta nombres distintos de lo mismo, en ambos sentidos", () => {
+    expect(relevant("Laptop HP Probook 465 G11", "computadora portatil")).toBe(true);
+    expect(relevant("Computadora portátil Dell Latitude 7430", "laptop")).toBe(true);
+    expect(relevant("Smartphone Xiaomi Note 15 256 GB", "celular")).toBe(true);
+    expect(relevant("Celular Poco C85 6GB 128GB", "smartphone")).toBe(true);
+    expect(relevant("Televisión Pantalla 75 Pulgadas Sharp Roku TV", "televisor")).toBe(true);
+    expect(relevant("Smart TV Hisense 55", "pantalla")).toBe(true);
+  });
+
+  it("los sinónimos de un solo sentido no traen el grupo completo", () => {
+    expect(relevant("APPLE IPHONE 16 128GB", "celular")).toBe(true);
+    expect(relevant("Celular Poco C85 6GB 128GB", "iphone")).toBe(false);
+    expect(relevant("Consola PlayStation 5 Slim", "consola")).toBe(true);
+    expect(relevant("Consola Nintendo Switch 2", "xbox")).toBe(false);
+  });
+
+  it("compara sinónimos por inicio de palabra", () => {
+    expect(relevant("GoPro HERO13 Black Full Bundle", "camara gopro", "GoPro")).toBe(true);
+    expect(relevant("Figura Superhero Marvel", "camara")).toBe(false);
+    // "tv" no debe coincidir dentro de otra palabra.
+    expect(relevant("Cable HDMI ATVision", "pantalla")).toBe(false);
+  });
+
+  it("no acepta palabras que solo comparten raíz", () => {
+    expect(relevant("Recipiente para refrigerar 500 ml Tupperware", "refrigerador")).toBe(false);
+    expect(relevant("Mordedera Ricitos De Oro Refrigerable", "refrigerador")).toBe(false);
+    expect(relevant("Samsung Refrigerador RT35DG5724S9", "nevera")).toBe(true);
+  });
+
+  it("acepta plurales en el nombre del producto", () => {
+    expect(relevant("Audífonos Inalámbricos Sony", "auricular")).toBe(true);
+    expect(relevant("Televisores LG 4K", "television")).toBe(true);
+  });
+});
+
 describe("filterRelevant", () => {
   it("quita resultados ajenos de tiendas de un solo giro y accesorios", () => {
     const offers = [
@@ -75,6 +122,37 @@ describe("isUnsoughtAccessory", () => {
     expect(
       isUnsoughtAccessory(makeOffer("a", { title: "APPLE IPHONE 16 128GB + ADAPTADOR" }), terms),
     ).toBe(false);
+  });
+
+  it("marca como accesorio lo que es «para» el producto buscado", () => {
+    const terms = queryTerms("laptop");
+    expect(isUnsoughtAccessory(makeOffer("a", { title: "Mochila Para Laptop 16" }), terms)).toBe(
+      true,
+    );
+    expect(
+      isUnsoughtAccessory(
+        makeOffer("a", { title: "Anillo para celular gema" }),
+        queryTerms("celular"),
+      ),
+    ).toBe(true);
+    // Lo buscado aparece antes de "para": es el producto, no un accesorio.
+    expect(
+      isUnsoughtAccessory(
+        makeOffer("a", { title: "Laptop HP 15 para estudiantes" }),
+        queryTerms("laptop"),
+      ),
+    ).toBe(false);
+    expect(
+      isUnsoughtAccessory(
+        makeOffer("a", { title: "Croquetas para perro adulto" }),
+        queryTerms("croquetas"),
+      ),
+    ).toBe(false);
+  });
+
+  it("un sinónimo de la búsqueda cuenta como buscado", () => {
+    const offer = makeOffer("a", { title: "Mochila Kånken Laptop 13" });
+    expect(isUnsoughtAccessory(offer, queryTerms("backpack laptop"))).toBe(false);
   });
 
   it("no castiga el accesorio si es lo que se busca", () => {

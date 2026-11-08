@@ -199,7 +199,7 @@ Con categorías tan variadas no es viable mantener un catálogo propio de todo. 
   2. **Marca + modelo** normalizados: confianza alta.
   3. **Similitud del título** normalizado por encima de un umbral: confianza media.
 
-  Antes de agrupar, un **filtro de relevancia** descarta las ofertas cuyo nombre, marca y modelo no contienen las palabras buscadas (todas si son 1 o 2; el 60 % si son más), para que las tiendas de un solo giro o de marca no metan resultados ajenos. Los accesorios que no se buscaron (fundas, micas, cargadores… al buscar un teléfono) bajan al final del orden por relevancia.
+  Antes de agrupar, un **filtro de relevancia** descarta las ofertas cuyo nombre, marca y modelo no contienen las palabras buscadas (todas si son 1 o 2; el 60 % si son más), para que las tiendas de un solo giro o de marca no metan resultados ajenos. Acepta **sinónimos** (`apps/api/src/search/synonyms.ts`): "computadora portátil" encuentra "Laptop HP…", "celular" encuentra smartphones e iPhones, "cámara gopro" encuentra "GoPro HERO13". Algunos van en un solo sentido ("celular" trae iPhones, "iphone" no trae otros celulares), y se comparan por inicio de palabra para no aceptar "superhero" como "hero". Los accesorios que no se buscaron bajan al final del orden por relevancia: los que empiezan con fundas, micas, cargadores, mochilas…, y los que nombran lo buscado solo después de "para" ("Mochila para laptop").
 
   Además, saca del grupo las ofertas con un precio muy alejado del resto (probables accesorios) y junta los duplicados dentro de una misma tienda (p. ej. varios vendedores con la misma publicación de catálogo en Mercado Libre), mostrando el más barato. Cada grupo indica con qué nivel se agrupó (`matchedBy`).
 
@@ -409,7 +409,7 @@ Las tiendas que fallan no pasan al cursor de "cargar más", para no reintentar u
 
 1. Subir el repositorio a GitHub.
 2. En Vercel: **Add New → Project**, importar el repositorio y poner **Root Directory** = `apps/api`. Vercel detecta Express solo (`src/app.ts` exporta la app por defecto); no hace falta `vercel.json`. Vercel revisa los tipos con su propia configuración, en la que `@types/node` deja vacío el tipo global `Response`; por eso las llamadas HTTP usan los tipos de `apps/api/src/lib/http.ts`.
-3. En **Storage → Upstash (Redis)**, crear una base gratuita y conectarla al proyecto. Eso crea `KV_REST_API_URL` y `KV_REST_API_TOKEN`, que la API ya reconoce.
+3. En **Storage → Upstash (Redis)**, crear una base gratuita y conectarla al proyecto (con el prefijo por defecto). Eso crea `KV_REST_API_URL` y `KV_REST_API_TOKEN`, que la API ya reconoce. Las escrituras a la caché se registran con `waitUntil` (`@vercel/functions`) para que terminen aunque la función ya haya respondido.
 4. Cuando exista la web, agregar su dominio en `CORS_ORIGINS`.
 5. Definir `UCP_AGENT_PROFILE_URL` = `https://<dominio de la API>/.well-known/ucp` para activar las 23 tiendas Shopify.
 6. Desplegar y probar `/api/health` y `/api/search?q=tv`. Hay que confirmar que las tiendas VTEX no bloqueen las IP de Vercel: si aparecen en `error`, revisar los logs del proyecto.
@@ -503,7 +503,7 @@ Esta fase arranca **con datos reales** de las tiendas VTEX (Elektra, Chedraui, O
 **Backend**
 
 6. ✅ Mejoras del backend: enlace de salida, búsquedas simultáneas, pausa por tienda, seguridad y OpenAPI.
-7. Desplegar la API en Vercel (con Upstash Redis). Preparado; falta crear las cuentas.
+7. ✅ Desplegar la API y la web en Vercel (con Upstash Redis).
 8. ✅ Adaptador Shopify vía UCP para 23 tiendas (se activa con `UCP_AGENT_PROFILE_URL` al desplegar).
 9. Sumar Mercado Libre, Amazon (Creators API) y tiendas con afiliados conforme se obtenga acceso.
 

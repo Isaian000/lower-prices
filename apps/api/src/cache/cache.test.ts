@@ -1,5 +1,7 @@
 import { describe, expect, it } from "vitest";
 
+import type { Env } from "../config/env.js";
+import { createCacheFromEnv } from "./index.js";
 import { createMemoryCache } from "./memory.js";
 import { createUpstashCache } from "./upstash.js";
 
@@ -57,5 +59,59 @@ describe("createUpstashCache", () => {
     const cache = createUpstashCache({ url: "https://x.upstash.io", token: "t", fetch: fakeFetch });
 
     expect(await cache.get("k")).toBeUndefined();
+  });
+
+  it("falla con un error claro si Upstash responde con error HTTP o en el cuerpo", async () => {
+    const httpError = createUpstashCache({
+      url: "https://x.upstash.io",
+      token: "t",
+      fetch: async () => new Response("", { status: 401 }),
+    });
+    const bodyError = createUpstashCache({
+      url: "https://x.upstash.io",
+      token: "t",
+      fetch: async () => Response.json({ error: "WRONGPASS invalid password" }),
+    });
+
+    await expect(httpError.get("k")).rejects.toThrow("Upstash respondió 401");
+    await expect(bodyError.set("k", 1, 60)).rejects.toThrow("Upstash: WRONGPASS");
+  });
+
+  it("no espera más que el tiempo límite", async () => {
+    const slow: typeof fetch = (_url, init) =>
+      new Promise((_resolve, reject) => {
+        init?.signal?.addEventListener("abort", () => reject(init.signal?.reason));
+      });
+    const cache = createUpstashCache({
+      url: "https://x.upstash.io",
+      token: "t",
+      timeoutMs: 20,
+      fetch: slow,
+    });
+
+    await expect(cache.get("k")).rejects.toThrow();
+  });
+});
+
+describe("createCacheFromEnv", () => {
+  const env = (vars: Partial<Env>) => vars as Env;
+
+  it("usa memoria si no hay credenciales", () => {
+    expect(createCacheFromEnv(env({})).kind).toBe("memory");
+    expect(createCacheFromEnv(env({ KV_REST_API_URL: "https://x.upstash.io" })).kind).toBe(
+      "memory",
+    );
+  });
+
+  it("usa Upstash con las variables de Upstash o con las que crea Vercel", () => {
+    expect(
+      createCacheFromEnv(
+        env({ UPSTASH_REDIS_REST_URL: "https://x.upstash.io", UPSTASH_REDIS_REST_TOKEN: "t" }),
+      ).kind,
+    ).toBe("upstash");
+    expect(
+      createCacheFromEnv(env({ KV_REST_API_URL: "https://x.upstash.io", KV_REST_API_TOKEN: "t" }))
+        .kind,
+    ).toBe("upstash");
   });
 });

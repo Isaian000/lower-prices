@@ -34,6 +34,12 @@ export interface SearchServiceOptions {
   outboundRules?: Readonly<Record<string, OutboundRule>>;
   logger?: Pick<Logger, "warn" | "debug">;
   now?: () => Date;
+  /**
+   * Mantiene viva la función hasta que termine una tarea en segundo plano. En Vercel
+   * la función puede congelarse al responder; sin esto las escrituras a la caché se
+   * perderían. Ver `waitUntil` de @vercel/functions.
+   */
+  waitUntil?: (promise: Promise<unknown>) => void;
 }
 
 export class AllStoresFailedError extends Error {
@@ -88,10 +94,12 @@ export function createSearchService(options: SearchServiceOptions) {
     }
   }
 
+  /** No se espera: la respuesta no se retrasa por la caché. */
   function writeCache(key: string, value: StoreSearchResult): void {
-    cache.set(key, value, cacheTtlSeconds).catch((error: unknown) => {
+    const write = cache.set(key, value, cacheTtlSeconds).catch((error: unknown) => {
       logger?.warn({ err: error }, "No se pudo escribir en la caché");
     });
+    options.waitUntil?.(write);
   }
 
   function cacheKey(id: string, params: Omit<StoreSearchParams, "signal">): string {
