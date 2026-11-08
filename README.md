@@ -414,6 +414,12 @@ Las tiendas que fallan no pasan al cursor de "cargar más", para no reintentar u
 5. Definir `UCP_AGENT_PROFILE_URL` = `https://<dominio de la API>/.well-known/ucp` para activar las 23 tiendas Shopify.
 6. Desplegar y probar `/api/health` y `/api/search?q=tv`. Hay que confirmar que las tiendas VTEX no bloqueen las IP de Vercel: si aparecen en `error`, revisar los logs del proyecto.
 
+### Despliegue de la web en Vercel
+
+1. En Vercel: **Add New → Project**, mismo repositorio, **Root Directory** = `apps/web`. Vercel detecta React Router.
+2. Variable `API_URL` = URL pública de la API (p. ej. `https://lower-prices-api.vercel.app`). La web llama a la API desde su servidor, así que no hace falta CORS.
+3. Vercel usa su propio servidor y espera el build estándar de React Router. Por eso `vite.config.ts` solo usa `server/app.ts` (el Express de `server.js`) cuando no se compila en Vercel (`VERCEL` no definida).
+
 ### Diseño de la interfaz
 
 - **Mundo visual: la etiqueta de anaquel.** Página blanca y minimalista, filos grises de 1px y texto casi negro. Cada oferta es una etiqueta blanca como las del súper: tienda, precio grande (Public Sans, cifras tabulares, autoalojada) y abajo descuento y meses sin intereses. El único color es la franja amarilla «Mejor precio» sobre la etiqueta más barata (y el logo, que dibuja esa etiqueta).
