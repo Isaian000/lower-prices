@@ -37,8 +37,18 @@ describe("API", () => {
     const res = await request(app).get("/.well-known/ucp");
 
     expect(res.status).toBe(200);
-    const body = res.body as { ucp: { version: string; capabilities: Record<string, unknown> } };
+    const body = res.body as {
+      ucp: {
+        version: string;
+        services: Record<string, unknown>;
+        capabilities: Record<string, unknown>;
+        payment_handlers: Record<string, unknown>;
+      };
+    };
     expect(body.ucp.version).toBe("2026-08-25");
+    // Shopify rechaza el perfil sin `services`; la especificación pide ambos registros.
+    expect(Object.keys(body.ucp.services)).toEqual(["dev.ucp.shopping"]);
+    expect(body.ucp.payment_handlers).toEqual({});
     expect(Object.keys(body.ucp.capabilities)).toEqual([
       "dev.ucp.shopping.catalog.search",
       "dev.ucp.shopping.catalog.lookup",
