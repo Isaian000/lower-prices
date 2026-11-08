@@ -408,7 +408,7 @@ Las tiendas que fallan no pasan al cursor de "cargar más", para no reintentar u
 ### Despliegue de la API en Vercel
 
 1. Subir el repositorio a GitHub.
-2. En Vercel: **Add New → Project**, importar el repositorio y poner **Root Directory** = `apps/api`. Vercel detecta Express solo (`src/app.ts` exporta la app por defecto); no hace falta `vercel.json`.
+2. En Vercel: **Add New → Project**, importar el repositorio y poner **Root Directory** = `apps/api`. Vercel detecta Express y usa como entrada `apps/api/app.mjs`, que reexporta la app ya compilada por `pnpm build` (`dist/app.mjs`). Así Vercel no recompila el TypeScript con su propia configuración, que no respeta la del proyecto y marcaba errores falsos. No hace falta `vercel.json`.
 3. En **Storage → Upstash (Redis)**, crear una base gratuita y conectarla al proyecto. Eso crea `KV_REST_API_URL` y `KV_REST_API_TOKEN`, que la API ya reconoce.
 4. Cuando exista la web, agregar su dominio en `CORS_ORIGINS`.
 5. Definir `UCP_AGENT_PROFILE_URL` = `https://<dominio de la API>/.well-known/ucp` para activar las 23 tiendas Shopify.
