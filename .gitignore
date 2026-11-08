@@ -28,3 +28,7 @@ coverage/
 .impeccable/questions/
 .impeccable/build/
 .impeccable/config.local.json
+
+# Documentación generada (Word) y exportaciones de Figma: se comparten fuera del repositorio
+docs/*.docx
+*.fig
